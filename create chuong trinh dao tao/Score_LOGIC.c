@@ -187,3 +187,75 @@ void count_cpa_all(Player *p){
     printf("CPA ALL : %.4f\n", cpa);
     return;
 }
+
+void count_cpa_type_all(Player *p){
+    printf("-- CPA TYPE ALL --\n");
+    for (int i = 0; i < sizeSubjectType; i++)
+    {
+        float total = 0;
+        float cpa = 0;
+        int all_credit = 0;
+        Subject_Node* curr = p->numofSubjectType[i].head;
+        printf("%s ",p->numofSubjectType[i].nameoftype);
+        while (curr)
+        {   
+            if(curr->status_ever_been_study){
+                total += get_score_letter_to_score_number(curr->score_letter) * curr->credit;
+                all_credit += curr->credit;
+            }
+            curr = curr->next;
+        }
+        cpa = total / all_credit;
+        printf("CPA : %.4f\n", cpa);
+    }
+    
+    return;
+}
+
+void count_cpa_type_pass(Player *p){
+    printf("-- CPA TYPE PASS --\n");
+    for (int i = 0; i < sizeSubjectType; i++)
+    {
+        float total = 0;
+        float cpa = 0;
+        int all_credit = 0;
+        Subject_Node* curr = p->numofSubjectType[i].head;
+        printf("%s ",p->numofSubjectType[i].nameoftype);
+        while (curr)
+        {   
+            if(curr->status_pass){
+                total += get_score_letter_to_score_number(curr->score_letter) * curr->credit;
+                all_credit += curr->credit;
+            }
+            curr = curr->next;
+        }
+        cpa = total / all_credit;
+        printf("CPA : %.4f\n", cpa);
+    }
+    
+    return;
+}
+
+void show_total_subject_npass_type(Player* p){
+    printf("Credit not Pass all: %d\n", p->ToTal_credit_npass);
+
+    for (int i = 0; i < sizeSubjectType; i++)
+    {
+        int total_s = 0;
+        int total_c = 0;
+        Subject_Node* curr = p->numofSubjectType[i].head;
+        printf("        +%s+\n", p->numofSubjectType[i].nameoftype);
+        while (curr)
+        {
+            if(curr->status_ever_been_study && !curr->status_pass){
+                total_s += 1;
+                total_c += curr->credit;
+                printf("    %s == F\n", curr->name);
+            }
+            curr = curr->next;
+        }
+        printf("Total credit npass: %d\n"
+               "Total Subject npass: %d\n", total_c,total_s);
+    }
+    return;
+}

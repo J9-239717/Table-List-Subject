@@ -11,4 +11,7 @@ int set_score_mid_and_final(Player* p, float mid, float final, float limit_m, fl
 void check_what_should_studie(Player p,int term);
 void count_cpa_pass(Player* p);
 void count_cpa_all(Player* p);
+void count_cpa_type_all(Player *p);
+void count_cpa_type_pass(Player *p);
+void show_total_subject_npass_type(Player* p);
 #endif

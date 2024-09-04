@@ -131,3 +131,59 @@ void check_what_should_studie(Player p,int term){
     }
     return;    
 }
+
+float get_score_letter_to_score_number(char x){
+    float result = 0.0;
+    switch (x)
+    {
+    case 'A':result = 4.5;break;
+    case 'a':result = 4.0;break;
+    case 'B':result = 3.5;break;
+    case 'b':result = 3.0;break;
+    case 'C':result = 2.5;break;
+    case 'c':result = 2.0;break;
+    case 'D':result = 1.5;break;
+    case 'd':result = 1.0;break;
+    case 'F':result = 0.0;break;
+    default:fprintf(stderr,"invalid score letter\n");break;
+    }
+    return result;
+}
+
+void count_cpa_pass(Player *p){
+    float cpa = 0;
+    float total = 0;
+    for (int i = 0; i < sizeSubjectType; i++)
+    {
+        Subject_Node* curr = p->numofSubjectType[i].head;
+        while (curr)
+        {   
+            if(curr->status_pass){
+                total += get_score_letter_to_score_number(curr->score_letter) * curr->credit;
+            }
+            curr = curr->next;
+        }
+    }
+    cpa = total / p->ToTal_credit_pass;
+    printf("CPA PASS : %.4f\n", cpa);
+    return;
+}
+
+void count_cpa_all(Player *p){
+    float cpa = 0;
+    float total = 0;
+    for (int i = 0; i < sizeSubjectType; i++)
+    {
+        Subject_Node* curr = p->numofSubjectType[i].head;
+        while (curr)
+        {   
+            if(curr->status_ever_been_study){
+                total += get_score_letter_to_score_number(curr->score_letter) * curr->credit;
+            }
+            curr = curr->next;
+        }
+    }
+    cpa = total / (p->ToTal_credit_pass + p->ToTal_credit_npass);
+    printf("CPA ALL : %.4f\n", cpa);
+    return;
+}

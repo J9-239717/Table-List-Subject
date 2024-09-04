@@ -9,4 +9,6 @@ char check_score_letter(float score);
 int limit_subject(float limit_mid,float limit_final,float score_mid,float score_final,char* score_l);
 int set_score_mid_and_final(Player* p, float mid, float final, float limit_m, float limit_f, int i, char ID[MAXSIZEID]);
 void check_what_should_studie(Player p,int term);
+void count_cpa_pass(Player* p);
+void count_cpa_all(Player* p);
 #endif

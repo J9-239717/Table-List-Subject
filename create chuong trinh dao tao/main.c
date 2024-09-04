@@ -106,6 +106,7 @@ int main() {
                "3. Print Player\n"
                "4. Check What You should study in term\n"
                "5. Show Table\n"
+               "6. Count CPA\n"
                "0. End Program\n"
                "!!Please save data before ending the program!!\n"
                "Enter: ");
@@ -155,6 +156,10 @@ int main() {
                 fclose(file_table);
                 break;
             }
+            case 6:
+                count_cpa_pass(&player);
+                count_cpa_all(&player);
+                break;
             case 0:
                 end = 1;
                 break;

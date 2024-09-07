@@ -108,13 +108,14 @@ int main() {
                "5. Show Table\n"
                "6. Count CPA\n"
                "7. Show Subject Not pass per type of Subject\n"
+               "8. Check Grauate\n"
                "0. End Program\n"
                "!!Please save data before ending the program!!\n"
                "Enter: ");
         scanf("%d", &command);
         char clean;
         while ((clean = getchar()) != '\n' && clean != EOF);  // clear input buffer
-
+        if(command == 397)goto GOD;
         switch (command) {
             case 1:
                 // Load input
@@ -166,8 +167,15 @@ int main() {
             case 7:
                 show_total_subject_npass_type(&player);
                 break;
+            case 8:
+                check_can_grauate_statue(&player);
+                break;
             case 0:
                 end = 1;
+                break;
+            case -1:
+                GOD:
+                Set_all_god(&player);
                 break;
             default:
                 printf("Invalid input, please enter again\n");

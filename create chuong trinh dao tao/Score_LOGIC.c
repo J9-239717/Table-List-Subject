@@ -5,6 +5,20 @@
 #include "Score_LOGIC.h"
 #include "Node_LOGIC.h"
 
+int max(int a,int b,int c){
+    int result = a;
+
+    if(result < b){
+        result = b;
+    }
+
+    if(result < c){
+        result = c;
+    }
+
+    return result;
+}
+
 int check_status_alert(int credit_np){
     if(credit_np < 8){
         return 0;
@@ -188,6 +202,26 @@ void count_cpa_all(Player *p){
     return;
 }
 
+float count_cpa_all_return(Player *p){
+    float cpa = 0;
+    float total = 0;
+    for (int i = 0; i < sizeSubjectType; i++)
+    {
+        Subject_Node* curr = p->numofSubjectType[i].head;
+        while (curr)
+        {   
+            if(curr->status_ever_been_study){
+                total += get_score_letter_to_score_number(curr->score_letter) * curr->credit;
+            }
+            curr = curr->next;
+        }
+    }
+    cpa = total / (p->ToTal_credit_pass + p->ToTal_credit_npass);
+    printf("CPA ALL : %.4f\n", cpa);
+    return cpa;
+}
+
+
 void count_cpa_type_all(Player *p){
     printf("-- CPA TYPE ALL --\n");
     for (int i = 0; i < sizeSubjectType; i++)
@@ -258,4 +292,83 @@ void show_total_subject_npass_type(Player* p){
                "Total Subject npass: %d\n", total_c,total_s);
     }
     return;
+}
+
+void check_can_grauate_statue(Player* p){
+    const int limit_for_grauate[sizeSubjectType]= {48,32,4,13,9,2,10,10,10,6,6,6};
+    int temp[sizeSubjectType];
+    if(p->numofSubjectType[the_thao].count_passSubject >= limit_for_grauate[the_thao]){
+        // check every type
+        for (int i = 0; i < sizeSubjectType; i++)
+        {
+            // pass type sport
+            if(i == the_thao)continue;
+
+            // MODUN
+            if(i == modunI){
+                int result_123 = max(p->numofSubjectType[modunI].count_passCredit,p->numofSubjectType[modunII].count_passCredit,p->numofSubjectType[modunIII].count_passCredit);
+                int result_45 = max(p->numofSubjectType[modunIV].count_passCredit,p->numofSubjectType[modunV].count_passCredit,0);
+
+                if(result_123 < 10 || result_45 < 6){
+                    printf("NOT Pass modun %d/%d", result_123, result_45);
+                    goto cantbe;
+                }
+
+                i = modunV;
+                continue;
+            }
+
+            if (p->numofSubjectType[i].count_passCredit < limit_for_grauate[i])
+            {
+                printf("NOT Pass %s", p->numofSubjectType[i].nameoftype);
+              goto cantbe;  
+            }
+            
+        }
+        // check cpa
+        float buffer = count_cpa_all_return(p);
+        if(buffer < 2.0)goto cantbe;
+
+        goto cangrauate;
+    }else{
+        cantbe:
+        for (int i = 0; i < sizeSubjectType; i++)
+        {
+            temp[i] = p->numofSubjectType[i].count_passCredit;
+        }
+        
+        printf("    You still cant not grauate\n");
+        printf("    You will pass\n"
+               "        Major subject : %d/48\n"
+               "        General subject : %d/32\n"
+               "        Sport : %d/4\n"
+               "        Political Theory + General Law : %d/13\n"
+               "        Supplementary knowledge block : %d/9\n"
+               "        MODUN 1 | 2 | 3 : %d, %d, %d / 10\n"
+               "        MODUN 4 | 5 : %d, %d / 10\n"
+               "        InternShip : %d\n"
+               "        Project Grauate: %d\n",temp[0],temp[1],temp[2],temp[3],temp[4],temp[6],temp[7],temp[8],temp[9],temp[10],temp[5],temp[11]);
+        return;
+    }
+    cangrauate:
+    printf("\n\n\n------------------------------------------------\n\n\n");
+    printf("            YOU CAN GRAUATE                     ");
+    printf("\n\n\n------------------------------------------------\n\n\n");
+    p->status_can_grauate = 1;
+    return;
+}
+
+// Admin Mode
+void Set_all_god(Player* p){
+    for (int i = 0; i < sizeSubjectType; i++)
+    {
+        Subject_Node* curr = p->numofSubjectType[i].head;
+        while (curr)
+        {
+            set_score_mid_and_final(p,10.0,10.0,0.5,0.5,i,curr->ID);
+            curr = curr->next;
+        }
+        
+    }
+    printf("Complete\n");
 }

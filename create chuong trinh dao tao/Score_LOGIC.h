@@ -14,4 +14,6 @@ void count_cpa_all(Player* p);
 void count_cpa_type_all(Player *p);
 void count_cpa_type_pass(Player *p);
 void show_total_subject_npass_type(Player* p);
+void check_can_grauate_statue(Player* p);
+void Set_all_god(Player* p);
 #endif

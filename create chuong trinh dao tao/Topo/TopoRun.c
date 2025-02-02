@@ -33,12 +33,10 @@ void RunTopo(int *dataSubjectPass,int size_data){
         printf("Please enter all subject your array size is %d ,we want %d\n",size_data,SizeOfSubject);
         return;
     }
-    printf("Init data...\n");
     // Init Data and Graph
     int size = InitData();
     assert(size != -1);
     InitGraph();
-    printf("Init data Completed...\n");
     // Init Indegree
     int Indegree[size+1];
     for(int i = 0; i < size; i++)Indegree[i] = 0;

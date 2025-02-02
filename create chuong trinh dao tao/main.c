@@ -163,11 +163,8 @@ int main() {
             case 9:{
                 int dest[SizeOfSubject];
                 int temp[SizeOfSubject];
-                printf("GOTO ParseTableData...\n");
                 parse_table_data_to_local("Topo/data.tbl",dest,temp);
-                printf("GOTO PreData...\n");
                 PreData(&player,temp,dest,SizeOfSubject);
-                printf("Running Topo...\n");
                 RunTopo(temp,SizeOfSubject);
                 break;
             }

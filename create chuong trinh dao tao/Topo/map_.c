@@ -65,7 +65,7 @@ void freeGraph(Graph *G){
 void parse_map_data(const char* name_file_path, Graph *G){
     FILE *file;
     int temp;
-    char buffer[5],bufferhead[25];
+    char buffer[10],bufferhead[25];
     int V,E,directed;
 
     file = fopen(name_file_path,"r");
@@ -79,7 +79,7 @@ void parse_map_data(const char* name_file_path, Graph *G){
     createGraph(G,V,E,directed);
 
     int u = 0,v;
-    while(fgets(buffer,5,file) != NULL){
+    while(fgets(buffer,10,file) != NULL){
         buffer[strcspn(buffer,"\n\r")] = '\0';
         assert(u < G->V);
         if(buffer[0] == '*'){

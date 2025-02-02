@@ -22,7 +22,7 @@ void PreData(Player* src,int* ret,int* dest,int size){
     assert(curr != NULL);
     while(curr != NULL){
         int temp;
-        sprintf(curr->ID, "IT%d", temp);
+        sscanf(curr->ID, "IT%d", &temp);
         int get_ = FindSubject(dest,size,temp);
         if(get_ != -1)ret[get_] = 1;
         curr = curr->next;
@@ -33,7 +33,7 @@ void PreData(Player* src,int* ret,int* dest,int size){
     assert(curr != NULL);
     while(curr != NULL){
         int temp;
-        sprintf(curr->ID, "IT%d", temp);
+        sscanf(curr->ID, "IT%d", &temp);
         int get_ = FindSubject(dest,size,temp);
         if(get_ != -1)ret[get_] = 1;
         curr = curr->next;

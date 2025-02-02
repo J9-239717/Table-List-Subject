@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Topological Order – Wrap to New Row</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      margin: 20px;
+      background: #f0f0f0;
+    }
+    h1 {
+      text-align: center;
+      margin-bottom: 1em;
+    }
+
+    /* Scrollable container to hold the SVG */
+    .svg-wrapper {
+      max-width: 95%;       /* Keep it within the viewport horizontally */
+      max-height: 90vh;     /* Limit vertical height if you want */
+      margin: 0 auto;       /* Center it */
+      overflow: auto;       /* Scroll if the layout is bigger than the container */
+      background: #fff;
+      border-radius: 10px;
+      box-shadow: 0 8px 24px rgba(0,0,0,0.2);
+      padding: 10px;
+      box-sizing: border-box;
+    }
+
+    svg {
+      /* We’ll set a big default size; or let the code below define viewBox. */
+      width: 1200px;
+      height: 800px;
+      border: 1px solid #ccc;
+    }
+
+    .node {
+      transition: transform 0.3s, filter 0.3s;
+      cursor: pointer;
+    }
+    .node:hover {
+      transform: scale(1.1);
+      filter: brightness(1.2);
+    }
+
+    .label {
+      fill: #333;
+      font-size: 12px;
+      font-weight: 600;
+      text-shadow: 0.5px 0.5px 2px rgba(255,255,255,0.7);
+      pointer-events: none;
+      text-anchor: middle;
+      dominant-baseline: central;
+    }
+
+    .edge {
+      stroke-width: 2;
+      stroke: #555;
+      fill: none;
+    }
+
+  </style>
+</head>
+<body>
+  <h1>Topological Order – Wrapping Rows</h1>
+
+  <div class="svg-wrapper">
+    <svg id="graph"></svg>
+  </div>
+
+  <script>
+    /***************************************************
+     * 1) Data: Node Labels & "With Priority" Order
+     ***************************************************/
+    const nodeLabels = [
+      "IT1108", "IT2000", "IT3080", "IT3030", "IT3011", "IT3020",
+      "IT3070", "IT3100", "IT3090", "IT3170", "IT3150", "IT3040",
+      "IT3160", "IT3180", "IT3120", "IT3190", "IT4015", "IT4991",
+      "IT3930", "IT4653", "IT4788", "IT4785", "IT4441", "IT4409",
+      "IT4490", "IT4501", "IT3940", "IT4995"
+    ];
+
+    // "With Priority" topological order (indices)
+    const topoOrder = [
+      0, 1, 4, 5, 3, 7, 2, 11, 12,
+      6, 8, 9, 10, 13, 15, 16, 14,
+      19, 23, 17, 18, 25, 24, 22,
+      21, 20, 26, 27
+    ];
+
+    /***************************************************
+     * 2) Color by Thousand-Level
+     ***************************************************/
+    function getCourseLevelColor(label) {
+      const numeric = parseInt(label.slice(2), 10) || 0;
+      const level = Math.floor(numeric / 1000);
+      switch (level) {
+        case 1: return "#aed581"; // 1000-level (green)
+        case 2: return "#64b5f6"; // 2000-level (blue)
+        case 3: return "#ffb74d"; // 3000-level (orange)
+        case 4: return "#ba68c8"; // 4000-level (purple)
+        default: return "#9e9e9e"; // fallback gray
+      }
+    }
+
+    /***************************************************
+     * 3) Layout: Place nodes in multiple rows
+     *
+     *    maxPerRow = number of nodes per row
+     *    colSpacing = horizontal gap
+     *    rowSpacing = vertical gap
+     ***************************************************/
+    function createWrapLayout(order, maxPerRow) {
+      const nodePositions = new Map();
+
+      const startX = 80, startY = 80;  // offset from top-left
+      const colSpacing = 150, rowSpacing = 140;
+
+      order.forEach((nodeIdx, i) => {
+        // figure out row & col
+        const row = Math.floor(i / maxPerRow);
+        const col = i % maxPerRow;
+
+        const x = startX + col * colSpacing;
+        const y = startY + row * rowSpacing;
+        nodePositions.set(nodeIdx, { x, y });
+      });
+
+      return nodePositions;
+    }
+
+    /***************************************************
+     * 4) Draw the "graph" (just consecutive edges)
+     ***************************************************/
+    function drawWrappedGraph(svgId, order, labels) {
+      const svg = document.getElementById(svgId);
+      // Clear previous content
+      svg.innerHTML = '';
+
+      // Create the layout: 7 nodes per row (adjust as needed)
+      const maxPerRow = 7;
+      const layout = createWrapLayout(order, maxPerRow);
+
+      const nodeRadius = 20;
+
+      // -- 1. Draw edges (order[i] -> order[i+1])
+      for (let i = 0; i < order.length - 1; i++) {
+        const srcId = order[i];
+        const tgtId = order[i + 1];
+        const s = layout.get(srcId);
+        const t = layout.get(tgtId);
+
+        if (!s || !t) continue;
+
+        // Build a small cubic Bezier path
+        const dx = t.x - s.x;
+        const dy = t.y - s.y;
+        const pathData = [
+          `M${s.x},${s.y}`,
+          `C${s.x + dx * 0.6},${s.y}`,
+          `${t.x - dx * 0.4},${t.y}`,
+          `${t.x},${t.y}`
+        ].join(' ');
+
+        const path = document.createElementNS('http://www.w3.org/2000/svg', 'path');
+        path.setAttribute('d', pathData);
+        path.setAttribute('class', 'edge');
+        path.setAttribute('stroke', '#555');
+        path.setAttribute('fill', 'none');
+        svg.appendChild(path);
+      }
+
+      // -- 2. Draw nodes
+      order.forEach(nodeIdx => {
+        const pos = layout.get(nodeIdx);
+        if (!pos) return;
+
+        const gNode = document.createElementNS('http://www.w3.org/2000/svg', 'g');
+        gNode.setAttribute('transform', `translate(${pos.x},${pos.y})`);
+
+        // Circle
+        const circle = document.createElementNS('http://www.w3.org/2000/svg', 'circle');
+        circle.setAttribute('r', nodeRadius);
+        circle.setAttribute('fill', getCourseLevelColor(labels[nodeIdx]));
+        circle.setAttribute('class', 'node');
+
+        // Label
+        const text = document.createElementNS('http://www.w3.org/2000/svg', 'text');
+        text.setAttribute('class', 'label');
+        text.textContent = labels[nodeIdx];
+
+        gNode.appendChild(circle);
+        gNode.appendChild(text);
+        svg.appendChild(gNode);
+      });
+
+      // -- 3. Auto-size the SVG (viewBox) to fit all nodes
+      // Get bounding box by scanning the layout
+      const coords = Array.from(layout.values());
+      const maxX = Math.max(...coords.map(c => c.x));
+      const maxY = Math.max(...coords.map(c => c.y));
+
+      // Add some margin
+      const margin = nodeRadius * 2 + 40;
+      const totalWidth = maxX + margin;
+      const totalHeight = maxY + margin;
+
+      svg.setAttribute('viewBox', `0 0 ${totalWidth} ${totalHeight}`);
+      // The CSS can handle the actual displayed size (width:1200px, etc.)
+    }
+
+    // Draw it!
+    drawWrappedGraph('graph', topoOrder, nodeLabels);
+  </script>
+</body>
+</html>

@@ -15,4 +15,6 @@
 #include "Load_input.h"
 #include "Show_Table.h"
 
+extern void PreData(Player* src,int* ret,int* dest,int size);
+
 #endif

@@ -1,3 +1,2 @@
 default:
-	gcc Node_LOGIC.c LoadDT.c PaintTable.c Write_dataB.c functionhleperstr.c Score_LOGIC.c Read_dataB.c Load_input.c Show_Table.c main.c -o myprogram
-	x86_64-w64-mingw32-gcc Node_LOGIC.c LoadDT.c PaintTable.c Write_dataB.c functionhleperstr.c Score_LOGIC.c Read_dataB.c Load_input.c Show_Table.c main.c -o myprogram.exe
+	gcc Node_LOGIC.c LoadDT.c PaintTable.c Write_dataB.c functionhleperstr.c Score_LOGIC.c Read_dataB.c Load_input.c Show_Table.c main.c pre_data_topo.c Topo/TopoRun.c Topo/map_.c Topo/p_to_local.c Topo/priority_.c Topo/init_data.c Topo/queue.c Topo/print_color.c Topo/const_value.c -o myprogram

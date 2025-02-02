@@ -1,4 +1,5 @@
 #include "module_table.h"
+#include "Topo/module_topo.h"
 
 // Main function
 int main() {
@@ -88,7 +89,7 @@ int main() {
     end = 0;
 
     do {
-        fprintf(stdout, "        Welcome        \n");
+        fprintf(stdout, "\n\n        Welcome        \n");
         printf("1. Set up Data\n"
                "2. Save Data\n"
                "3. Print Player\n"
@@ -97,6 +98,7 @@ int main() {
                "6. Count CPA\n"
                "7. Show Subject Not pass per type of Subject\n"
                "8. Check Grauate\n"
+               "9. Check What You should study in term only IT subject\n"
                "0. End Program\n"
                "!!Please save data before ending the program!!\n"
                "Enter: ");
@@ -158,6 +160,17 @@ int main() {
             case 8:
                 check_can_grauate_statue(&player);
                 break;
+            case 9:{
+                int dest[SizeOfSubject];
+                int temp[SizeOfSubject];
+                printf("GOTO ParseTableData...\n");
+                parse_table_data_to_local("Topo/data.tbl",dest,temp);
+                printf("GOTO PreData...\n");
+                PreData(&player,temp,dest,SizeOfSubject);
+                printf("Running Topo...\n");
+                RunTopo(temp,SizeOfSubject);
+                break;
+            }
             case 0:
                 end = 1;
                 break;

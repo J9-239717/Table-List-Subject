@@ -98,17 +98,17 @@ void RunTopo(int *dataSubjectPass,int size_data){
         node* u_no_priority = dequeue(r_no_priority);
 
         while(dataSubjectPass[u->key] == 1 && !isEmtry(r)){
-            free(dequeue(r));
+            free(u);
             u = dequeue(r);
         }
         while(dataSubjectPass[u_no_priority->key] == 1 && !isEmtry(r_no_priority)){
-            free(dequeue(r_no_priority));
+            free(u_no_priority);
             u_no_priority = dequeue(r_no_priority);
         }
         fprintf(f1,"\n        | %-2d | IT%d |", getTermRecomment(u_no_priority->key,size), _Looking_TB_SubJ[u_no_priority->key]);
         fprintf(f1," IT%d | %-2d |            ",_Looking_TB_SubJ[u->key],u->priority);
         green(f1);
-        fprintf(f1,"%s",courses_IT[u->key]);
+        fprintf(f1,"%s",courses_IT[count]);
         reset(f1);
         count++;
     FreePhrases:

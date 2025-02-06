@@ -89,28 +89,27 @@ void RunTopo(int *dataSubjectPass,int size_data){
                 " colum 4 -> term recomment of subject colum 3\n");
     fprintf(f1,"<////////////////////////////////////////////>\n");
     reset(f1);
-    fprintf(f1,"        +---+---------+--------+----+            list name of subject");
+    fprintf(f1,"        +---+---------+--------+----+            ");
+    yellow(f1);
+    fprintf(f1,"list name of subject");
+    reset(f1);
     while(!isEmtry(r) && !isEmtry(r_no_priority)){
         node* u = dequeue(r);
         node* u_no_priority = dequeue(r_no_priority);
 
-        if(dataSubjectPass[u->key] == 1 && dataSubjectPass[u_no_priority->key] == 1 ){
-            goto FreePhrases;
+        while(dataSubjectPass[u->key] == 1 && !isEmtry(r)){
+            free(dequeue(r));
+            u = dequeue(r);
         }
-
-        if(dataSubjectPass[u_no_priority->key] != 1){
-            fprintf(f1,"\n        | %-2d | IT%d |", getTermRecomment(u_no_priority->key,size), _Looking_TB_SubJ[u_no_priority->key]);
+        while(dataSubjectPass[u_no_priority->key] == 1 && !isEmtry(r_no_priority)){
+            free(dequeue(r_no_priority));
+            u_no_priority = dequeue(r_no_priority);
         }
-        else{
-            fprintf(f1,"\n        | 00 | IT0000 |");
-        }
-
-        if(dataSubjectPass[u->key] != 1){
-            fprintf(f1," IT%d | %-2d |            %s",_Looking_TB_SubJ[u->key],u->priority,courses_IT[count]);
-        }
-        else{
-            fprintf(f1," IT0000 | 00 |            %s",courses_IT[count]);
-        }
+        fprintf(f1,"\n        | %-2d | IT%d |", getTermRecomment(u_no_priority->key,size), _Looking_TB_SubJ[u_no_priority->key]);
+        fprintf(f1," IT%d | %-2d |            ",_Looking_TB_SubJ[u->key],u->priority);
+        green(f1);
+        fprintf(f1,"%s",courses_IT[u->key]);
+        reset(f1);
         count++;
     FreePhrases:
         free(u);
@@ -123,11 +122,16 @@ void RunTopo(int *dataSubjectPass,int size_data){
     }
 
     if(count < SizeOfSubject){
-        fprintf(f1,"\n        +---+---------+--------+----+            %s",courses_IT[count++]);
+        fprintf(f1,"\n        +---+---------+--------+----+            ");
+        green(f1);
+        fprintf(f1,"%s",courses_IT[count++]);
+        reset(f1);
     }
 
     while(count < SizeOfSubject){
+        green(f1);
         fprintf(f1,"\n                                                 %s",courses_IT[count++]);
+        reset(f1);
     }
 
     EndPhrases:

@@ -304,7 +304,7 @@ void check_can_grauate_statue(Player* p){
             // pass type sport
             if(i == the_thao)continue;
 
-            // MODUN
+            // MODUN 1 and 4
             if(i == modunI){
                 int result_123 = max(p->numofSubjectType[modunI].count_passCredit,p->numofSubjectType[modunII].count_passCredit,p->numofSubjectType[modunIII].count_passCredit);
                 int result_45 = max(p->numofSubjectType[modunIV].count_passCredit,p->numofSubjectType[modunV].count_passCredit,0);
@@ -334,6 +334,10 @@ void check_can_grauate_statue(Player* p){
         cantbe:
         for (int i = 0; i < sizeSubjectType; i++)
         {
+            if(i == the_thao){
+                temp[i] = p->numofSubjectType[i].count_passSubject - 1;
+                continue;
+            }
             temp[i] = p->numofSubjectType[i].count_passCredit;
         }
         

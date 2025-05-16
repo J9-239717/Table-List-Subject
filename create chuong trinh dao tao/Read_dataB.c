@@ -28,19 +28,21 @@ int read_dataB_type(Subject_Type* node, FILE* fp) {
     while (fgets(buffer, sizeof(buffer), fp)) {
         if (strcmp(buffer, "</>\n") == 0) break;
 
+        char buffer_[256];
+        snprintf(buffer_,256, "%s", buffer);
+        buffer_[strcspn(buffer_,"\n\r")] = '\0'; // Remove newline character
+        if(memcmp(buffer_,"</>",4) == 0) break;
+
         Subject_Node* temp = (Subject_Node*)malloc(sizeof(Subject_Node));
         if (!temp) {
             fprintf(stderr, "Memory allocation failed\n");
             return 0;
         }
-
         initialize_subject_node(temp);
 
-        if (sscanf(buffer, "$%s %s %c %f %f %d %d %d %d$\n",
-                   temp->name, temp->ID, &temp->score_letter,
-                   &temp->score_number_mid, &temp->score_number_final,
-                   &b_s_p, &b_e_b, &b_c, &b_t) != 9) {
-
+        int check = sscanf(buffer_, "$%s %s %c %f %f %d %d %d %d$\n",temp->name, temp->ID, &temp->score_letter,&temp->score_number_mid, &temp->score_number_final,&b_s_p, &b_e_b, &b_c, &b_t);
+        if (check != 9) {
+            fprintf(stderr, "why: %s\n", buffer_);
             free(temp);
             printf("Error parsing subject node\n");
             return 0;

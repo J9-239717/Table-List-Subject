@@ -17,7 +17,7 @@ IT3930  Project II
 IT3940  Project III
 IT4015  Introduction to Information Security
 IT4244  IT Project Management
-IT4480  Teamwork and Communication Skills
+IT4653  Deep Learning and Its Applications
 //////////////////////////////
 IT1108    Introduction to Programming
 IT3020    Discrete Mathematics

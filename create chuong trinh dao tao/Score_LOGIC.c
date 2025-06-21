@@ -239,6 +239,10 @@ void count_cpa_type_all(Player *p){
             }
             curr = curr->next;
         }
+        if(total == 0 || all_credit == 0){
+            printf("CPA : 0\n");
+            continue;
+        }
         cpa = total / all_credit;
         printf("CPA : %.4f\n", cpa);
     }
@@ -262,6 +266,10 @@ void count_cpa_type_pass(Player *p){
                 all_credit += curr->credit;
             }
             curr = curr->next;
+        }
+        if(total == 0 || all_credit == 0){
+            printf("CPA : 0\n");
+            continue;
         }
         cpa = total / all_credit;
         printf("CPA : %.4f\n", cpa);

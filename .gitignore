@@ -1,2 +1,9 @@
 create chuong trinh dao tao/file/dataBjerry.txt
 create chuong trinh dao tao/file/tablejerry.txt
+.idea/editor.xml
+.idea/modules.xml
+.idea/Table-List-Subject.iml
+.idea/vcs.xml
+.vscode/settings.json
+create chuong trinh dao tao/*.o
+create chuong trinh dao tao/libtablemodule.a

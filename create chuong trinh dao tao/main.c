@@ -97,7 +97,7 @@ int main() {
                "5. Show Table\n"
                "6. Count CPA\n"
                "7. Show Subject Not pass per type of Subject\n"
-               "8. Check Grauate\n"
+               "8. Check Grauate and Remaining Credit\n"
                "9. Check What You should study in term only IT subject\n"
                "0. End Program\n"
                "!!Please save data before ending the program!!\n"

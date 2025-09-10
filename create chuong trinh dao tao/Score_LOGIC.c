@@ -5,6 +5,8 @@
 #include "Score_LOGIC.h"
 #include "Node_LOGIC.h"
 
+const int limit_for_grauate[sizeSubjectType]= {48,32,4,13,9,2,10,10,10,6,6,6};
+
 int max(int a,int b,int c){
     int result = a;
 
@@ -302,8 +304,44 @@ void show_total_subject_npass_type(Player* p){
     return;
 }
 
+
+void remaining_credit(Player* p){
+    int count = 0;
+    int all_should_pass = 0;
+
+    for (int i = 0; i < sizeSubjectType; i++){
+        // skip sport
+        if(i == the_thao) continue;
+        
+        all_should_pass += limit_for_grauate[i];
+        // skip modun II and III
+        if(i == modunI) i = modunIII;
+        // and skip modun V
+        if(i == modunIV) i = modunV;
+    }
+
+    for (int i = 0; i < sizeSubjectType; i++){
+        count += p->numofSubjectType[i].count_passCredit;
+        if(i == modunI){
+            // get max modun I II and III
+            count += max(p->numofSubjectType[modunI].count_passCredit,p->numofSubjectType[modunII].count_passCredit,p->numofSubjectType[modunIII].count_passCredit);
+            // get max modun IV and V
+            count += max(p->numofSubjectType[modunIV].count_passCredit,p->numofSubjectType[modunV].count_passCredit,0);
+
+            i = modunV;
+        }
+    }
+
+    printf("Current Credit is [ %d / %d ]\n", count, all_should_pass);
+    if(count < all_should_pass){
+        printf(
+            "You should get another %d credit\n"
+            "Detail:\n", all_should_pass - count
+        );
+    }
+}
+
 void check_can_grauate_statue(Player* p){
-    const int limit_for_grauate[sizeSubjectType]= {48,32,4,13,9,2,10,10,10,6,6,6};
     int temp[sizeSubjectType];
     if(p->numofSubjectType[the_thao].count_passSubject >= limit_for_grauate[the_thao]){
         // check every type
@@ -312,12 +350,13 @@ void check_can_grauate_statue(Player* p){
             // pass type sport
             if(i == the_thao)continue;
 
-            // MODUN 1 and 4
+            // check all module MODUN
             if(i == modunI){
                 int result_123 = max(p->numofSubjectType[modunI].count_passCredit,p->numofSubjectType[modunII].count_passCredit,p->numofSubjectType[modunIII].count_passCredit);
                 int result_45 = max(p->numofSubjectType[modunIV].count_passCredit,p->numofSubjectType[modunV].count_passCredit,0);
 
-                if(result_123 < 10 || result_45 < 6){
+                // modun I II and III have same limit and IV V same limit too
+                if(result_123 < limit_for_grauate[modunI] || result_45 < limit_for_grauate[modunIV]){
                     printf("NOT Pass modun %d/%d", result_123, result_45);
                     goto cantbe;
                 }
@@ -340,6 +379,7 @@ void check_can_grauate_statue(Player* p){
         goto cangrauate;
     }else{
         cantbe:
+        remaining_credit(p);
         for (int i = 0; i < sizeSubjectType; i++)
         {
             if(i == the_thao){
@@ -351,15 +391,26 @@ void check_can_grauate_statue(Player* p){
         
         printf("    You still cant not grauate\n");
         printf("    You will pass\n"
-               "        Major subject : %d/48\n"
-               "        General subject : %d/32\n"
-               "        Sport : %d/4\n"
-               "        Political Theory + General Law : %d/13\n"
-               "        Supplementary knowledge block : %d/9\n"
-               "        MODUN 1 | 2 | 3 : %d, %d, %d / 10\n"
-               "        MODUN 4 | 5 : %d, %d / 10\n"
-               "        InternShip : %d\n"
-               "        Project Grauate: %d\n",temp[0],temp[1],temp[2],temp[3],temp[4],temp[6],temp[7],temp[8],temp[9],temp[10],temp[5],temp[11]);
+               "        Major subject : %d/%d\n"
+               "        General subject : %d/%d\n"
+               "        Sport : %d/%d\n"
+               "        Political Theory + General Law : %d/%d\n"
+               "        Supplementary knowledge block : %d/%d\n"
+               "        MODUN 1 | 2 | 3 : %d, %d, %d / %d\n"
+               "        MODUN 4 | 5 : %d, %d / %d\n"
+               "        InternShip : %d / %d\n"
+               "        Project Grauate: %d / %d\n",temp[0],limit_for_grauate[0],
+               temp[1],limit_for_grauate[1],
+               temp[2],limit_for_grauate[2],
+               temp[3],limit_for_grauate[3],
+               temp[4],limit_for_grauate[4],
+               temp[6],
+               temp[7],
+               temp[8],limit_for_grauate[8],
+               temp[9],
+               temp[10],limit_for_grauate[10],
+               temp[5],limit_for_grauate[5],
+               temp[11],limit_for_grauate[11]);
         return;
     }
     cangrauate:

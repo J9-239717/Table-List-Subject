@@ -8,6 +8,9 @@
 #include "Score_LOGIC.h"
 #include "Load_input.h"
 
+#define ANSI_COLOR_GREEN "\x1b[32m"
+#define ANSI_RESET_ALL   "\x1b[0m"
+
 void set_limit(float* mid,float* final){
     int seletion = 0;
     do
@@ -130,7 +133,7 @@ void PayLoad_input(Player* p){
         if(indextype == -1)break;
         get_id:
         char id[MAXSIZEID];
-        printf("Please Enter id to setup or Enter back to choose new Index: ");fgets(id,sizeof(id),stdin);
+        printf("Please Enter id to setup or Enter" ANSI_COLOR_GREEN " [back] " ANSI_RESET_ALL "to choose new Index: ");fgets(id,sizeof(id),stdin);
         if(memcmp(id,"back",4) == 0 || memcmp(id,"Back",4) == 0 || memcmp(id,"BACK",4) == 0){
             fflush(stdin);
             goto init_again;

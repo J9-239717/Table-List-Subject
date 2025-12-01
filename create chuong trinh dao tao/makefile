@@ -4,7 +4,7 @@ CFLAGS = -Wall -Wextra -g
 TARGET = myprogram
 
 # Source files
-SRCS = $(wildcard *.c) $(wildcard Topo/*.c)
+SRCS = $(wildcard main/*.c) $(wildcard module/Topo/*.c)
 
 # Default target
 .PHONY: all

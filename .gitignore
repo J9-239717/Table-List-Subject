@@ -7,3 +7,4 @@ create chuong trinh dao tao/file/tablejerry.txt
 .vscode/settings.json
 create chuong trinh dao tao/*.o
 create chuong trinh dao tao/libtablemodule.a
+create chuong trinh dao tao/*.exe

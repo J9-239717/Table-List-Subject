@@ -11,7 +11,6 @@ size_t parse_table_data_to_local(char *name_file_path,int *dest_array,int *dest_
     }
     size_t size = 0;
     char buffer[100];
-    int temp;
     while(fgets(buffer,100,file) != NULL){
         sscanf(buffer,"%d-%d",&dest_priority[size],&dest_array[size]);
         size++;

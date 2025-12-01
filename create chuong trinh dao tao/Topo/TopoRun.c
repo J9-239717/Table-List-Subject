@@ -111,7 +111,6 @@ void RunTopo(int *dataSubjectPass,int size_data){
         fprintf(f1,"%s",courses_IT[count]);
         reset(f1);
         count++;
-    FreePhrases:
         free(u);
         free(u_no_priority);
     }

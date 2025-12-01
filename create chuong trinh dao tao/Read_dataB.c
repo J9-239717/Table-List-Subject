@@ -74,7 +74,6 @@ int read_dataB_player(Player* p, FILE* fp) {
 
 
     for (int i = 0; i < sizeSubjectType; i++) {
-        int a,b,c,d;
         if (!read_dataB_type(&p->numofSubjectType[i], fp)) {
             printf("Error reading subject type\n");
             return 0;

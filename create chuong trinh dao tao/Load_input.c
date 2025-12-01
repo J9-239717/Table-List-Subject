@@ -46,7 +46,7 @@ int check_num_of_correct_str(const char* str, const char* query){
         return 0;
     }
     int len = strlen(query);
-    int min_len = strlen(str) < len ? strlen(str) : len;
+    int min_len = ( (int)strlen(str) < len ? (int)strlen(str) : len);
     for (int i = 0; i < min_len; i++)
     {
         if(str[i] == query[i]){
@@ -76,7 +76,7 @@ int handle_search_subject(Player* p,int index_subject ,const char* query){
                 goto finish;
             }else if (len_check >= 2){
                 // found but not exact
-                if(count_subject_likely >= init_size){
+                if(count_subject_likely >= (int)init_size){
                     continue;
                 }
                 store[count_subject_likely] = curr;

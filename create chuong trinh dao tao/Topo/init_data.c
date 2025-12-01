@@ -10,12 +10,12 @@ extern void parse_map_data(const char* name_file_path, Graph *G);
 // function to initialize data
 // return size of array and return -1 if error
 int InitData(){ 
-    size_t size = parse_table_data_to_local("Topo/data.tbl",_Looking_TB_SubJ,_Looking_TB_SubJ_priority);
+    int size = parse_table_data_to_local("Topo/data.tbl",_Looking_TB_SubJ,_Looking_TB_SubJ_priority);
     if(size == -1){
         printf("Can't find file data.tbl\n");
         return -1;
     }
-    return (int)size;
+    return size;
 }
 
 // function to initialize graph

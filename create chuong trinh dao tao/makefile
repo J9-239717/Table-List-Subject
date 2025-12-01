@@ -1,2 +1,29 @@
-default:
-	gcc Node_LOGIC.c LoadDT.c PaintTable.c Write_dataB.c functionhleperstr.c Score_LOGIC.c Read_dataB.c Load_input.c Show_Table.c main.c pre_data_topo.c Topo/TopoRun.c Topo/map_.c Topo/p_to_local.c Topo/priority_.c Topo/init_data.c Topo/queue.c Topo/print_color.c Topo/const_value.c -o myprogram
+# Compiler and flags
+CC = gcc
+CFLAGS = -Wall -Wextra -g
+TARGET = myprogram
+
+# Source files
+SRCS = $(wildcard *.c) $(wildcard Topo/*.c)
+
+# Default target
+.PHONY: all
+all: $(TARGET)
+
+# Build the program
+$(TARGET): $(SRCS)
+	$(CC) $(CFLAGS) $(SRCS) -o $(TARGET)
+
+# Clean build artifacts
+.PHONY: clean
+clean:
+	rm -f $(TARGET)
+
+# Force rebuild
+.PHONY: rebuild
+rebuild: clean all
+
+# Run the program
+.PHONY: run
+run: $(TARGET)
+	./$(TARGET)

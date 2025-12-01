@@ -343,7 +343,7 @@ void remaining_credit(Player* p){
 
 void check_can_grauate_statue(Player* p){
     int temp[sizeSubjectType];
-    if(p->numofSubjectType[the_thao].count_passSubject >= limit_for_grauate[the_thao]){
+    if(p->numofSubjectType[the_thao].count_passSubject >= (unsigned int) limit_for_grauate[the_thao]){
         // check every type
         for (int i = 0; i < sizeSubjectType; i++)
         {
@@ -357,7 +357,7 @@ void check_can_grauate_statue(Player* p){
 
                 // modun I II and III have same limit and IV V same limit too
                 if(result_123 < limit_for_grauate[modunI] || result_45 < limit_for_grauate[modunIV]){
-                    printf("NOT Pass modun %d/%d", result_123, result_45);
+                    printf("NOT Pass modun %d/%d\n", result_123, result_45);
                     goto cantbe;
                 }
 
@@ -365,9 +365,9 @@ void check_can_grauate_statue(Player* p){
                 continue;
             }
 
-            if (p->numofSubjectType[i].count_passCredit < limit_for_grauate[i])
+            if (p->numofSubjectType[i].count_passCredit < (unsigned int) limit_for_grauate[i])
             {
-                printf("NOT Pass %s", p->numofSubjectType[i].nameoftype);
+                printf("NOT Pass %s \n", p->numofSubjectType[i].nameoftype);
               goto cantbe;  
             }
             

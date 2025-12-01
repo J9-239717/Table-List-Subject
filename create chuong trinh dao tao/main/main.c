@@ -1,5 +1,6 @@
 #include "module_table.h"
 #include "../module/Topo/module_topo.h"
+#include "../module/matchingSubject/matching.h"
 
 // Main function
 int main() {
@@ -90,16 +91,17 @@ int main() {
 
     do {
         fprintf(stdout, "\n\n        Welcome        \n");
-        printf("1. Set up Data\n"
-               "2. Save Data\n"
-               "3. Print Player\n"
-               "4. Check What You should study in term\n"
-               "5. Show Table\n"
-               "6. Count CPA\n"
-               "7. Show Subject Not pass per type of Subject\n"
-               "8. Check Grauate and Remaining Credit\n"
-               "9. Check What You should study in term only IT subject\n"
-               "0. End Program\n"
+        printf("1.  Set up Data\n"
+               "2.  Save Data\n"
+               "3.  Print Player\n"
+               "4.  Check What You should study in term\n"
+               "5.  Show Table\n"
+               "6.  Count CPA\n"
+               "7.  Show Subject Not pass per type of Subject\n"
+               "8.  Check Grauate and Remaining Credit\n"
+               "9.  Check What You should study in term only IT subject\n"
+               "10. Miss Match Subjects\n"
+               "0.  End Program\n"
                "!!Please save data before ending the program!!\n"
                "Enter: ");
         scanf("%d", &command);
@@ -168,6 +170,9 @@ int main() {
                 RunTopo(temp,SizeOfSubject);
                 break;
             }
+            case 10:
+                start_matching_subject(&player);
+                break;
             case 0:
                 end = 1;
                 break;

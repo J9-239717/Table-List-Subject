@@ -85,15 +85,11 @@ int set_score_mid_and_final(Player* p, float mid, float final, float limit_m, fl
 
     // Check and update credits based on the new pass/fail status
     if (curr->status_ever_been_study == 1) {
-        if (curr->status_pass && !pass) {
-            // Subject was passing, now failing
-            p->ToTal_credit_pass -= curr->credit;
-            p->ToTal_credit_npass += curr->credit;
-        } else if (!curr->status_pass && pass) {
-            // Subject was failing, now passing
-            p->ToTal_credit_pass += curr->credit;
-            p->ToTal_credit_npass -= curr->credit;
-        }
+      // update only when subject not pass and currently pass
+      if(pass && !curr->status_pass) {
+        p->ToTal_credit_pass += curr->credit;
+        p->ToTal_credit_npass -= curr->credit;
+      }
     } else {
         if (pass) {
             p->ToTal_credit_pass += curr->credit;
@@ -102,18 +98,20 @@ int set_score_mid_and_final(Player* p, float mid, float final, float limit_m, fl
         }
     }
 
-    // Update subject details
-    curr->status_pass = pass;
-    curr->status_ever_been_study = 1;
-    curr->score_letter = s_letter;
-    curr->score_number_mid = mid;
-    curr->score_number_final = final;
-
-    // Update the count of passed subjects and passed credits if passing
-    if (pass) {
+    // update only when subject not pass and currently pass
+    if (pass && !curr->status_pass) {
         p->numofSubjectType[i].count_passSubject++;
         p->numofSubjectType[i].count_passCredit += curr->credit;
     }
+
+    // only update when subject not pass or currenly pass
+    if(!curr->status_pass || pass) {
+      curr->status_ever_been_study = 1;
+      curr->score_letter = s_letter;
+      curr->score_number_mid = mid;
+      curr->score_number_final = final;
+    }
+    curr->status_pass = (curr->status_pass || pass); // only false when status_pass = 0 and pass = 0
 
     // Update the status alert based on non-passed credits
     p->status_alert = check_status_alert(p->ToTal_credit_npass);

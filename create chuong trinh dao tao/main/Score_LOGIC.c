@@ -321,6 +321,8 @@ void remaining_credit(Player* p){
     for (int i = 0; i < sizeSubjectType; i++){
         count += p->numofSubjectType[i].count_passCredit;
         if(i == modunI){
+            // increase first count for correcly logic count module credit
+            count -= p->numofSubjectType[i].count_passCredit;
             // get max modun I II and III
             count += max(p->numofSubjectType[modunI].count_passCredit,p->numofSubjectType[modunII].count_passCredit,p->numofSubjectType[modunIII].count_passCredit);
             // get max modun IV and V

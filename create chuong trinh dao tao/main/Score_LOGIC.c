@@ -435,3 +435,51 @@ void Set_all_god(Player* p){
     }
     printf("Complete\n");
 }
+
+// Check Grade with Midterm score and Ratio score
+void get_all_grade_with_midterm_and_ratio_score() {
+  float scoreBase = 0;
+  do
+  {
+    printf("\tPlease Enter Midterm Score: ");scanf("%f", &scoreBase);
+    if(scoreBase > 10.0f || scoreBase < 0.0f) {
+      printf("\tPlease Enter Correctly Score Format with Score <= 10 and Score >= 0 ");
+    }
+  } while (scoreBase > 10.0f || scoreBase < 0.0f );
+  float score[] = {
+    [1] = 0.5f,
+    [2] = 0.6f,
+    [3] = 0.7f
+  };
+  char* string_map [] = {
+    ['A'] = "\x1b[34m A+ \x1b[0m", // Blue
+    ['a'] = "\x1b[34m A \x1b[0m",
+    ['B'] = "\x1b[32m B+ \x1b[0m",
+    ['b'] = "\x1b[32m B \x1b[0m",
+    ['C'] = "\x1b[92m C+ \x1b[0m",
+    ['c'] = "\x1b[92m C \x1b[0m",
+    ['D'] = "\x1b[93m D+ \x1b[0m",
+    ['d'] = "\x1b[93m D \x1b[0m",
+    ['f'] = "\x1b[91m F \x1b[0m"
+  };
+  int score_i = 0;
+  do
+  {
+    printf("Please seletion limit your score\n"
+              "1.50-50\n"
+              "2.40-60\n"
+              "3.30-70\n");
+              printf("Enter: ");scanf("%d", &score_i);
+    if(score_i > 3 || score_i <= 0) {
+      printf("\tPlease Enter Correctly Ratio Format with Ratio <= 3 and Ratio > 0 ");
+    }
+  } while (score_i > 3 || score_i <= 0);
+
+  printf("Score Midterm with %.1f and Ratio is %.1f will got Score Final like:\n", scoreBase, 1 - score[score_i]);
+  for(float i = 3.0f; i <= 10 ; i += 0.5f) {
+    printf("\t+ With %4.1f is got %-3s \n",
+            i ,string_map[(int)check_score_letter((float)(( scoreBase * (1.0f - score[score_i]) ) + ( i * (score[score_i]) )))]
+    );
+  }
+  return;
+}

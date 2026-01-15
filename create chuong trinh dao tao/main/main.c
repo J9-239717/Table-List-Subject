@@ -101,6 +101,7 @@ int main() {
                "8.  Check Grauate and Remaining Credit\n"
                "9.  Check What You should study in term only IT subject\n"
                "10. Miss Match Subjects\n"
+               "11. Check What Grade I Can Get with Midterm Score\n"
                "0.  End Program\n"
                "!!Please save data before ending the program!!\n"
                "Enter: ");
@@ -172,6 +173,9 @@ int main() {
             }
             case 10:
                 start_matching_subject(&player);
+                break;
+            case 11:
+                get_all_grade_with_midterm_and_ratio_score();
                 break;
             case 0:
                 end = 1;

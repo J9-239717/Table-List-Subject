@@ -1,0 +1,2351 @@
+lenght input: 161881
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <link rel="stylesheet" href="/DXR.axd?r=0_2976,1_66,1_67,0_2981,0_2,1_255,1_72,1_254,1_71,1_208,1_205,1_207,1_204-8l9Cr">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, maximum-scale=1.0, minimum-scale=1.0">
+    <title>
+    </title>
+    <link href="https://fonts.googleapis.com/css?family=Arimo" rel="stylesheet">
+    <link rel="stylesheet" href="../Content/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../Content/bootstrap/css/bootstrap-combobox.css">
+    <link rel="stylesheet" href="../Content/docs.min.css">
+    <link rel="stylesheet" type="text/css" href="../Content/Site.css">
+  </head>
+  <body id="ctl00_ctl00_Body">
+    <form method="post" action="./StudentCourseMarks.aspx" id="aspnetForm" data-toggle="validator" role="form">
+      <div class="aspNetHidden">
+        <input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="">
+        <input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="">
+        <input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="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">
+      </div>
+      <div class="aspNetHidden">
+        <input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="A1C8DAF5">
+        <input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="QwzQsDCJLE9pSZBjf2wi4ZBaTbMUCnF0xgA1DES0bpxvV9Wvz+PcChDnhkkcCe64orRP8HILJ6F8aTPVNGiSpkMjO4kmeslUvfisnBYSHTM/rliHoeP/GWqf1pU3dgREPjNKgcl/w2J5c/ybRFjxBg==">
+      </div>
+      <div id="ctl00_ctl00_HeaderPane_EB" class="dxpnl-bar dxpnlControl_Mulberry headerPane" style="width:100%;padding-left:0px;padding-right:0px;padding-top:0px;padding-bottom:0px;">
+        <div class="dxpnl-bar-tmpl dxpnl-np">
+          <div style="height:50px">
+            <a href="http://ctt-daotao.hust.edu.vn/">
+              <img class="dxeImage_Mulberry" id="ctl00_ctl00_HeaderPane_EBT_imgLogo" src="../Content/Images/logo-cttdt.png" alt="" style="height:100%;">
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="dxpnlControl_Mulberry" id="ctl00_ctl00_HeaderPane">
+        <div class="dxpnl-acc">
+          <div class="headerPane">
+            <div class="container">
+              <a href="http://ctt-daotao.hust.edu.vn/">
+                <img class="dxeImage_Mulberry" id="ctl00_ctl00_HeaderPane_imgLogo" src="../Content/Images/logo-cttdt.png" alt="" style="height:100%;">
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="ctl00_ctl00_TopMenuPane_EB" class="dxpnl-bar dxpnlControl_Mulberry topMenuExpandBar">
+        <div id="ctl00_ctl00_TopMenuPane_EBB" class="dxpnl-btn dxpnl-fp">
+          <img id="ctl00_ctl00_TopMenuPane_EBBI" class="dxWeb_pnlExpand_Mulberry" src="/DXR.axd?r=1_87-Yk9Cr" alt="">
+        </div>
+      </div>
+      <div class="dxpnlControl_Mulberry topMenu" id="ctl00_ctl00_TopMenuPane">
+        <div class="dxpnl-acc">
+          <div class="dxpnl-cc">
+            <div class="dxmLite_Mulberry dxm-ltr">
+              <div class="dxm-main dxm-horizontal dxm-autoWidth dxm-noWrap" id="ctl00_ctl00_TopMenuPane_menuTop" style="width:100%;">
+                <ul class="dx dxm-image-l">
+                  <li class="dxm-item dxm-subMenu" style="font-size:Medium;">
+                    <div class="dxm-content dxm-hasText">
+                      <img class="dxIcon_arrange_sendbackward_16x16 dxm-image dx-vam" src="/DXR.axd?r=1_87-Yk9Cr" alt="">
+                      <span class="dx-vam dxm-contentText">
+                      </span>
+                    </div>
+                    <div class="dxm-popOut">
+                      <img class="dxWeb_mHorizontalPopOut_Mulberry dxm-pImage" src="/DXR.axd?r=1_87-Yk9Cr" alt="v">
+                    </div>
+                  </li>
+                  <li class="dxm-spacing">
+                  </li>
+                  <li class="dxm-item dxm-subMenu" style="font-size:Medium;">
+                    <div class="dxm-content dxm-hasText">
+                      <img class="dxIcon_arrange_sendbackward_16x16 dxm-image dx-vam" src="/DXR.axd?r=1_87-Yk9Cr" alt="">
+                      <span class="dx-vam dxm-contentText">
+                      </span>
+                    </div>
+                    <div class="dxm-popOut">
+                      <img class="dxWeb_mHorizontalPopOut_Mulberry dxm-pImage" src="/DXR.axd?r=1_87-Yk9Cr" alt="v">
+                    </div>
+                  </li>
+                  <li class="dxm-spacing">
+                  </li>
+                  <li class="dxm-item dxm-subMenu" style="font-size:Medium;">
+                    <div class="dxm-content dxm-hasText">
+                      <img class="dxIcon_arrange_sendbackward_16x16 dxm-image dx-vam" src="/DXR.axd?r=1_87-Yk9Cr" alt="">
+                      <span class="dx-vam dxm-contentText">
+                      </span>
+                    </div>
+                    <div class="dxm-popOut">
+                      <img class="dxWeb_mHorizontalPopOut_Mulberry dxm-pImage" src="/DXR.axd?r=1_87-Yk9Cr" alt="v">
+                    </div>
+                  </li>
+                  <li class="dxm-spacing">
+                  </li>
+                  <li class="dxm-item dxm-noSubMenu">
+                    <a class="dxm-content dxm-hasText dx" href="http://ctt-sis.hust.edu.vn/pub/SearchGraduation.aspx" style="font-size:Medium;">
+                      <img class="dxIcon_arrange_sendbackward_16x16 dxm-image dx-vam" src="/DXR.axd?r=1_87-Yk9Cr" alt="">
+                      <span class="dx-vam dxm-contentText">Tra cứu văn bằng</span>
+                    </a>
+                  </li>
+                  <li class="dxm-spacing dxm-amis">
+                  </li>
+                  <li class="dxm-item dxm-dropDownMode dxm-noImage dxm-ami" style="font-size:Medium;">
+                    <div class="dxm-content dxm-hasText">
+                      <span class="dx-vam dxm-contentText">
+                      </span>
+                    </div>
+                    <div class="dxm-popOut">
+                      <img class="dxWeb_mAdaptiveMenu_Mulberry dxm-pImage" src="/DXR.axd?r=1_87-Yk9Cr" alt="...">
+                    </div>
+                  </li>
+                </ul>
+              </div>
+              <b class="dx-clear">
+              </b>
+              <div id="ctl00_ctl00_TopMenuPane_menuTop_DXM0_" style="z-index:20002;display:none;">
+                <div class="dxm-shadow dxm-popup" style="font-size:Medium;">
+                  <ul class="dx dxm-noImages dxm-gutter">
+                    <li class="dxm-item">
+                      <a class="dxm-content dxm-hasText dx" href="http://ctt-daotao.hust.edu.vn/DisplayWeb/DisplayMenu?menu=18" style="font-size:Medium;">
+                        <span class="dx-vam dxm-contentText">
+                        </span>
+                      </a>
+                      <b class="dx-clear">
+                      </b>
+                    </li>
+                    <li class="dxm-spacing">
+                    </li>
+                    <li class="dxm-item">
+                      <a class="dxm-content dxm-hasText dx" href="http://ctt-daotao.hust.edu.vn/DisplayWeb/DisplayMenu?menu=19" style="font-size:Medium;">
+                        <span class="dx-vam dxm-contentText">C&#225;c ng&#224;nh đ&#224;o tạo</span>
+                      </a>
+                      <b class="dx-clear">
+                      </b>
+                    </li>
+                    <li class="dxm-spacing">
+                    </li>
+                    <li class="dxm-item">
+                      <a class="dxm-content dxm-hasText dx" href="http://ctt-daotao.hust.edu.vn/DisplayWeb/DisplayMenu?menu=20" style="font-size:Medium;">
+                        <span class="dx-vam dxm-contentText">Kế hoạch học tập</span>
+                      </a>
+                      <b class="dx-clear">
+                      </b>
+                    </li>
+                    <li class="dxm-spacing">
+                    </li>
+                    <li class="dxm-item">
+                      <a class="dxm-content dxm-hasText dx" href="http://ctt-daotao.hust.edu.vn/DisplayWeb/DisplayMenu?menu=46" style="font-size:Medium;">
+                        <span class="dx-vam dxm-contentText">Tin tức - Th&#244;ng b&#225;o</span>
+                      </a>
+                      <b class="dx-clear">
+                      </b>
+                    </li>
+                    <li class="dxm-spacing">
+                    </li>
+                    <li class="dxm-item">
+                      <a class="dxm-content dxm-hasText dx" href="http://ctt-daotao.hust.edu.vn/DisplayWeb/DisplayMenu?menu=30" style="font-size:Medium;">
+                        <span class="dx-vam dxm-contentText">Th&#244;ng tin văn bằng 2</span>
+                      </a>
+                      <b class="dx-clear">
+                      </b>
+                    </li>
+                    <li class="dxm-spacing">
+                    </li>
+                    <li class="dxm-item">
+                      <a class="dxm-content dxm-hasText dx" href="http://ctt-daotao.hust.edu.vn/DisplayWeb/DisplayMenu?menu=29" style="font-size:Medium;">
+                        <span class="dx-vam dxm-contentText">Chương tr&#236;nh đặc biệt</span>
+                      </a>
+                      <b class="dx-clear">
+                      </b>
+                    </li>
+                    <li class="dxm-spacing">
+                    </li>
+                    <li class="dxm-item">
+                      <a class="dxm-content dxm-hasText dx" href="http://ctt-daotao.hust.edu.vn/DisplayWeb/DisplayMenu?menu=31" style="font-size:Medium;">
+                        <span class="dx-vam dxm-contentText">Biểu mẫu</span>
+                      </a>
+                      <b class="dx-clear">
+                      </b>
+                    </li>
+                    <li class="dxm-spacing">
+                    </li>
+                    <li class="dxm-item">
+                      <a class="dxm-content dxm-hasText dx" href="http://ctt-daotao.hust.edu.vn/DisplayWeb/DisplayMenu?menu=32" style="font-size:Medium;">
+                        <span class="dx-vam dxm-contentText">Li&#234;n hệ</span>
+                      </a>
+                      <b class="dx-clear">
+                      </b>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div id="ctl00_ctl00_TopMenuPane_menuTop_DXM1_" style="z-index:20002;display:none;">
+                <div class="dxm-shadow dxm-popup" style="font-size:Medium;">
+                  <ul class="dx dxm-noImages dxm-gutter">
+                    <li class="dxm-item">
+                      <a class="dxm-content dxm-hasText dx" href="http://ctt-daotao.hust.edu.vn/DisplayWeb/DisplayMenu?menu=47" style="font-size:Medium;">
+                        <span class="dx-vam dxm-contentText">
+                        </span>
+                      </a>
+                      <b class="dx-clear">
+                      </b>
+                    </li>
+                    <li class="dxm-spacing">
+                    </li>
+                    <li class="dxm-item">
+                      <a class="dxm-content dxm-hasText dx" href="http://ctt-daotao.hust.edu.vn/DisplayWeb/DisplayMenu?menu=48" style="font-size:Medium;">
+                        <span class="dx-vam dxm-contentText">Đ&#224;o tạo</span>
+                      </a>
+                      <b class="dx-clear">
+                      </b>
+                    </li>
+                    <li class="dxm-spacing">
+                    </li>
+                    <li class="dxm-item">
+                      <a class="dxm-content dxm-hasText dx" href="http://ctt-daotao.hust.edu.vn/DisplayWeb/DisplayMenu?menu=41" style="font-size:Medium;">
+                        <span class="dx-vam dxm-contentText">Mẫu văn bản giấy tờ</span>
+                      </a>
+                      <b class="dx-clear">
+                      </b>
+                    </li>
+                    <li class="dxm-spacing">
+                    </li>
+                    <li class="dxm-item">
+                      <a class="dxm-content dxm-hasText dx" href="http://ctt-daotao.hust.edu.vn/DisplayWeb/DisplayMenu?menu=42" style="font-size:Medium;">
+                        <span class="dx-vam dxm-contentText">Văn bản - Quy chế</span>
+                      </a>
+                      <b class="dx-clear">
+                      </b>
+                    </li>
+                    <li class="dxm-spacing">
+                    </li>
+                    <li class="dxm-item">
+                      <a class="dxm-content dxm-hasText dx" href="http://ctt-daotao.hust.edu.vn/DisplayWeb/DisplayMenu?menu=43" style="font-size:Medium;">
+                        <span class="dx-vam dxm-contentText">Th&#244;ng tin văn bằng</span>
+                      </a>
+                      <b class="dx-clear">
+                      </b>
+                    </li>
+                    <li class="dxm-spacing">
+                    </li>
+                    <li class="dxm-item">
+                      <a class="dxm-content dxm-hasText dx" href="http://ctt-daotao.hust.edu.vn/DisplayWeb/DisplayMenu?menu=44" style="font-size:Medium;">
+                        <span class="dx-vam dxm-contentText">Trang th&#244;ng tin c&#225; nh&#226;n</span>
+                      </a>
+                      <b class="dx-clear">
+                      </b>
+                    </li>
+                    <li class="dxm-spacing">
+                    </li>
+                    <li class="dxm-item">
+                      <a class="dxm-content dxm-hasText dx" href="http://ctt-daotao.hust.edu.vn/DisplayWeb/DisplayMenu?menu=45" style="font-size:Medium;">
+                        <span class="dx-vam dxm-contentText">Li&#234;n hệ</span>
+                      </a>
+                      <b class="dx-clear">
+                      </b>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div id="ctl00_ctl00_TopMenuPane_menuTop_DXM2_" style="z-index:20002;display:none;">
+                <div class="dxm-shadow dxm-popup" style="font-size:Medium;">
+                  <ul class="dx dxm-noImages dxm-gutter">
+                    <li class="dxm-item">
+                      <a class="dxm-content dxm-hasText dx" href="http://ctt-daotao.hust.edu.vn/DisplayWeb/DisplayMenu?menu=7" style="font-size:Medium;">
+                        <span class="dx-vam dxm-contentText">
+                        </span>
+                      </a>
+                      <b class="dx-clear">
+                      </b>
+                    </li>
+                    <li class="dxm-spacing">
+                    </li>
+                    <li class="dxm-item">
+                      <a class="dxm-content dxm-hasText dx" href="http://ctt-daotao.hust.edu.vn/DisplayWeb/DisplayMenu?menu=9" style="font-size:Medium;">
+                        <span class="dx-vam dxm-contentText">Hỏi - Đ&#225;p</span>
+                      </a>
+                      <b class="dx-clear">
+                      </b>
+                    </li>
+                    <li class="dxm-spacing">
+                    </li>
+                    <li class="dxm-item">
+                      <a class="dxm-content dxm-hasText dx" href="http://ctt-daotao.hust.edu.vn/DisplayWeb/DisplayMenu?menu=53" style="font-size:Medium;">
+                        <span class="dx-vam dxm-contentText">Học ph&#237;</span>
+                      </a>
+                      <b class="dx-clear">
+                      </b>
+                    </li>
+                    <li class="dxm-spacing">
+                    </li>
+                    <li class="dxm-item">
+                      <a class="dxm-content dxm-hasText dx" href="http://ctt-daotao.hust.edu.vn/DisplayWeb/DisplayMenu?menu=11" style="font-size:Medium;">
+                        <span class="dx-vam dxm-contentText">Học bổng t&#224;i trợ</span>
+                      </a>
+                      <b class="dx-clear">
+                      </b>
+                    </li>
+                    <li class="dxm-spacing">
+                    </li>
+                    <li class="dxm-item">
+                      <a class="dxm-content dxm-hasText dx" href="http://ctt-daotao.hust.edu.vn/DisplayWeb/DisplayMenu?menu=12" style="font-size:Medium;">
+                        <span class="dx-vam dxm-contentText">Việc l&#224;m</span>
+                      </a>
+                      <b class="dx-clear">
+                      </b>
+                    </li>
+                    <li class="dxm-spacing">
+                    </li>
+                    <li class="dxm-item">
+                      <a class="dxm-content dxm-hasText dx" href="http://ctt-daotao.hust.edu.vn/DisplayWeb/DisplayMenu?menu=13" style="font-size:Medium;">
+                        <span class="dx-vam dxm-contentText">Biểu mẫu</span>
+                      </a>
+                      <b class="dx-clear">
+                      </b>
+                    </li>
+                    <li class="dxm-spacing">
+                    </li>
+                    <li class="dxm-item">
+                      <a class="dxm-content dxm-hasText dx" href="http://ctt-daotao.hust.edu.vn/DisplayWeb/DisplayMenu?menu=54" style="font-size:Medium;">
+                        <span class="dx-vam dxm-contentText">Cựu sinh vi&#234;n</span>
+                      </a>
+                      <b class="dx-clear">
+                      </b>
+                    </li>
+                    <li class="dxm-spacing">
+                    </li>
+                    <li class="dxm-item">
+                      <a class="dxm-content dxm-hasText dx" href="http://ctt-daotao.hust.edu.vn/DisplayWeb/DisplayMenu?menu=15" style="font-size:Medium;">
+                        <span class="dx-vam dxm-contentText">Li&#234;n hệ</span>
+                      </a>
+                      <b class="dx-clear">
+                      </b>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div id="ctl00_ctl00_TopMenuPane_menuTop_DXM4_" style="z-index:20000;display:none;">
+                <div class="dxm-shadow dxm-popup dxm-am" style="font-size:Medium;">
+                  <ul class="dx dxm-gutter">
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="dxpnl-expanded-tmpl">
+            <div class="dxmLite_Mulberry dxm-ltr">
+              <div class="dxm-main dxm-vertical dxm-autoWidth dxm-noWrap" id="ctl00_ctl00_TopMenuPane_ctl10_menuTop" style="width:100%;">
+                <ul class="dx dxm-image-l dxm-gutter">
+                  <li class="dxm-item dxm-subMenu" style="font-size:Medium;">
+                    <div class="dxm-content dxm-hasText">
+                      <img class="dxIcon_arrange_sendbackward_16x16 dxm-image dx-vam" src="/DXR.axd?r=1_87-Yk9Cr" alt="">
+                      <span class="dx-vam dxm-contentText">
+                      </span>
+                    </div>
+                    <div class="dxm-popOut">
+                      <img class="dxWeb_mVerticalPopOut_Mulberry dxm-pImage" src="/DXR.axd?r=1_87-Yk9Cr" alt="">
+                    </div>
+                    <b class="dx-clear">
+                    </b>
+                  </li>
+                  <li class="dxm-spacing">
+                  </li>
+                  <li class="dxm-item dxm-subMenu" style="font-size:Medium;">
+                    <div class="dxm-content dxm-hasText">
+                      <img class="dxIcon_arrange_sendbackward_16x16 dxm-image dx-vam" src="/DXR.axd?r=1_87-Yk9Cr" alt="">
+                      <span class="dx-vam dxm-contentText">
+                      </span>
+                    </div>
+                    <div class="dxm-popOut">
+                      <img class="dxWeb_mVerticalPopOut_Mulberry dxm-pImage" src="/DXR.axd?r=1_87-Yk9Cr" alt="">
+                    </div>
+                    <b class="dx-clear">
+                    </b>
+                  </li>
+                  <li class="dxm-spacing">
+                  </li>
+                  <li class="dxm-item dxm-subMenu" style="font-size:Medium;">
+                    <div class="dxm-content dxm-hasText">
+                      <img class="dxIcon_arrange_sendbackward_16x16 dxm-image dx-vam" src="/DXR.axd?r=1_87-Yk9Cr" alt="">
+                      <span class="dx-vam dxm-contentText">
+                      </span>
+                    </div>
+                    <div class="dxm-popOut">
+                      <img class="dxWeb_mVerticalPopOut_Mulberry dxm-pImage" src="/DXR.axd?r=1_87-Yk9Cr" alt="">
+                    </div>
+                    <b class="dx-clear">
+                    </b>
+                  </li>
+                  <li class="dxm-spacing">
+                  </li>
+                  <li class="dxm-item dxm-noSubMenu">
+                    <a class="dxm-content dxm-hasText dx" href="http://ctt-sis.hust.edu.vn/pub/SearchGraduation.aspx" style="font-size:Medium;">
+                      <img class="dxIcon_arrange_sendbackward_16x16 dxm-image dx-vam" src="/DXR.axd?r=1_87-Yk9Cr" alt="">
+                      <span class="dx-vam dxm-contentText">Tra cứu văn bằng</span>
+                    </a>
+                    <b class="dx-clear">
+                    </b>
+                  </li>
+                  <li class="dxm-spacing dxm-amis">
+                  </li>
+                  <li class="dxm-item dxm-dropDownMode dxm-noImage dxm-ami" style="font-size:Medium;">
+                    <div class="dxm-content dxm-hasText">
+                      <span class="dx-vam dxm-contentText">
+                      </span>
+                    </div>
+                    <div class="dxm-popOut">
+                      <img class="dxWeb_mAdaptiveMenu_Mulberry dxm-pImage" src="/DXR.axd?r=1_87-Yk9Cr" alt="...">
+                    </div>
+                    <b class="dx-clear">
+                    </b>
+                  </li>
+                </ul>
+              </div>
+              <b class="dx-clear">
+              </b>
+              <div id="ctl00_ctl00_TopMenuPane_ctl10_menuTop_DXM0_" style="z-index:20002;display:none;">
+                <div class="dxm-shadow dxm-popup" style="font-size:Medium;">
+                  <ul class="dx dxm-noImages dxm-gutter">
+                    <li class="dxm-item">
+                      <a class="dxm-content dxm-hasText dx" href="http://ctt-daotao.hust.edu.vn/DisplayWeb/DisplayMenu?menu=18" style="font-size:Medium;">
+                        <span class="dx-vam dxm-contentText">
+                        </span>
+                      </a>
+                      <b class="dx-clear">
+                      </b>
+                    </li>
+                    <li class="dxm-spacing">
+                    </li>
+                    <li class="dxm-item">
+                      <a class="dxm-content dxm-hasText dx" href="http://ctt-daotao.hust.edu.vn/DisplayWeb/DisplayMenu?menu=19" style="font-size:Medium;">
+                        <span class="dx-vam dxm-contentText">C&#225;c ng&#224;nh đ&#224;o tạo</span>
+                      </a>
+                      <b class="dx-clear">
+                      </b>
+                    </li>
+                    <li class="dxm-spacing">
+                    </li>
+                    <li class="dxm-item">
+                      <a class="dxm-content dxm-hasText dx" href="http://ctt-daotao.hust.edu.vn/DisplayWeb/DisplayMenu?menu=20" style="font-size:Medium;">
+                        <span class="dx-vam dxm-contentText">Kế hoạch học tập</span>
+                      </a>
+                      <b class="dx-clear">
+                      </b>
+                    </li>
+                    <li class="dxm-spacing">
+                    </li>
+                    <li class="dxm-item">
+                      <a class="dxm-content dxm-hasText dx" href="http://ctt-daotao.hust.edu.vn/DisplayWeb/DisplayMenu?menu=46" style="font-size:Medium;">
+                        <span class="dx-vam dxm-contentText">Tin tức - Th&#244;ng b&#225;o</span>
+                      </a>
+                      <b class="dx-clear">
+                      </b>
+                    </li>
+                    <li class="dxm-spacing">
+                    </li>
+                    <li class="dxm-item">
+                      <a class="dxm-content dxm-hasText dx" href="http://ctt-daotao.hust.edu.vn/DisplayWeb/DisplayMenu?menu=30" style="font-size:Medium;">
+                        <span class="dx-vam dxm-contentText">Th&#244;ng tin văn bằng 2</span>
+                      </a>
+                      <b class="dx-clear">
+                      </b>
+                    </li>
+                    <li class="dxm-spacing">
+                    </li>
+                    <li class="dxm-item">
+                      <a class="dxm-content dxm-hasText dx" href="http://ctt-daotao.hust.edu.vn/DisplayWeb/DisplayMenu?menu=29" style="font-size:Medium;">
+                        <span class="dx-vam dxm-contentText">Chương tr&#236;nh đặc biệt</span>
+                      </a>
+                      <b class="dx-clear">
+                      </b>
+                    </li>
+                    <li class="dxm-spacing">
+                    </li>
+                    <li class="dxm-item">
+                      <a class="dxm-content dxm-hasText dx" href="http://ctt-daotao.hust.edu.vn/DisplayWeb/DisplayMenu?menu=31" style="font-size:Medium;">
+                        <span class="dx-vam dxm-contentText">Biểu mẫu</span>
+                      </a>
+                      <b class="dx-clear">
+                      </b>
+                    </li>
+                    <li class="dxm-spacing">
+                    </li>
+                    <li class="dxm-item">
+                      <a class="dxm-content dxm-hasText dx" href="http://ctt-daotao.hust.edu.vn/DisplayWeb/DisplayMenu?menu=32" style="font-size:Medium;">
+                        <span class="dx-vam dxm-contentText">Li&#234;n hệ</span>
+                      </a>
+                      <b class="dx-clear">
+                      </b>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div id="ctl00_ctl00_TopMenuPane_ctl10_menuTop_DXM1_" style="z-index:20002;display:none;">
+                <div class="dxm-shadow dxm-popup" style="font-size:Medium;">
+                  <ul class="dx dxm-noImages dxm-gutter">
+                    <li class="dxm-item">
+                      <a class="dxm-content dxm-hasText dx" href="http://ctt-daotao.hust.edu.vn/DisplayWeb/DisplayMenu?menu=47" style="font-size:Medium;">
+                        <span class="dx-vam dxm-contentText">
+                        </span>
+                      </a>
+                      <b class="dx-clear">
+                      </b>
+                    </li>
+                    <li class="dxm-spacing">
+                    </li>
+                    <li class="dxm-item">
+                      <a class="dxm-content dxm-hasText dx" href="http://ctt-daotao.hust.edu.vn/DisplayWeb/DisplayMenu?menu=48" style="font-size:Medium;">
+                        <span class="dx-vam dxm-contentText">Đ&#224;o tạo</span>
+                      </a>
+                      <b class="dx-clear">
+                      </b>
+                    </li>
+                    <li class="dxm-spacing">
+                    </li>
+                    <li class="dxm-item">
+                      <a class="dxm-content dxm-hasText dx" href="http://ctt-daotao.hust.edu.vn/DisplayWeb/DisplayMenu?menu=41" style="font-size:Medium;">
+                        <span class="dx-vam dxm-contentText">Mẫu văn bản giấy tờ</span>
+                      </a>
+                      <b class="dx-clear">
+                      </b>
+                    </li>
+                    <li class="dxm-spacing">
+                    </li>
+                    <li class="dxm-item">
+                      <a class="dxm-content dxm-hasText dx" href="http://ctt-daotao.hust.edu.vn/DisplayWeb/DisplayMenu?menu=42" style="font-size:Medium;">
+                        <span class="dx-vam dxm-contentText">Văn bản - Quy chế</span>
+                      </a>
+                      <b class="dx-clear">
+                      </b>
+                    </li>
+                    <li class="dxm-spacing">
+                    </li>
+                    <li class="dxm-item">
+                      <a class="dxm-content dxm-hasText dx" href="http://ctt-daotao.hust.edu.vn/DisplayWeb/DisplayMenu?menu=43" style="font-size:Medium;">
+                        <span class="dx-vam dxm-contentText">Th&#244;ng tin văn bằng</span>
+                      </a>
+                      <b class="dx-clear">
+                      </b>
+                    </li>
+                    <li class="dxm-spacing">
+                    </li>
+                    <li class="dxm-item">
+                      <a class="dxm-content dxm-hasText dx" href="http://ctt-daotao.hust.edu.vn/DisplayWeb/DisplayMenu?menu=44" style="font-size:Medium;">
+                        <span class="dx-vam dxm-contentText">Trang th&#244;ng tin c&#225; nh&#226;n</span>
+                      </a>
+                      <b class="dx-clear">
+                      </b>
+                    </li>
+                    <li class="dxm-spacing">
+                    </li>
+                    <li class="dxm-item">
+                      <a class="dxm-content dxm-hasText dx" href="http://ctt-daotao.hust.edu.vn/DisplayWeb/DisplayMenu?menu=45" style="font-size:Medium;">
+                        <span class="dx-vam dxm-contentText">Li&#234;n hệ</span>
+                      </a>
+                      <b class="dx-clear">
+                      </b>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div id="ctl00_ctl00_TopMenuPane_ctl10_menuTop_DXM2_" style="z-index:20002;display:none;">
+                <div class="dxm-shadow dxm-popup" style="font-size:Medium;">
+                  <ul class="dx dxm-noImages dxm-gutter">
+                    <li class="dxm-item">
+                      <a class="dxm-content dxm-hasText dx" href="http://ctt-daotao.hust.edu.vn/DisplayWeb/DisplayMenu?menu=7" style="font-size:Medium;">
+                        <span class="dx-vam dxm-contentText">
+                        </span>
+                      </a>
+                      <b class="dx-clear">
+                      </b>
+                    </li>
+                    <li class="dxm-spacing">
+                    </li>
+                    <li class="dxm-item">
+                      <a class="dxm-content dxm-hasText dx" href="http://ctt-daotao.hust.edu.vn/DisplayWeb/DisplayMenu?menu=9" style="font-size:Medium;">
+                        <span class="dx-vam dxm-contentText">Hỏi - Đ&#225;p</span>
+                      </a>
+                      <b class="dx-clear">
+                      </b>
+                    </li>
+                    <li class="dxm-spacing">
+                    </li>
+                    <li class="dxm-item">
+                      <a class="dxm-content dxm-hasText dx" href="http://ctt-daotao.hust.edu.vn/DisplayWeb/DisplayMenu?menu=53" style="font-size:Medium;">
+                        <span class="dx-vam dxm-contentText">Học ph&#237;</span>
+                      </a>
+                      <b class="dx-clear">
+                      </b>
+                    </li>
+                    <li class="dxm-spacing">
+                    </li>
+                    <li class="dxm-item">
+                      <a class="dxm-content dxm-hasText dx" href="http://ctt-daotao.hust.edu.vn/DisplayWeb/DisplayMenu?menu=11" style="font-size:Medium;">
+                        <span class="dx-vam dxm-contentText">Học bổng t&#224;i trợ</span>
+                      </a>
+                      <b class="dx-clear">
+                      </b>
+                    </li>
+                    <li class="dxm-spacing">
+                    </li>
+                    <li class="dxm-item">
+                      <a class="dxm-content dxm-hasText dx" href="http://ctt-daotao.hust.edu.vn/DisplayWeb/DisplayMenu?menu=12" style="font-size:Medium;">
+                        <span class="dx-vam dxm-contentText">Việc l&#224;m</span>
+                      </a>
+                      <b class="dx-clear">
+                      </b>
+                    </li>
+                    <li class="dxm-spacing">
+                    </li>
+                    <li class="dxm-item">
+                      <a class="dxm-content dxm-hasText dx" href="http://ctt-daotao.hust.edu.vn/DisplayWeb/DisplayMenu?menu=13" style="font-size:Medium;">
+                        <span class="dx-vam dxm-contentText">Biểu mẫu</span>
+                      </a>
+                      <b class="dx-clear">
+                      </b>
+                    </li>
+                    <li class="dxm-spacing">
+                    </li>
+                    <li class="dxm-item">
+                      <a class="dxm-content dxm-hasText dx" href="http://ctt-daotao.hust.edu.vn/DisplayWeb/DisplayMenu?menu=54" style="font-size:Medium;">
+                        <span class="dx-vam dxm-contentText">Cựu sinh vi&#234;n</span>
+                      </a>
+                      <b class="dx-clear">
+                      </b>
+                    </li>
+                    <li class="dxm-spacing">
+                    </li>
+                    <li class="dxm-item">
+                      <a class="dxm-content dxm-hasText dx" href="http://ctt-daotao.hust.edu.vn/DisplayWeb/DisplayMenu?menu=15" style="font-size:Medium;">
+                        <span class="dx-vam dxm-contentText">Li&#234;n hệ</span>
+                      </a>
+                      <b class="dx-clear">
+                      </b>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div id="ctl00_ctl00_TopMenuPane_ctl10_menuTop_DXM4_" style="z-index:20000;display:none;">
+                <div class="dxm-shadow dxm-popup dxm-am" style="font-size:Medium;">
+                  <ul class="dx dxm-gutter">
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="dxpnlControl_Mulberry breadCrumbPanel" id="ctl00_ctl00_breadCrumbPane">
+        <div id="breadCrumb">
+          <ul class="breadCrumbList">
+            <li class="start cap1">
+              <a href="../">
+              </a>
+              <span class="muiTen1">
+              </span>
+            </li>
+            <li class="cap2">
+              <a href="javascript:void(0)">
+              </a>
+              <span class="muiTen2">
+              </span>
+            </li>
+          </ul>
+          <div class="clear">
+          </div>
+        </div>
+      </div>
+      <table class="dxpnlControl_Mulberry contentPanel" id="ctl00_ctl00_contentPane">
+        <tr>
+          <td style="vertical-align:Top;">
+            <div style="padding: 5px; background-color: rgba(255, 0, 0, 0.4); position: fixed; width: 100%; z-index: 9999; top: 0px; left: 0px;">
+            </div>
+            <table style="width: 100%;">
+              <tr>
+                <td style="vertical-align: top; margin: 0px;">
+                  <div id="ctl00_ctl00_contentPane_MainPanel_leftMenuPane_EB" class="dxpnl-bar dxpnlControl_Mulberry LeftMenuExpandBar">
+                    <div id="ctl00_ctl00_contentPane_MainPanel_leftMenuPane_EBB" class="dxpnl-btn dxpnl-fp">
+                      <img id="ctl00_ctl00_contentPane_MainPanel_leftMenuPane_EBBI" class="dxWeb_pnlExpand_Mulberry" src="/DXR.axd?r=1_87-Yk9Cr" alt="">
+                    </div>
+                  </div>
+                  <div class="dxpnlControl_Mulberry leftMenuPanel" id="ctl00_ctl00_contentPane_MainPanel_leftMenuPane">
+                    <div class="dxpnl-acc">
+                      <div style="width: 285px; padding-top: 10px;">
+                        <div class="l39contentLeft">
+                          <div class="l39LeftMain">
+                            <h3>
+                              <img src="../Content/Images/usericon.png" style="width:30px;height:30px;border-radius: 50%;">
+                            </h3>
+                            <ul class="siteMap">
+                              <li>
+                                <a href="../Account/NewsFeed.aspx">
+                                  <span class="badge" style="background-color:#9C1010;">
+                                  </span>
+                                </a>
+                              </li>
+                              <li>
+                                <a href="../Account/ChangePassword.aspx">Đổi mật khẩu</a>
+                              </li>
+                              <li>
+                                <a href="https://ctt.hust.edu.vn/account/resetpassword">Cấp lại mật khẩu Email trường</a>
+                              </li>
+                              <li>
+                                <a href="../Account/Logout.aspx">Thoát đăng nhập</a>
+                              </li>
+                              <li>
+                                <a href="../Students/getNewEmailPassword.aspx">Thông tin mật khẩu Email cấp mới</a>
+                              </li>
+                              <li>
+                                <a href="../temp/XacNhanToKhaiYTe.aspx">Xác nhận khai báo y tế</a>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                        <br>
+                        <div class="l39contentLeft">
+                          <div class="l39LeftMain">
+                            <h3>Quản lý hồ sơ sinh viên</h3>
+                            <ul class="siteMap">
+                              <li>
+                                <a href="../">Thông tin sinh viên</a>
+                              </li>
+                              <li>
+                                <a href="../Students/updateStudentProfiles.aspx">Cập nhật thông tin cá nhân</a>
+                              </li>
+                              <li>
+                                <a href="../Students/StudentGroupInfo.aspx">Thông tin lớp sinh viên</a>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                        <br>
+                        <div class="l39contentLeft">
+                          <div class="l39LeftMain">
+                            <h3>Đào tạo</h3>
+                            <ul class="siteMap">
+                              <li class="cosub">
+                                <a href="javascript:void(0)">Chương trình đào tạo</a>
+                                <ul class="subSitemap">
+                                  <li>
+                                    <a href="../Students/StudentProgram.aspx">Chương trình đào tạo sinh viên</a>
+                                  </li>
+                                  <li>
+                                    <a href="../pub/CourseLists.aspx">Danh mục học phần</a>
+                                  </li>
+                                </ul>
+                              </li>
+                              <li class="cosub">
+                                <a href="javascript:void(0)">Kế hoạch học tập</a>
+                                <ul class="subSitemap">
+                                  <li>
+                                    <a href="../Students/CoursesRegister.aspx">Đăng ký học phần</a>
+                                  </li>
+                                  <li>
+                                    <a href="../Students/Timetables.aspx">Thời khóa biểu</a>
+                                  </li>
+                                  <li>
+                                    <a href="../pub/CheckClassRegister.aspx">Tra cứu đăng ký lớp các kỳ</a>
+                                  </li>
+                                </ul>
+                              </li>
+                              <li class="cosub">
+                                <a href="javascript:void(0)">Kết quả học tập</a>
+                                <ul class="subSitemap">
+                                  <li>
+                                    <a href="../Students/ToeicMarks.aspx">Kết quả thi TOEIC</a>
+                                  </li>
+                                  <li>
+                                    <a href="../Students/StudentCourseMarks.aspx">Bảng điểm cá nhân</a>
+                                  </li>
+                                  <li>
+                                    <a href="../Students/StudentCourseGrade.aspx">Bảng điểm học phần</a>
+                                  </li>
+                                  <li>
+                                    <a href="../Students/StudentCheckInputGradeTerm.aspx">Kiểm tra nhập điểm kỳ mới nhất</a>
+                                  </li>
+                                </ul>
+                              </li>
+                              <li class="cosub">
+                                <a href="javascript:void(0)">Đồ án - Tốt nghiệp</a>
+                                <ul class="subSitemap">
+                                  <li>
+                                    <a href="../Students/FinalProjectRegisterResult.aspx">Kết quả xét nhận ĐATN</a>
+                                  </li>
+                                  <li>
+                                    <a href="../Students/GraduateRegister.aspx">Đăng ký xét tốt nghiệp</a>
+                                  </li>
+                                </ul>
+                              </li>
+                              <li>
+                                <a href="../Students/TimetablesTemp.aspx">Thời khóa biểu tạm thời</a>
+                              </li>
+                              <li>
+                                <a href="../Students/DecisionDetail.aspx">Tra cứu quyết định sinh viên</a>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                        <br>
+                        <div class="l39contentLeft">
+                          <div class="l39LeftMain">
+                            <h3>Tư vấn trực tuyến</h3>
+                            <ul class="siteMap">
+                              <li>
+                                <a href="../Students/QA.aspx">Hỏi đáp - Tư vấn trực tuyến</a>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                        <br>
+                        <div class="l39contentLeft">
+                          <div class="l39LeftMain">
+                            <h3>Tài chính học vụ</h3>
+                            <ul class="siteMap">
+                              <li>
+                                <a href="../Students/CheckTuition.aspx">Thông tin công nợ học phí</a>
+                              </li>
+                              <li>
+                                <a href="../Students/Online_TuitionPay.aspx">Thanh toán học phí trực tuyến</a>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                        <br>
+                        <div class="l39contentLeft">
+                          <div class="l39LeftMain">
+                            <h3>Dịch vụ hành chính</h3>
+                            <ul class="siteMap">
+                              <li>
+                                <a href="http://ctsv.hust.edu.vn/#/giay-to/xin-cap-giay">ĐK cấp giấy tờ</a>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                        <br>
+                      </div>
+                    </div>
+                  </div>
+                </td>
+                <td style="width: 100%; vertical-align: top; margin: 0px; padding: 10px;">
+                  <div class="MainContentTitle">
+                    <h3>BẢNG ĐIỂM CÁ NHÂN                      <span class="glyphicon glyphicon-th-list">
+                      </span>
+</h3>
+                    <hr>
+                  </div>
+                  <div class="MainContent">
+                    <table class="dxgvControl dxgv" id="ctl00_ctl00_contentPane_MainPanel_MainContent_gvCourseMarks" style="width:100%;border-collapse:separate;">
+                      <tr>
+                        <td>
+                          <table id="ctl00_ctl00_contentPane_MainPanel_MainContent_gvCourseMarks_DXTitle" style="width:100%;">
+                            <tr>
+                              <td class="dxgvTitlePanel">
+                              </td>
+                            </tr>
+                          </table>
+                          <div id="ctl00_ctl00_contentPane_MainPanel_MainContent_gvCourseMarks_grouppanel" class="dxgvGroupPanel" oncontextmenu="return ASPx.GVContextMenu(&#39;ctl00_ctl00_contentPane_MainPanel_MainContent_gvCourseMarks&#39;,event);" style="white-space:normal;">Kéo cột lên đây để nhóm theo cột</div>
+                          <div id="ctl00_ctl00_contentPane_MainPanel_MainContent_gvCourseMarks_DXAGroupPanel" class="dxgvEAHP dxgvAdaptiveGroupPanel" oncontextmenu="return ASPx.GVContextMenu(&#39;ctl00_ctl00_contentPane_MainPanel_MainContent_gvCourseMarks&#39;,event);" style="display:none;">Kéo cột lên đây để nhóm theo cột</div>
+                          <table id="ctl00_ctl00_contentPane_MainPanel_MainContent_gvCourseMarks_DXMainTable" class="dxgvTable" oncontextmenu="return ASPx.GVContextMenu(&#39;ctl00_ctl00_contentPane_MainPanel_MainContent_gvCourseMarks&#39;,event);" style="width:100%;empty-cells:show;">
+                            <tr id="ctl00_ctl00_contentPane_MainPanel_MainContent_gvCourseMarks_DXHeadersRow0">
+                              <td id="ctl00_ctl00_contentPane_MainPanel_MainContent_gvCourseMarks_col0" class="dxgvHeader bg-CTT" style="border-top-width:0px;border-left-width:0px;">
+                                <table style="width:100%;">
+                                  <tr>
+                                    <td>
+                                    </td>
+                                    <td style="width:1px;text-align:right;">
+                                      <span class="dx-vam">&nbsp;</span>
+                                    </td>
+                                  </tr>
+                                </table>
+                              </td>
+                              <td id="ctl00_ctl00_contentPane_MainPanel_MainContent_gvCourseMarks_col1" class="dxgvHeader bg-CTT" style="border-top-width:0px;border-left-width:0px;">
+                                <table style="width:100%;">
+                                  <tr>
+                                    <td>
+                                    </td>
+                                    <td style="width:1px;text-align:right;">
+                                      <span class="dx-vam">&nbsp;</span>
+                                    </td>
+                                  </tr>
+                                </table>
+                              </td>
+                              <td id="ctl00_ctl00_contentPane_MainPanel_MainContent_gvCourseMarks_col2" class="dxgvHeader bg-CTT" style="border-top-width:0px;border-left-width:0px;">
+                                <table style="width:100%;">
+                                  <tr>
+                                    <td>
+                                    </td>
+                                    <td style="width:1px;text-align:right;">
+                                      <span class="dx-vam">&nbsp;</span>
+                                    </td>
+                                  </tr>
+                                </table>
+                              </td>
+                              <td id="ctl00_ctl00_contentPane_MainPanel_MainContent_gvCourseMarks_col3" class="dxgvHeader bg-CTT" style="border-top-width:0px;border-left-width:0px;">
+                                <table style="width:100%;">
+                                  <tr>
+                                    <td>
+                                    </td>
+                                    <td style="width:1px;text-align:right;">
+                                      <span class="dx-vam">&nbsp;</span>
+                                    </td>
+                                  </tr>
+                                </table>
+                              </td>
+                              <td id="ctl00_ctl00_contentPane_MainPanel_MainContent_gvCourseMarks_col4" class="dxgvHeader bg-CTT" style="border-top-width:0px;border-left-width:0px;">
+                                <table style="width:100%;">
+                                  <tr>
+                                    <td>
+                                    </td>
+                                    <td style="width:1px;text-align:right;">
+                                      <span class="dx-vam">&nbsp;</span>
+                                    </td>
+                                  </tr>
+                                </table>
+                              </td>
+                              <td id="ctl00_ctl00_contentPane_MainPanel_MainContent_gvCourseMarks_col5" class="dxgvHeader bg-CTT" style="border-top-width:0px;border-left-width:0px;">
+                                <table style="width:100%;">
+                                  <tr>
+                                    <td>
+                                    </td>
+                                    <td style="width:1px;text-align:right;">
+                                      <span class="dx-vam">&nbsp;</span>
+                                    </td>
+                                  </tr>
+                                </table>
+                              </td>
+                              <td id="ctl00_ctl00_contentPane_MainPanel_MainContent_gvCourseMarks_col6" class="dxgvHeader bg-CTT" style="border-top-width:0px;border-left-width:0px;">
+                                <table style="width:100%;">
+                                  <tr>
+                                    <td>
+                                    </td>
+                                    <td style="width:1px;text-align:right;">
+                                      <span class="dx-vam">&nbsp;</span>
+                                    </td>
+                                  </tr>
+                                </table>
+                              </td>
+                              <td id="ctl00_ctl00_contentPane_MainPanel_MainContent_gvCourseMarks_col7" class="dxgvHeader bg-CTT dxgRRB" style="border-top-width:0px;border-left-width:0px;">
+                                <table style="width:100%;">
+                                  <tr>
+                                    <td>
+                                    </td>
+                                    <td style="width:1px;text-align:right;">
+                                      <span class="dx-vam">&nbsp;</span>
+                                    </td>
+                                  </tr>
+                                </table>
+                              </td>
+                              <td class="dxgvAIC dxgvHeader bg-CTT" style="width:0.1%;border-top-width:0px;border-left-width:0px;cursor:default;">
+                                <img class="dxGridView_gvHideAdaptiveDetailButton" src="/DXR.axd?r=1_87-Yk9Cr" alt="" style="visibility:hidden;">
+                              </td>
+                            </tr>
+                            <tr id="ctl00_ctl00_contentPane_MainPanel_MainContent_gvCourseMarks_DXFilterRow" class="dxgvFilterRow">
+                              <td class="dxgv" style="text-align:Right;">
+                                <table style="width:100%;">
+                                  <tr>
+                                    <td style="width:100%;padding-right:2px;">
+                                      <table class="dxeTextBoxSys dxeTextBox dxeTextBoxDefaultWidthSys" id="ctl00_ctl00_contentPane_MainPanel_MainContent_gvCourseMarks_DXFREditorcol0" style="width:100%;">
+                                        <tr>
+                                          <td class="dxic" style="width:100%;">
+                                            <input class="dxeEditArea dxeEditAreaSys" id="ctl00_ctl00_contentPane_MainPanel_MainContent_gvCourseMarks_DXFREditorcol0_I" name="ctl00$ctl00$contentPane$MainPanel$MainContent$gvCourseMarks$DXFREditorcol0" onchange="ASPx.EValueChanged(&#39;ctl00_ctl00_contentPane_MainPanel_MainContent_gvCourseMarks_DXFREditorcol0&#39;)" type="text">
+                                          </td>
+                                        </tr>
+                                      </table>
+                                    </td>
+                                    <td>
+                                      <img class="dxGridView_gvFilterRowButton" onclick="ASPx.GVFilterRowMenu(&#39;ctl00_ctl00_contentPane_MainPanel_MainContent_gvCourseMarks&#39;,0,this)" src="/DXR.axd?r=1_87-Yk9Cr" alt="Open filter row popup menu" style="cursor:pointer;">
+                                    </td>
+                                  </tr>
+                                </table>
+                              </td>
+                              <td class="dxgv">
+                                <table style="width:100%;">
+                                  <tr>
+                                    <td style="width:100%;padding-right:2px;">
+                                      <table class="dxeTextBoxSys dxeTextBox dxeTextBoxDefaultWidthSys" id="ctl00_ctl00_contentPane_MainPanel_MainContent_gvCourseMarks_DXFREditorcol1" style="width:100%;">
+                                        <tr>
+                                          <td class="dxic" style="width:100%;">
+                                            <input class="dxeEditArea dxeEditAreaSys" id="ctl00_ctl00_contentPane_MainPanel_MainContent_gvCourseMarks_DXFREditorcol1_I" name="ctl00$ctl00$contentPane$MainPanel$MainContent$gvCourseMarks$DXFREditorcol1" onchange="ASPx.EValueChanged(&#39;ctl00_ctl00_contentPane_MainPanel_MainContent_gvCourseMarks_DXFREditorcol1&#39;)" type="text">
+                                          </td>
+                                        </tr>
+                                      </table>
+                                    </td>
+                                    <td>
+                                      <img class="dxGridView_gvFilterRowButton" onclick="ASPx.GVFilterRowMenu(&#39;ctl00_ctl00_contentPane_MainPanel_MainContent_gvCourseMarks&#39;,1,this)" src="/DXR.axd?r=1_87-Yk9Cr" alt="Open filter row popup menu" style="cursor:pointer;">
+                                    </td>
+                                  </tr>
+                                </table>
+                              </td>
+                              <td class="dxgv">
+                                <table style="width:100%;">
+                                  <tr>
+                                    <td style="width:100%;padding-right:2px;">
+                                      <table class="dxeTextBoxSys dxeTextBox dxeTextBoxDefaultWidthSys" id="ctl00_ctl00_contentPane_MainPanel_MainContent_gvCourseMarks_DXFREditorcol2" style="width:100%;">
+                                        <tr>
+                                          <td class="dxic" style="width:100%;">
+                                            <input class="dxeEditArea dxeEditAreaSys" id="ctl00_ctl00_contentPane_MainPanel_MainContent_gvCourseMarks_DXFREditorcol2_I" name="ctl00$ctl00$contentPane$MainPanel$MainContent$gvCourseMarks$DXFREditorcol2" onchange="ASPx.EValueChanged(&#39;ctl00_ctl00_contentPane_MainPanel_MainContent_gvCourseMarks_DXFREditorcol2&#39;)" type="text">
+                                          </td>
+                                        </tr>
+                                      </table>
+                                    </td>
+                                    <td>
+                                      <img class="dxGridView_gvFilterRowButton" onclick="ASPx.GVFilterRowMenu(&#39;ctl00_ctl00_contentPane_MainPanel_MainContent_gvCourseMarks&#39;,2,this)" src="/DXR.axd?r=1_87-Yk9Cr" alt="Open filter row popup menu" style="cursor:pointer;">
+                                    </td>
+                                  </tr>
+                                </table>
+                              </td>
+                              <td class="dxgv" style="text-align:Right;">
+                                <table style="width:100%;">
+                                  <tr>
+                                    <td style="width:100%;padding-right:2px;">
+                                      <table class="dxeTextBoxSys dxeTextBox dxeTextBoxDefaultWidthSys" id="ctl00_ctl00_contentPane_MainPanel_MainContent_gvCourseMarks_DXFREditorcol3" style="width:100%;">
+                                        <tr>
+                                          <td class="dxic" style="width:100%;">
+                                            <input class="dxeEditArea dxeEditAreaSys" id="ctl00_ctl00_contentPane_MainPanel_MainContent_gvCourseMarks_DXFREditorcol3_I" name="ctl00$ctl00$contentPane$MainPanel$MainContent$gvCourseMarks$DXFREditorcol3" onchange="ASPx.EValueChanged(&#39;ctl00_ctl00_contentPane_MainPanel_MainContent_gvCourseMarks_DXFREditorcol3&#39;)" type="text">
+                                          </td>
+                                        </tr>
+                                      </table>
+                                    </td>
+                                    <td>
+                                      <img class="dxGridView_gvFilterRowButton" onclick="ASPx.GVFilterRowMenu(&#39;ctl00_ctl00_contentPane_MainPanel_MainContent_gvCourseMarks&#39;,3,this)" src="/DXR.axd?r=1_87-Yk9Cr" alt="Open filter row popup menu" style="cursor:pointer;">
+                                    </td>
+                                  </tr>
+                                </table>
+                              </td>
+                              <td class="dxgv" style="text-align:Right;">
+                                <table style="width:100%;">
+                                  <tr>
+                                    <td style="width:100%;padding-right:2px;">
+                                      <table class="dxeTextBoxSys dxeTextBox dxeTextBoxDefaultWidthSys" id="ctl00_ctl00_contentPane_MainPanel_MainContent_gvCourseMarks_DXFREditorcol4" style="width:100%;">
+                                        <tr>
+                                          <td class="dxic" style="width:100%;">
+                                            <input class="dxeEditArea dxeEditAreaSys" id="ctl00_ctl00_contentPane_MainPanel_MainContent_gvCourseMarks_DXFREditorcol4_I" name="ctl00$ctl00$contentPane$MainPanel$MainContent$gvCourseMarks$DXFREditorcol4" onchange="ASPx.EValueChanged(&#39;ctl00_ctl00_contentPane_MainPanel_MainContent_gvCourseMarks_DXFREditorcol4&#39;)" type="text">
+                                          </td>
+                                        </tr>
+                                      </table>
+                                    </td>
+                                    <td>
+                                      <img class="dxGridView_gvFilterRowButton" onclick="ASPx.GVFilterRowMenu(&#39;ctl00_ctl00_contentPane_MainPanel_MainContent_gvCourseMarks&#39;,4,this)" src="/DXR.axd?r=1_87-Yk9Cr" alt="Open filter row popup menu" style="cursor:pointer;">
+                                    </td>
+                                  </tr>
+                                </table>
+                              </td>
+                              <td class="dxgv" style="text-align:Right;">
+                                <table style="width:100%;">
+                                  <tr>
+                                    <td style="width:100%;padding-right:2px;">
+                                      <table class="dxeTextBoxSys dxeTextBox dxeTextBoxDefaultWidthSys" id="ctl00_ctl00_contentPane_MainPanel_MainContent_gvCourseMarks_DXFREditorcol5" style="width:100%;">
+                                        <tr>
+                                          <td class="dxic" style="width:100%;">
+                                            <input class="dxeEditArea dxeEditAreaSys" id="ctl00_ctl00_contentPane_MainPanel_MainContent_gvCourseMarks_DXFREditorcol5_I" name="ctl00$ctl00$contentPane$MainPanel$MainContent$gvCourseMarks$DXFREditorcol5" onchange="ASPx.EValueChanged(&#39;ctl00_ctl00_contentPane_MainPanel_MainContent_gvCourseMarks_DXFREditorcol5&#39;)" type="text">
+                                          </td>
+                                        </tr>
+                                      </table>
+                                    </td>
+                                    <td>
+                                      <img class="dxGridView_gvFilterRowButton" onclick="ASPx.GVFilterRowMenu(&#39;ctl00_ctl00_contentPane_MainPanel_MainContent_gvCourseMarks&#39;,5,this)" src="/DXR.axd?r=1_87-Yk9Cr" alt="Open filter row popup menu" style="cursor:pointer;">
+                                    </td>
+                                  </tr>
+                                </table>
+                              </td>
+                              <td class="dxgv" style="text-align:Right;">
+                                <table style="width:100%;">
+                                  <tr>
+                                    <td style="width:100%;padding-right:2px;">
+                                      <table class="dxeTextBoxSys dxeTextBox dxeTextBoxDefaultWidthSys" id="ctl00_ctl00_contentPane_MainPanel_MainContent_gvCourseMarks_DXFREditorcol6" style="width:100%;">
+                                        <tr>
+                                          <td class="dxic" style="width:100%;">
+                                            <input class="dxeEditArea dxeEditAreaSys" id="ctl00_ctl00_contentPane_MainPanel_MainContent_gvCourseMarks_DXFREditorcol6_I" name="ctl00$ctl00$contentPane$MainPanel$MainContent$gvCourseMarks$DXFREditorcol6" onchange="ASPx.EValueChanged(&#39;ctl00_ctl00_contentPane_MainPanel_MainContent_gvCourseMarks_DXFREditorcol6&#39;)" type="text">
+                                          </td>
+                                        </tr>
+                                      </table>
+                                    </td>
+                                    <td>
+                                      <img class="dxGridView_gvFilterRowButton" onclick="ASPx.GVFilterRowMenu(&#39;ctl00_ctl00_contentPane_MainPanel_MainContent_gvCourseMarks&#39;,6,this)" src="/DXR.axd?r=1_87-Yk9Cr" alt="Open filter row popup menu" style="cursor:pointer;">
+                                    </td>
+                                  </tr>
+                                </table>
+                              </td>
+                              <td class="dxgv dxgRRB">
+                                <table style="width:100%;">
+                                  <tr>
+                                    <td style="width:100%;padding-right:2px;">
+                                      <table class="dxeTextBoxSys dxeTextBox dxeTextBoxDefaultWidthSys" id="ctl00_ctl00_contentPane_MainPanel_MainContent_gvCourseMarks_DXFREditorcol7" style="width:100%;">
+                                        <tr>
+                                          <td class="dxic" style="width:100%;">
+                                            <input class="dxeEditArea dxeEditAreaSys" id="ctl00_ctl00_contentPane_MainPanel_MainContent_gvCourseMarks_DXFREditorcol7_I" name="ctl00$ctl00$contentPane$MainPanel$MainContent$gvCourseMarks$DXFREditorcol7" onchange="ASPx.EValueChanged(&#39;ctl00_ctl00_contentPane_MainPanel_MainContent_gvCourseMarks_DXFREditorcol7&#39;)" type="text">
+                                          </td>
+                                        </tr>
+                                      </table>
+                                    </td>
+                                    <td>
+                                      <img class="dxGridView_gvFilterRowButton" onclick="ASPx.GVFilterRowMenu(&#39;ctl00_ctl00_contentPane_MainPanel_MainContent_gvCourseMarks&#39;,7,this)" src="/DXR.axd?r=1_87-Yk9Cr" alt="Open filter row popup menu" style="cursor:pointer;">
+                                    </td>
+                                  </tr>
+                                </table>
+                              </td>
+                              <td class="dxgvAIC dxgv dxgRRB" style="border-left-width:0px;">&nbsp;</td>
+                            </tr>
+                            <tr id="ctl00_ctl00_contentPane_MainPanel_MainContent_gvCourseMarks_DXADRow" class="dxgvAdaptiveDetailRow dxgvADR" style="display:none;">
+                              <td class="dxgv dxgvAdaptiveDetailCell" colspan="8">
+                              </td>
+                              <td class="dxgvAIC dxgv dxgRRB" style="border-left-width:0px;">&nbsp;</td>
+                            </tr>
+                            <tr id="ctl00_ctl00_contentPane_MainPanel_MainContent_gvCourseMarks_DXDataRow0" class="dxgvDataRow">
+                              <td class="dx-nowrap dxgv dx-ar">
+                              </td>
+                              <td class="dx-nowrap dxgv">IT1108</td>
+                              <td class="dx-nowrap dxgv">Nhập m&#244;n lập tr&#236;nh</td>
+                              <td class="dx-nowrap dxgv dx-ar">4</td>
+                              <td class="dx-nowrap dxgv dx-ar">144646</td>
+                              <td class="dx-nowrap dxgv dx-ar">7.5</td>
+                              <td class="dx-nowrap dxgv dx-ar">3</td>
+                              <td class="dx-nowrap dxgv dxgRRB">D+</td>
+                              <td class="dxgvAIC dxgv" style="width:0px;border-left-width:0px;">
+                                <a class="dxbButton dxgvADSB dxbButtonSys" data-args="[[&#39;ShowAdaptiveDetail&#39;,0],0]" data-isImage="true" id="ctl00_ctl00_contentPane_MainPanel_MainContent_gvCourseMarks_DXCBtn0">
+                                  <img title="..." class="dxGridView_gvShowAdaptiveDetailButton dx-vam" src="/DXR.axd?r=1_87-Yk9Cr" alt="...">
+                                </a>
+                                <a class="dxbButton dxgvADHB dxbButtonSys" data-args="[[&#39;HideAdaptiveDetail&#39;,0],0]" data-isImage="true" id="ctl00_ctl00_contentPane_MainPanel_MainContent_gvCourseMarks_DXCBtn1">
+                                  <img title="X" class="dxGridView_gvHideAdaptiveDetailButton dx-vam" src="/DXR.axd?r=1_87-Yk9Cr" alt="X">
+                                </a>
+                              </td>
+                            </tr>
+                            <tr id="ctl00_ctl00_contentPane_MainPanel_MainContent_gvCourseMarks_DXDataRow1" class="dxgvDataRow">
+                              <td class="dx-nowrap dxgv dx-ar">
+                              </td>
+                              <td class="dx-nowrap dxgv">IT2000</td>
+                              <td class="dx-nowrap dxgv">Nhập m&#244;n CNTT v&#224; TT</td>
+                              <td class="dx-nowrap dxgv dx-ar">3</td>
+                              <td class="dx-nowrap dxgv dx-ar">144647</td>
+                              <td class="dx-nowrap dxgv dx-ar">9</td>
+                              <td class="dx-nowrap dxgv dx-ar">7</td>
+                              <td class="dx-nowrap dxgv dxgRRB">B+</td>
+                              <td class="dxgvAIC dxgv" style="width:0px;border-left-width:0px;">
+                                <a class="dxbButton dxgvADSB dxbButtonSys" data-args="[[&#39;ShowAdaptiveDetail&#39;,1],0]" data-isImage="true" id="ctl00_ctl00_contentPane_MainPanel_MainContent_gvCourseMarks_DXCBtn2">
+                                  <img title="..." class="dxGridView_gvShowAdaptiveDetailButton dx-vam" src="/DXR.axd?r=1_87-Yk9Cr" alt="...">
+                                </a>
+                                <a class="dxbButton dxgvADHB dxbButtonSys" data-args="[[&#39;HideAdaptiveDetail&#39;,1],0]" data-isImage="true" id="ctl00_ctl00_contentPane_MainPanel_MainContent_gvCourseMarks_DXCBtn3">
+                                  <img title="X" class="dxGridView_gvHideAdaptiveDetailButton dx-vam" src="/DXR.axd?r=1_87-Yk9Cr" alt="X">
+                                </a>
+                              </td>
+                            </tr>
+                            <tr id="ctl00_ctl00_contentPane_MainPanel_MainContent_gvCourseMarks_DXDataRow2" class="dxgvDataRow">
+                              <td class="dx-nowrap dxgv dx-ar">
+                              </td>
+                              <td class="dx-nowrap dxgv">MI1111</td>
+                              <td class="dx-nowrap dxgv">Giải t&#237;ch I</td>
+                              <td class="dx-nowrap dxgv dx-ar">4</td>
+                              <td class="dx-nowrap dxgv dx-ar">144642</td>
+                              <td class="dx-nowrap dxgv dx-ar">4</td>
+                              <td class="dx-nowrap dxgv dx-ar">1</td>
+                              <td class="dx-nowrap dxgv dxgRRB">F</td>
+                              <td class="dxgvAIC dxgv" style="width:0px;border-left-width:0px;">
+                                <a class="dxbButton dxgvADSB dxbButtonSys" data-args="[[&#39;ShowAdaptiveDetail&#39;,2],0]" data-isImage="true" id="ctl00_ctl00_contentPane_MainPanel_MainContent_gvCourseMarks_DXCBtn4">
+                                  <img title="..." class="dxGridView_gvShowAdaptiveDetailButton dx-vam" src="/DXR.axd?r=1_87-Yk9Cr" alt="...">
+                                </a>
+                                <a class="dxbButton dxgvADHB dxbButtonSys" data-args="[[&#39;HideAdaptiveDetail&#39;,2],0]" data-isImage="true" id="ctl00_ctl00_contentPane_MainPanel_MainContent_gvCourseMarks_DXCBtn5">
+                                  <img title="X" class="dxGridView_gvHideAdaptiveDetailButton dx-vam" src="/DXR.axd?r=1_87-Yk9Cr" alt="X">
+                                </a>
+                              </td>
+                            </tr>
+                            <tr id="ctl00_ctl00_contentPane_MainPanel_MainContent_gvCourseMarks_DXDataRow3" class="dxgvDataRow">
+                              <td class="dx-nowrap dxgv dx-ar">
+                              </td>
+                              <td class="dx-nowrap dxgv">MI1141</td>
+                              <td class="dx-nowrap dxgv">Đại số</td>
+                              <td class="dx-nowrap dxgv dx-ar">4</td>
+                              <td class="dx-nowrap dxgv dx-ar">144645</td>
+                              <td class="dx-nowrap dxgv dx-ar">5</td>
+                              <td class="dx-nowrap dxgv dx-ar">0.5</td>
+                              <td class="dx-nowrap dxgv dxgRRB">F</td>
+                              <td class="dxgvAIC dxgv" style="width:0px;border-left-width:0px;">
+                                <a class="dxbButton dxgvADSB dxbButtonSys" data-args="[[&#39;ShowAdaptiveDetail&#39;,3],0]" data-isImage="true" id="ctl00_ctl00_contentPane_MainPanel_MainContent_gvCourseMarks_DXCBtn6">
+                                  <img title="..." class="dxGridView_gvShowAdaptiveDetailButton dx-vam" src="/DXR.axd?r=1_87-Yk9Cr" alt="...">
+                                </a>
+                                <a class="dxbButton dxgvADHB dxbButtonSys" data-args="[[&#39;HideAdaptiveDetail&#39;,3],0]" data-isImage="true" id="ctl00_ctl00_contentPane_MainPanel_MainContent_gvCourseMarks_DXCBtn7">
+                                  <img title="X" class="dxGridView_gvHideAdaptiveDetailButton dx-vam" src="/DXR.axd?r=1_87-Yk9Cr" alt="X">
+                                </a>
+                              </td>
+                            </tr>
+                            <tr id="ctl00_ctl00_contentPane_MainPanel_MainContent_gvCourseMarks_DXDataRow4" class="dxgvDataRow">
+                              <td class="dx-nowrap dxgv dx-ar">
+                              </td>
+                              <td class="dx-nowrap dxgv">PE1014</td>
+                              <td class="dx-nowrap dxgv">L&#253; luận TDTT</td>
+                              <td class="dx-nowrap dxgv dx-ar">0</td>
+                              <td class="dx-nowrap dxgv dx-ar">733412</td>
+                              <td class="dx-nowrap dxgv dx-ar">&nbsp;</td>
+                              <td class="dx-nowrap dxgv dx-ar">8</td>
+                              <td class="dx-nowrap dxgv dxgRRB">B+</td>
+                              <td class="dxgvAIC dxgv" style="width:0px;border-left-width:0px;">
+                                <a class="dxbButton dxgvADSB dxbButtonSys" data-args="[[&#39;ShowAdaptiveDetail&#39;,4],0]" data-isImage="true" id="ctl00_ctl00_contentPane_MainPanel_MainContent_gvCourseMarks_DXCBtn8">
+                                  <img title="..." class="dxGridView_gvShowAdaptiveDetailButton dx-vam" src="/DXR.axd?r=1_87-Yk9Cr" alt="...">
+                                </a>
+                                <a class="dxbButton dxgvADHB dxbButtonSys" data-args="[[&#39;HideAdaptiveDetail&#39;,4],0]" data-isImage="true" id="ctl00_ctl00_contentPane_MainPanel_MainContent_gvCourseMarks_DXCBtn9">
+                                  <img title="X" class="dxGridView_gvHideAdaptiveDetailButton dx-vam" src="/DXR.axd?r=1_87-Yk9Cr" alt="X">
+                                </a>
+                              </td>
+                            </tr>
+                            <tr id="ctl00_ctl00_contentPane_MainPanel_MainContent_gvCourseMarks_DXDataRow5" class="dxgvDataRow">
+                              <td class="dx-nowrap dxgv dx-ar">
+                              </td>
+                              <td class="dx-nowrap dxgv">EM1170</td>
+                              <td class="dx-nowrap dxgv">Ph&#225;p luật đại cương</td>
+                              <td class="dx-nowrap dxgv dx-ar">2</td>
+                              <td class="dx-nowrap dxgv dx-ar">148617</td>
+                              <td class="dx-nowrap dxgv dx-ar">9</td>
+                              <td class="dx-nowrap dxgv dx-ar">6</td>
+                              <td class="dx-nowrap dxgv dxgRRB">B</td>
+                              <td class="dxgvAIC dxgv" style="width:0px;border-left-width:0px;">
+                                <a class="dxbButton dxgvADSB dxbButtonSys" data-args="[[&#39;ShowAdaptiveDetail&#39;,5],0]" data-isImage="true" id="ctl00_ctl00_contentPane_MainPanel_MainContent_gvCourseMarks_DXCBtn10">
+                                  <img title="..." class="dxGridView_gvShowAdaptiveDetailButton dx-vam" src="/DXR.axd?r=1_87-Yk9Cr" alt="...">
+                                </a>
+                                <a class="dxbButton dxgvADHB dxbButtonSys" data-args="[[&#39;HideAdaptiveDetail&#39;,5],0]" data-isImage="true" id="ctl00_ctl00_contentPane_MainPanel_MainContent_gvCourseMarks_DXCBtn11">
+                                  <img title="X" class="dxGridView_gvHideAdaptiveDetailButton dx-vam" src="/DXR.axd?r=1_87-Yk9Cr" alt="X">
+                                </a>
+                              </td>
+                            </tr>
+                            <tr id="ctl00_ctl00_contentPane_MainPanel_MainContent_gvCourseMarks_DXDataRow6" class="dxgvDataRow">
+                              <td class="dx-nowrap dxgv dx-ar">
+                              </td>
+                              <td class="dx-nowrap dxgv">IT3011</td>
+                              <td class="dx-nowrap dxgv">Cấu tr&#250;c dữ liệu v&#224; thuật to&#225;n</td>
+                              <td class="dx-nowrap dxgv dx-ar">2</td>
+                              <td class="dx-nowrap dxgv dx-ar">148619</td>
+                              <td class="dx-nowrap dxgv dx-ar">7.5</td>
+                              <td class="dx-nowrap dxgv dx-ar">5</td>
+                              <td class="dx-nowrap dxgv dxgRRB">C</td>
+                              <td class="dxgvAIC dxgv" style="width:0px;border-left-width:0px;">
+                                <a class="dxbButton dxgvADSB dxbButtonSys" data-args="[[&#39;ShowAdaptiveDetail&#39;,6],0]" data-isImage="true" id="ctl00_ctl00_contentPane_MainPanel_MainContent_gvCourseMarks_DXCBtn12">
+                                  <img title="..." class="dxGridView_gvShowAdaptiveDetailButton dx-vam" src="/DXR.axd?r=1_87-Yk9Cr" alt="...">
+                                </a>
+                                <a class="dxbButton dxgvADHB dxbButtonSys" data-args="[[&#39;HideAdaptiveDetail&#39;,6],0]" data-isImage="true" id="ctl00_ctl00_contentPane_MainPanel_MainContent_gvCourseMarks_DXCBtn13">
+                                  <img title="X" class="dxGridView_gvHideAdaptiveDetailButton dx-vam" src="/DXR.axd?r=1_87-Yk9Cr" alt="X">
+                                </a>
+                              </td>
+                            </tr>
+                            <tr id="ctl00_ctl00_contentPane_MainPanel_MainContent_gvCourseMarks_DXDataRow7" class="dxgvDataRow">
+                              <td class="dx-nowrap dxgv dx-ar">
+                              </td>
+                              <td class="dx-nowrap dxgv">IT3020</td>
+                              <td class="dx-nowrap dxgv">To&#225;n rời rạc</td>
+                              <td class="dx-nowrap dxgv dx-ar">3</td>
+                              <td class="dx-nowrap dxgv dx-ar">148618</td>
+                              <td class="dx-nowrap dxgv dx-ar">3.5</td>
+                              <td class="dx-nowrap dxgv dx-ar">4.5</td>
+                              <td class="dx-nowrap dxgv dxgRRB">D</td>
+                              <td class="dxgvAIC dxgv" style="width:0px;border-left-width:0px;">
+                                <a class="dxbButton dxgvADSB dxbButtonSys" data-args="[[&#39;ShowAdaptiveDetail&#39;,7],0]" data-isImage="true" id="ctl00_ctl00_contentPane_MainPanel_MainContent_gvCourseMarks_DXCBtn14">
+                                  <img title="..." class="dxGridView_gvShowAdaptiveDetailButton dx-vam" src="/DXR.axd?r=1_87-Yk9Cr" alt="...">
+                                </a>
+                                <a class="dxbButton dxgvADHB dxbButtonSys" data-args="[[&#39;HideAdaptiveDetail&#39;,7],0]" data-isImage="true" id="ctl00_ctl00_contentPane_MainPanel_MainContent_gvCourseMarks_DXCBtn15">
+                                  <img title="X" class="dxGridView_gvHideAdaptiveDetailButton dx-vam" src="/DXR.axd?r=1_87-Yk9Cr" alt="X">
+                                </a>
+                              </td>
+                            </tr>
+                            <tr id="ctl00_ctl00_contentPane_MainPanel_MainContent_gvCourseMarks_DXDataRow8" class="dxgvDataRow">
+                              <td class="dx-nowrap dxgv dx-ar">
+                              </td>
+                              <td class="dx-nowrap dxgv">MI1121</td>
+                              <td class="dx-nowrap dxgv">Giải t&#237;ch II</td>
+                              <td class="dx-nowrap dxgv dx-ar">3</td>
+                              <td class="dx-nowrap dxgv dx-ar">148611</td>
+                              <td class="dx-nowrap dxgv dx-ar">5.5</td>
+                              <td class="dx-nowrap dxgv dx-ar">3.5</td>
+                              <td class="dx-nowrap dxgv dxgRRB">D</td>
+                              <td class="dxgvAIC dxgv" style="width:0px;border-left-width:0px;">
+                                <a class="dxbButton dxgvADSB dxbButtonSys" data-args="[[&#39;ShowAdaptiveDetail&#39;,8],0]" data-isImage="true" id="ctl00_ctl00_contentPane_MainPanel_MainContent_gvCourseMarks_DXCBtn16">
+                                  <img title="..." class="dxGridView_gvShowAdaptiveDetailButton dx-vam" src="/DXR.axd?r=1_87-Yk9Cr" alt="...">
+                                </a>
+                                <a class="dxbButton dxgvADHB dxbButtonSys" data-args="[[&#39;HideAdaptiveDetail&#39;,8],0]" data-isImage="true" id="ctl00_ctl00_contentPane_MainPanel_MainContent_gvCourseMarks_DXCBtn17">
+                                  <img title="X" class="dxGridView_gvHideAdaptiveDetailButton dx-vam" src="/DXR.axd?r=1_87-Yk9Cr" alt="X">
+                                </a>
+                              </td>
+                            </tr>
+                            <tr id="ctl00_ctl00_contentPane_MainPanel_MainContent_gvCourseMarks_DXDataRow9" class="dxgvDataRow">
+                              <td class="dx-nowrap dxgv dx-ar">
+                              </td>
+                              <td class="dx-nowrap dxgv">PH1110</td>
+                              <td class="dx-nowrap dxgv">Vật l&#253; đại cương I</td>
+                              <td class="dx-nowrap dxgv dx-ar">3</td>
+                              <td class="dx-nowrap dxgv dx-ar">148615</td>
+                              <td class="dx-nowrap dxgv dx-ar">5</td>
+                              <td class="dx-nowrap dxgv dx-ar">3</td>
+                              <td class="dx-nowrap dxgv dxgRRB">F</td>
+                              <td class="dxgvAIC dxgv" style="width:0px;border-left-width:0px;">
+                                <a class="dxbButton dxgvADSB dxbButtonSys" data-args="[[&#39;ShowAdaptiveDetail&#39;,9],0]" data-isImage="true" id="ctl00_ctl00_contentPane_MainPanel_MainContent_gvCourseMarks_DXCBtn18">
+                                  <img title="..." class="dxGridView_gvShowAdaptiveDetailButton dx-vam" src="/DXR.axd?r=1_87-Yk9Cr" alt="...">
+                                </a>
+                                <a class="dxbButton dxgvADHB dxbButtonSys" data-args="[[&#39;HideAdaptiveDetail&#39;,9],0]" data-isImage="true" id="ctl00_ctl00_contentPane_MainPanel_MainContent_gvCourseMarks_DXCBtn19">
+                                  <img title="X" class="dxGridView_gvHideAdaptiveDetailButton dx-vam" src="/DXR.axd?r=1_87-Yk9Cr" alt="X">
+                                </a>
+                              </td>
+                            </tr>
+                            <tr id="ctl00_ctl00_contentPane_MainPanel_MainContent_gvCourseMarks_DXDataRow10" class="dxgvDataRow">
+                              <td class="dx-nowrap dxgv dx-ar">
+                              </td>
+                              <td class="dx-nowrap dxgv">ED3220</td>
+                              <td class="dx-nowrap dxgv">Kỹ năng mềm</td>
+                              <td class="dx-nowrap dxgv dx-ar">2</td>
+                              <td class="dx-nowrap dxgv dx-ar">151636</td>
+                              <td class="dx-nowrap dxgv dx-ar">9.5</td>
+                              <td class="dx-nowrap dxgv dx-ar">9</td>
+                              <td class="dx-nowrap dxgv dxgRRB">A</td>
+                              <td class="dxgvAIC dxgv" style="width:0px;border-left-width:0px;">
+                                <a class="dxbButton dxgvADSB dxbButtonSys" data-args="[[&#39;ShowAdaptiveDetail&#39;,10],0]" data-isImage="true" id="ctl00_ctl00_contentPane_MainPanel_MainContent_gvCourseMarks_DXCBtn20">
+                                  <img title="..." class="dxGridView_gvShowAdaptiveDetailButton dx-vam" src="/DXR.axd?r=1_87-Yk9Cr" alt="...">
+                                </a>
+                                <a class="dxbButton dxgvADHB dxbButtonSys" data-args="[[&#39;HideAdaptiveDetail&#39;,10],0]" data-isImage="true" id="ctl00_ctl00_contentPane_MainPanel_MainContent_gvCourseMarks_DXCBtn21">
+                                  <img title="X" class="dxGridView_gvHideAdaptiveDetailButton dx-vam" src="/DXR.axd?r=1_87-Yk9Cr" alt="X">
+                                </a>
+                              </td>
+                            </tr>
+                            <tr id="ctl00_ctl00_contentPane_MainPanel_MainContent_gvCourseMarks_DXDataRow11" class="dxgvDataRow">
+                              <td class="dx-nowrap dxgv dx-ar">
+                              </td>
+                              <td class="dx-nowrap dxgv">ED3280</td>
+                              <td class="dx-nowrap dxgv">T&#226;m l&#253; học ứng dụng</td>
+                              <td class="dx-nowrap dxgv dx-ar">2</td>
+                              <td class="dx-nowrap dxgv dx-ar">151633</td>
+                              <td class="dx-nowrap dxgv dx-ar">10</td>
+                              <td class="dx-nowrap dxgv dx-ar">6.5</td>
+                              <td class="dx-nowrap dxgv dxgRRB">B</td>
+                              <td class="dxgvAIC dxgv" style="width:0px;border-left-width:0px;">
+                                <a class="dxbButton dxgvADSB dxbButtonSys" data-args="[[&#39;ShowAdaptiveDetail&#39;,11],0]" data-isImage="true" id="ctl00_ctl00_contentPane_MainPanel_MainContent_gvCourseMarks_DXCBtn22">
+                                  <img title="..." class="dxGridView_gvShowAdaptiveDetailButton dx-vam" src="/DXR.axd?r=1_87-Yk9Cr" alt="...">
+                                </a>
+                                <a class="dxbButton dxgvADHB dxbButtonSys" data-args="[[&#39;HideAdaptiveDetail&#39;,11],0]" data-isImage="true" id="ctl00_ctl00_contentPane_MainPanel_MainContent_gvCourseMarks_DXCBtn23">
+                                  <img title="X" class="dxGridView_gvHideAdaptiveDetailButton dx-vam" src="/DXR.axd?r=1_87-Yk9Cr" alt="X">
+                                </a>
+                              </td>
+                            </tr>
+                            <tr id="ctl00_ctl00_contentPane_MainPanel_MainContent_gvCourseMarks_DXDataRow12" class="dxgvDataRow">
+                              <td class="dx-nowrap dxgv dx-ar">
+                              </td>
+                              <td class="dx-nowrap dxgv">ET3262</td>
+                              <td class="dx-nowrap dxgv">Tư duy c&#244;ng nghệ v&#224; thiết kế kỹ thuật</td>
+                              <td class="dx-nowrap dxgv dx-ar">2</td>
+                              <td class="dx-nowrap dxgv dx-ar">151557</td>
+                              <td class="dx-nowrap dxgv dx-ar">8.5</td>
+                              <td class="dx-nowrap dxgv dx-ar">8</td>
+                              <td class="dx-nowrap dxgv dxgRRB">B+</td>
+                              <td class="dxgvAIC dxgv" style="width:0px;border-left-width:0px;">
+                                <a class="dxbButton dxgvADSB dxbButtonSys" data-args="[[&#39;ShowAdaptiveDetail&#39;,12],0]" data-isImage="true" id="ctl00_ctl00_contentPane_MainPanel_MainContent_gvCourseMarks_DXCBtn24">
+                                  <img title="..." class="dxGridView_gvShowAdaptiveDetailButton dx-vam" src="/DXR.axd?r=1_87-Yk9Cr" alt="...">
+                                </a>
+                                <a class="dxbButton dxgvADHB dxbButtonSys" data-args="[[&#39;HideAdaptiveDetail&#39;,12],0]" data-isImage="true" id="ctl00_ctl00_contentPane_MainPanel_MainContent_gvCourseMarks_DXCBtn25">
+                                  <img title="X" class="dxGridView_gvHideAdaptiveDetailButton dx-vam" src="/DXR.axd?r=1_87-Yk9Cr" alt="X">
+                                </a>
+                              </td>
+                            </tr>
+                            <tr id="ctl00_ctl00_contentPane_MainPanel_MainContent_gvCourseMarks_DXDataRow13" class="dxgvDataRow">
+                              <td class="dx-nowrap dxgv dx-ar">
+                              </td>
+                              <td class="dx-nowrap dxgv">IT3030</td>
+                              <td class="dx-nowrap dxgv">Kiến tr&#250;c m&#225;y t&#237;nh</td>
+                              <td class="dx-nowrap dxgv dx-ar">3</td>
+                              <td class="dx-nowrap dxgv dx-ar">153990</td>
+                              <td class="dx-nowrap dxgv dx-ar">7</td>
+                              <td class="dx-nowrap dxgv dx-ar">6.5</td>
+                              <td class="dx-nowrap dxgv dxgRRB">C+</td>
+                              <td class="dxgvAIC dxgv" style="width:0px;border-left-width:0px;">
+                                <a class="dxbButton dxgvADSB dxbButtonSys" data-args="[[&#39;ShowAdaptiveDetail&#39;,13],0]" data-isImage="true" id="ctl00_ctl00_contentPane_MainPanel_MainContent_gvCourseMarks_DXCBtn26">
+                                  <img title="..." class="dxGridView_gvShowAdaptiveDetailButton dx-vam" src="/DXR.axd?r=1_87-Yk9Cr" alt="...">
+                                </a>
+                                <a class="dxbButton dxgvADHB dxbButtonSys" data-args="[[&#39;HideAdaptiveDetail&#39;,13],0]" data-isImage="true" id="ctl00_ctl00_contentPane_MainPanel_MainContent_gvCourseMarks_DXCBtn27">
+                                  <img title="X" class="dxGridView_gvHideAdaptiveDetailButton dx-vam" src="/DXR.axd?r=1_87-Yk9Cr" alt="X">
+                                </a>
+                              </td>
+                            </tr>
+                            <tr id="ctl00_ctl00_contentPane_MainPanel_MainContent_gvCourseMarks_DXDataRow14" class="dxgvDataRow">
+                              <td class="dx-nowrap dxgv dx-ar">
+                              </td>
+                              <td class="dx-nowrap dxgv">IT3040</td>
+                              <td class="dx-nowrap dxgv">Kỹ thuật lập tr&#236;nh</td>
+                              <td class="dx-nowrap dxgv dx-ar">2</td>
+                              <td class="dx-nowrap dxgv dx-ar">154034</td>
+                              <td class="dx-nowrap dxgv dx-ar">9</td>
+                              <td class="dx-nowrap dxgv dx-ar">6</td>
+                              <td class="dx-nowrap dxgv dxgRRB">B</td>
+                              <td class="dxgvAIC dxgv" style="width:0px;border-left-width:0px;">
+                                <a class="dxbButton dxgvADSB dxbButtonSys" data-args="[[&#39;ShowAdaptiveDetail&#39;,14],0]" data-isImage="true" id="ctl00_ctl00_contentPane_MainPanel_MainContent_gvCourseMarks_DXCBtn28">
+                                  <img title="..." class="dxGridView_gvShowAdaptiveDetailButton dx-vam" src="/DXR.axd?r=1_87-Yk9Cr" alt="...">
+                                </a>
+                                <a class="dxbButton dxgvADHB dxbButtonSys" data-args="[[&#39;HideAdaptiveDetail&#39;,14],0]" data-isImage="true" id="ctl00_ctl00_contentPane_MainPanel_MainContent_gvCourseMarks_DXCBtn29">
+                                  <img title="X" class="dxGridView_gvHideAdaptiveDetailButton dx-vam" src="/DXR.axd?r=1_87-Yk9Cr" alt="X">
+                                </a>
+                              </td>
+                            </tr>
+                            <tr id="ctl00_ctl00_contentPane_MainPanel_MainContent_gvCourseMarks_DXDataRow15" class="dxgvDataRow">
+                              <td class="dx-nowrap dxgv dx-ar">
+                              </td>
+                              <td class="dx-nowrap dxgv">IT3100</td>
+                              <td class="dx-nowrap dxgv">Lập tr&#236;nh hướng đối tượng</td>
+                              <td class="dx-nowrap dxgv dx-ar">2</td>
+                              <td class="dx-nowrap dxgv dx-ar">153989</td>
+                              <td class="dx-nowrap dxgv dx-ar">9</td>
+                              <td class="dx-nowrap dxgv dx-ar">7</td>
+                              <td class="dx-nowrap dxgv dxgRRB">B</td>
+                              <td class="dxgvAIC dxgv" style="width:0px;border-left-width:0px;">
+                                <a class="dxbButton dxgvADSB dxbButtonSys" data-args="[[&#39;ShowAdaptiveDetail&#39;,15],0]" data-isImage="true" id="ctl00_ctl00_contentPane_MainPanel_MainContent_gvCourseMarks_DXCBtn30">
+                                  <img title="..." class="dxGridView_gvShowAdaptiveDetailButton dx-vam" src="/DXR.axd?r=1_87-Yk9Cr" alt="...">
+                                </a>
+                                <a class="dxbButton dxgvADHB dxbButtonSys" data-args="[[&#39;HideAdaptiveDetail&#39;,15],0]" data-isImage="true" id="ctl00_ctl00_contentPane_MainPanel_MainContent_gvCourseMarks_DXCBtn31">
+                                  <img title="X" class="dxGridView_gvHideAdaptiveDetailButton dx-vam" src="/DXR.axd?r=1_87-Yk9Cr" alt="X">
+                                </a>
+                              </td>
+                            </tr>
+                            <tr id="ctl00_ctl00_contentPane_MainPanel_MainContent_gvCourseMarks_DXDataRow16" class="dxgvDataRow">
+                              <td class="dx-nowrap dxgv dx-ar">
+                              </td>
+                              <td class="dx-nowrap dxgv">MI1111</td>
+                              <td class="dx-nowrap dxgv">Giải t&#237;ch I</td>
+                              <td class="dx-nowrap dxgv dx-ar">4</td>
+                              <td class="dx-nowrap dxgv dx-ar">153225</td>
+                              <td class="dx-nowrap dxgv dx-ar">6.5</td>
+                              <td class="dx-nowrap dxgv dx-ar">3.5</td>
+                              <td class="dx-nowrap dxgv dxgRRB">D+</td>
+                              <td class="dxgvAIC dxgv" style="width:0px;border-left-width:0px;">
+                                <a class="dxbButton dxgvADSB dxbButtonSys" data-args="[[&#39;ShowAdaptiveDetail&#39;,16],0]" data-isImage="true" id="ctl00_ctl00_contentPane_MainPanel_MainContent_gvCourseMarks_DXCBtn32">
+                                  <img title="..." class="dxGridView_gvShowAdaptiveDetailButton dx-vam" src="/DXR.axd?r=1_87-Yk9Cr" alt="...">
+                                </a>
+                                <a class="dxbButton dxgvADHB dxbButtonSys" data-args="[[&#39;HideAdaptiveDetail&#39;,16],0]" data-isImage="true" id="ctl00_ctl00_contentPane_MainPanel_MainContent_gvCourseMarks_DXCBtn33">
+                                  <img title="X" class="dxGridView_gvHideAdaptiveDetailButton dx-vam" src="/DXR.axd?r=1_87-Yk9Cr" alt="X">
+                                </a>
+                              </td>
+                            </tr>
+                            <tr id="ctl00_ctl00_contentPane_MainPanel_MainContent_gvCourseMarks_DXDataRow17" class="dxgvDataRow">
+                              <td class="dx-nowrap dxgv dx-ar">
+                              </td>
+                              <td class="dx-nowrap dxgv">MI2020</td>
+                              <td class="dx-nowrap dxgv">X&#225;c suất thống k&#234;</td>
+                              <td class="dx-nowrap dxgv dx-ar">3</td>
+                              <td class="dx-nowrap dxgv dx-ar">154809</td>
+                              <td class="dx-nowrap dxgv dx-ar">6</td>
+                              <td class="dx-nowrap dxgv dx-ar">6</td>
+                              <td class="dx-nowrap dxgv dxgRRB">C</td>
+                              <td class="dxgvAIC dxgv" style="width:0px;border-left-width:0px;">
+                                <a class="dxbButton dxgvADSB dxbButtonSys" data-args="[[&#39;ShowAdaptiveDetail&#39;,17],0]" data-isImage="true" id="ctl00_ctl00_contentPane_MainPanel_MainContent_gvCourseMarks_DXCBtn34">
+                                  <img title="..." class="dxGridView_gvShowAdaptiveDetailButton dx-vam" src="/DXR.axd?r=1_87-Yk9Cr" alt="...">
+                                </a>
+                                <a class="dxbButton dxgvADHB dxbButtonSys" data-args="[[&#39;HideAdaptiveDetail&#39;,17],0]" data-isImage="true" id="ctl00_ctl00_contentPane_MainPanel_MainContent_gvCourseMarks_DXCBtn35">
+                                  <img title="X" class="dxGridView_gvHideAdaptiveDetailButton dx-vam" src="/DXR.axd?r=1_87-Yk9Cr" alt="X">
+                                </a>
+                              </td>
+                            </tr>
+                            <tr id="ctl00_ctl00_contentPane_MainPanel_MainContent_gvCourseMarks_DXDataRow18" class="dxgvDataRow">
+                              <td class="dx-nowrap dxgv dx-ar">
+                              </td>
+                              <td class="dx-nowrap dxgv">MI3052</td>
+                              <td class="dx-nowrap dxgv">Nhập m&#244;n c&#225;c phương ph&#225;p tối ưu</td>
+                              <td class="dx-nowrap dxgv dx-ar">2</td>
+                              <td class="dx-nowrap dxgv dx-ar">153986</td>
+                              <td class="dx-nowrap dxgv dx-ar">5.5</td>
+                              <td class="dx-nowrap dxgv dx-ar">4.5</td>
+                              <td class="dx-nowrap dxgv dxgRRB">D+</td>
+                              <td class="dxgvAIC dxgv" style="width:0px;border-left-width:0px;">
+                                <a class="dxbButton dxgvADSB dxbButtonSys" data-args="[[&#39;ShowAdaptiveDetail&#39;,18],0]" data-isImage="true" id="ctl00_ctl00_contentPane_MainPanel_MainContent_gvCourseMarks_DXCBtn36">
+                                  <img title="..." class="dxGridView_gvShowAdaptiveDetailButton dx-vam" src="/DXR.axd?r=1_87-Yk9Cr" alt="...">
+                                </a>
+                                <a class="dxbButton dxgvADHB dxbButtonSys" data-args="[[&#39;HideAdaptiveDetail&#39;,18],0]" data-isImage="true" id="ctl00_ctl00_contentPane_MainPanel_MainContent_gvCourseMarks_DXCBtn37">
+                                  <img title="X" class="dxGridView_gvHideAdaptiveDetailButton dx-vam" src="/DXR.axd?r=1_87-Yk9Cr" alt="X">
+                                </a>
+                              </td>
+                            </tr>
+                            <tr id="ctl00_ctl00_contentPane_MainPanel_MainContent_gvCourseMarks_DXDataRow19" class="dxgvDataRow">
+                              <td class="dx-nowrap dxgv dx-ar">
+                              </td>
+                              <td class="dx-nowrap dxgv">PE2301</td>
+                              <td class="dx-nowrap dxgv">B&#243;ng rổ 1</td>
+                              <td class="dx-nowrap dxgv dx-ar">0</td>
+                              <td class="dx-nowrap dxgv dx-ar">745156</td>
+                              <td class="dx-nowrap dxgv dx-ar">&nbsp;</td>
+                              <td class="dx-nowrap dxgv dx-ar">5</td>
+                              <td class="dx-nowrap dxgv dxgRRB">D+</td>
+                              <td class="dxgvAIC dxgv" style="width:0px;border-left-width:0px;">
+                                <a class="dxbButton dxgvADSB dxbButtonSys" data-args="[[&#39;ShowAdaptiveDetail&#39;,19],0]" data-isImage="true" id="ctl00_ctl00_contentPane_MainPanel_MainContent_gvCourseMarks_DXCBtn38">
+                                  <img title="..." class="dxGridView_gvShowAdaptiveDetailButton dx-vam" src="/DXR.axd?r=1_87-Yk9Cr" alt="...">
+                                </a>
+                                <a class="dxbButton dxgvADHB dxbButtonSys" data-args="[[&#39;HideAdaptiveDetail&#39;,19],0]" data-isImage="true" id="ctl00_ctl00_contentPane_MainPanel_MainContent_gvCourseMarks_DXCBtn39">
+                                  <img title="X" class="dxGridView_gvHideAdaptiveDetailButton dx-vam" src="/DXR.axd?r=1_87-Yk9Cr" alt="X">
+                                </a>
+                              </td>
+                            </tr>
+                            <tr id="ctl00_ctl00_contentPane_MainPanel_MainContent_gvCourseMarks_DXDataRow20" class="dxgvDataRow">
+                              <td class="dx-nowrap dxgv dx-ar">
+                              </td>
+                              <td class="dx-nowrap dxgv">PH1120</td>
+                              <td class="dx-nowrap dxgv">Vật l&#253; đại cương II</td>
+                              <td class="dx-nowrap dxgv dx-ar">3</td>
+                              <td class="dx-nowrap dxgv dx-ar">153997</td>
+                              <td class="dx-nowrap dxgv dx-ar">4</td>
+                              <td class="dx-nowrap dxgv dx-ar">5.5</td>
+                              <td class="dx-nowrap dxgv dxgRRB">D+</td>
+                              <td class="dxgvAIC dxgv" style="width:0px;border-left-width:0px;">
+                                <a class="dxbButton dxgvADSB dxbButtonSys" data-args="[[&#39;ShowAdaptiveDetail&#39;,20],0]" data-isImage="true" id="ctl00_ctl00_contentPane_MainPanel_MainContent_gvCourseMarks_DXCBtn40">
+                                  <img title="..." class="dxGridView_gvShowAdaptiveDetailButton dx-vam" src="/DXR.axd?r=1_87-Yk9Cr" alt="...">
+                                </a>
+                                <a class="dxbButton dxgvADHB dxbButtonSys" data-args="[[&#39;HideAdaptiveDetail&#39;,20],0]" data-isImage="true" id="ctl00_ctl00_contentPane_MainPanel_MainContent_gvCourseMarks_DXCBtn41">
+                                  <img title="X" class="dxGridView_gvHideAdaptiveDetailButton dx-vam" src="/DXR.axd?r=1_87-Yk9Cr" alt="X">
+                                </a>
+                              </td>
+                            </tr>
+                            <tr id="ctl00_ctl00_contentPane_MainPanel_MainContent_gvCourseMarks_DXDataRow21" class="dxgvDataRow">
+                              <td class="dx-nowrap dxgv dx-ar">
+                              </td>
+                              <td class="dx-nowrap dxgv">SSH1121</td>
+                              <td class="dx-nowrap dxgv">Kinh tế ch&#237;nh trị M&#225;c - L&#234;nin</td>
+                              <td class="dx-nowrap dxgv dx-ar">2</td>
+                              <td class="dx-nowrap dxgv dx-ar">156067</td>
+                              <td class="dx-nowrap dxgv dx-ar">9</td>
+                              <td class="dx-nowrap dxgv dx-ar">3</td>
+                              <td class="dx-nowrap dxgv dxgRRB">C</td>
+                              <td class="dxgvAIC dxgv" style="width:0px;border-left-width:0px;">
+                                <a class="dxbButton dxgvADSB dxbButtonSys" data-args="[[&#39;ShowAdaptiveDetail&#39;,21],0]" data-isImage="true" id="ctl00_ctl00_contentPane_MainPanel_MainContent_gvCourseMarks_DXCBtn42">
+                                  <img title="..." class="dxGridView_gvShowAdaptiveDetailButton dx-vam" src="/DXR.axd?r=1_87-Yk9Cr" alt="...">
+                                </a>
+                                <a class="dxbButton dxgvADHB dxbButtonSys" data-args="[[&#39;HideAdaptiveDetail&#39;,21],0]" data-isImage="true" id="ctl00_ctl00_contentPane_MainPanel_MainContent_gvCourseMarks_DXCBtn43">
+                                  <img title="X" class="dxGridView_gvHideAdaptiveDetailButton dx-vam" src="/DXR.axd?r=1_87-Yk9Cr" alt="X">
+                                </a>
+                              </td>
+                            </tr>
+                            <tr id="ctl00_ctl00_contentPane_MainPanel_MainContent_gvCourseMarks_DXDataRow22" class="dxgvDataRow">
+                              <td class="dx-nowrap dxgv dx-ar">
+                              </td>
+                              <td class="dx-nowrap dxgv">SSH1131</td>
+                              <td class="dx-nowrap dxgv">Chủ nghĩa x&#227; hội khoa học</td>
+                              <td class="dx-nowrap dxgv dx-ar">2</td>
+                              <td class="dx-nowrap dxgv dx-ar">156144</td>
+                              <td class="dx-nowrap dxgv dx-ar">8.5</td>
+                              <td class="dx-nowrap dxgv dx-ar">5.5</td>
+                              <td class="dx-nowrap dxgv dxgRRB">B</td>
+                              <td class="dxgvAIC dxgv" style="width:0px;border-left-width:0px;">
+                                <a class="dxbButton dxgvADSB dxbButtonSys" data-args="[[&#39;ShowAdaptiveDetail&#39;,22],0]" data-isImage="true" id="ctl00_ctl00_contentPane_MainPanel_MainContent_gvCourseMarks_DXCBtn44">
+                                  <img title="..." class="dxGridView_gvShowAdaptiveDetailButton dx-vam" src="/DXR.axd?r=1_87-Yk9Cr" alt="...">
+                                </a>
+                                <a class="dxbButton dxgvADHB dxbButtonSys" data-args="[[&#39;HideAdaptiveDetail&#39;,22],0]" data-isImage="true" id="ctl00_ctl00_contentPane_MainPanel_MainContent_gvCourseMarks_DXCBtn45">
+                                  <img title="X" class="dxGridView_gvHideAdaptiveDetailButton dx-vam" src="/DXR.axd?r=1_87-Yk9Cr" alt="X">
+                                </a>
+                              </td>
+                            </tr>
+                            <tr id="ctl00_ctl00_contentPane_MainPanel_MainContent_gvCourseMarks_DXDataRow23" class="dxgvDataRow">
+                              <td class="dx-nowrap dxgv dx-ar">
+                              </td>
+                              <td class="dx-nowrap dxgv">IT3070</td>
+                              <td class="dx-nowrap dxgv">Nguy&#234;n l&#253; hệ điều h&#224;nh</td>
+                              <td class="dx-nowrap dxgv dx-ar">3</td>
+                              <td class="dx-nowrap dxgv dx-ar">157493</td>
+                              <td class="dx-nowrap dxgv dx-ar">9.5</td>
+                              <td class="dx-nowrap dxgv dx-ar">5</td>
+                              <td class="dx-nowrap dxgv dxgRRB">C+</td>
+                              <td class="dxgvAIC dxgv" style="width:0px;border-left-width:0px;">
+                                <a class="dxbButton dxgvADSB dxbButtonSys" data-args="[[&#39;ShowAdaptiveDetail&#39;,23],0]" data-isImage="true" id="ctl00_ctl00_contentPane_MainPanel_MainContent_gvCourseMarks_DXCBtn46">
+                                  <img title="..." class="dxGridView_gvShowAdaptiveDetailButton dx-vam" src="/DXR.axd?r=1_87-Yk9Cr" alt="...">
+                                </a>
+                                <a class="dxbButton dxgvADHB dxbButtonSys" data-args="[[&#39;HideAdaptiveDetail&#39;,23],0]" data-isImage="true" id="ctl00_ctl00_contentPane_MainPanel_MainContent_gvCourseMarks_DXCBtn47">
+                                  <img title="X" class="dxGridView_gvHideAdaptiveDetailButton dx-vam" src="/DXR.axd?r=1_87-Yk9Cr" alt="X">
+                                </a>
+                              </td>
+                            </tr>
+                            <tr id="ctl00_ctl00_contentPane_MainPanel_MainContent_gvCourseMarks_DXDataRow24" class="dxgvDataRow">
+                              <td class="dx-nowrap dxgv dx-ar">
+                              </td>
+                              <td class="dx-nowrap dxgv">IT3080</td>
+                              <td class="dx-nowrap dxgv">Mạng m&#225;y t&#237;nh</td>
+                              <td class="dx-nowrap dxgv dx-ar">3</td>
+                              <td class="dx-nowrap dxgv dx-ar">157504</td>
+                              <td class="dx-nowrap dxgv dx-ar">8</td>
+                              <td class="dx-nowrap dxgv dx-ar">7</td>
+                              <td class="dx-nowrap dxgv dxgRRB">B</td>
+                              <td class="dxgvAIC dxgv" style="width:0px;border-left-width:0px;">
+                                <a class="dxbButton dxgvADSB dxbButtonSys" data-args="[[&#39;ShowAdaptiveDetail&#39;,24],0]" data-isImage="true" id="ctl00_ctl00_contentPane_MainPanel_MainContent_gvCourseMarks_DXCBtn48">
+                                  <img title="..." class="dxGridView_gvShowAdaptiveDetailButton dx-vam" src="/DXR.axd?r=1_87-Yk9Cr" alt="...">
+                                </a>
+                                <a class="dxbButton dxgvADHB dxbButtonSys" data-args="[[&#39;HideAdaptiveDetail&#39;,24],0]" data-isImage="true" id="ctl00_ctl00_contentPane_MainPanel_MainContent_gvCourseMarks_DXCBtn49">
+                                  <img title="X" class="dxGridView_gvHideAdaptiveDetailButton dx-vam" src="/DXR.axd?r=1_87-Yk9Cr" alt="X">
+                                </a>
+                              </td>
+                            </tr>
+                            <tr id="ctl00_ctl00_contentPane_MainPanel_MainContent_gvCourseMarks_DXDataRow25" class="dxgvDataRow">
+                              <td class="dx-nowrap dxgv dx-ar">
+                              </td>
+                              <td class="dx-nowrap dxgv">IT3090</td>
+                              <td class="dx-nowrap dxgv">Cơ sở dữ liệu</td>
+                              <td class="dx-nowrap dxgv dx-ar">3</td>
+                              <td class="dx-nowrap dxgv dx-ar">157506</td>
+                              <td class="dx-nowrap dxgv dx-ar">7.5</td>
+                              <td class="dx-nowrap dxgv dx-ar">7</td>
+                              <td class="dx-nowrap dxgv dxgRRB">B</td>
+                              <td class="dxgvAIC dxgv" style="width:0px;border-left-width:0px;">
+                                <a class="dxbButton dxgvADSB dxbButtonSys" data-args="[[&#39;ShowAdaptiveDetail&#39;,25],0]" data-isImage="true" id="ctl00_ctl00_contentPane_MainPanel_MainContent_gvCourseMarks_DXCBtn50">
+                                  <img title="..." class="dxGridView_gvShowAdaptiveDetailButton dx-vam" src="/DXR.axd?r=1_87-Yk9Cr" alt="...">
+                                </a>
+                                <a class="dxbButton dxgvADHB dxbButtonSys" data-args="[[&#39;HideAdaptiveDetail&#39;,25],0]" data-isImage="true" id="ctl00_ctl00_contentPane_MainPanel_MainContent_gvCourseMarks_DXCBtn51">
+                                  <img title="X" class="dxGridView_gvHideAdaptiveDetailButton dx-vam" src="/DXR.axd?r=1_87-Yk9Cr" alt="X">
+                                </a>
+                              </td>
+                            </tr>
+                            <tr id="ctl00_ctl00_contentPane_MainPanel_MainContent_gvCourseMarks_DXDataRow26" class="dxgvDataRow">
+                              <td class="dx-nowrap dxgv dx-ar">
+                              </td>
+                              <td class="dx-nowrap dxgv">IT3160</td>
+                              <td class="dx-nowrap dxgv">Nhập m&#244;n Tr&#237; tuệ nh&#226;n tạo</td>
+                              <td class="dx-nowrap dxgv dx-ar">3</td>
+                              <td class="dx-nowrap dxgv dx-ar">157486</td>
+                              <td class="dx-nowrap dxgv dx-ar">7</td>
+                              <td class="dx-nowrap dxgv dx-ar">5</td>
+                              <td class="dx-nowrap dxgv dxgRRB">C</td>
+                              <td class="dxgvAIC dxgv" style="width:0px;border-left-width:0px;">
+                                <a class="dxbButton dxgvADSB dxbButtonSys" data-args="[[&#39;ShowAdaptiveDetail&#39;,26],0]" data-isImage="true" id="ctl00_ctl00_contentPane_MainPanel_MainContent_gvCourseMarks_DXCBtn52">
+                                  <img title="..." class="dxGridView_gvShowAdaptiveDetailButton dx-vam" src="/DXR.axd?r=1_87-Yk9Cr" alt="...">
+                                </a>
+                                <a class="dxbButton dxgvADHB dxbButtonSys" data-args="[[&#39;HideAdaptiveDetail&#39;,26],0]" data-isImage="true" id="ctl00_ctl00_contentPane_MainPanel_MainContent_gvCourseMarks_DXCBtn53">
+                                  <img title="X" class="dxGridView_gvHideAdaptiveDetailButton dx-vam" src="/DXR.axd?r=1_87-Yk9Cr" alt="X">
+                                </a>
+                              </td>
+                            </tr>
+                            <tr id="ctl00_ctl00_contentPane_MainPanel_MainContent_gvCourseMarks_DXDataRow27" class="dxgvDataRow">
+                              <td class="dx-nowrap dxgv dx-ar">
+                              </td>
+                              <td class="dx-nowrap dxgv">IT3180</td>
+                              <td class="dx-nowrap dxgv">Nhập m&#244;n c&#244;ng nghệ phần mềm</td>
+                              <td class="dx-nowrap dxgv dx-ar">3</td>
+                              <td class="dx-nowrap dxgv dx-ar">157489</td>
+                              <td class="dx-nowrap dxgv dx-ar">7.5</td>
+                              <td class="dx-nowrap dxgv dx-ar">5</td>
+                              <td class="dx-nowrap dxgv dxgRRB">C</td>
+                              <td class="dxgvAIC dxgv" style="width:0px;border-left-width:0px;">
+                                <a class="dxbButton dxgvADSB dxbButtonSys" data-args="[[&#39;ShowAdaptiveDetail&#39;,27],0]" data-isImage="true" id="ctl00_ctl00_contentPane_MainPanel_MainContent_gvCourseMarks_DXCBtn54">
+                                  <img title="..." class="dxGridView_gvShowAdaptiveDetailButton dx-vam" src="/DXR.axd?r=1_87-Yk9Cr" alt="...">
+                                </a>
+                                <a class="dxbButton dxgvADHB dxbButtonSys" data-args="[[&#39;HideAdaptiveDetail&#39;,27],0]" data-isImage="true" id="ctl00_ctl00_contentPane_MainPanel_MainContent_gvCourseMarks_DXCBtn55">
+                                  <img title="X" class="dxGridView_gvHideAdaptiveDetailButton dx-vam" src="/DXR.axd?r=1_87-Yk9Cr" alt="X">
+                                </a>
+                              </td>
+                            </tr>
+                            <tr id="ctl00_ctl00_contentPane_MainPanel_MainContent_gvCourseMarks_DXDataRow28" class="dxgvDataRow">
+                              <td class="dx-nowrap dxgv dx-ar">
+                              </td>
+                              <td class="dx-nowrap dxgv">MI1131</td>
+                              <td class="dx-nowrap dxgv">Giải t&#237;ch III</td>
+                              <td class="dx-nowrap dxgv dx-ar">3</td>
+                              <td class="dx-nowrap dxgv dx-ar">158094</td>
+                              <td class="dx-nowrap dxgv dx-ar">4</td>
+                              <td class="dx-nowrap dxgv dx-ar">1</td>
+                              <td class="dx-nowrap dxgv dxgRRB">F</td>
+                              <td class="dxgvAIC dxgv" style="width:0px;border-left-width:0px;">
+                                <a class="dxbButton dxgvADSB dxbButtonSys" data-args="[[&#39;ShowAdaptiveDetail&#39;,28],0]" data-isImage="true" id="ctl00_ctl00_contentPane_MainPanel_MainContent_gvCourseMarks_DXCBtn56">
+                                  <img title="..." class="dxGridView_gvShowAdaptiveDetailButton dx-vam" src="/DXR.axd?r=1_87-Yk9Cr" alt="...">
+                                </a>
+                                <a class="dxbButton dxgvADHB dxbButtonSys" data-args="[[&#39;HideAdaptiveDetail&#39;,28],0]" data-isImage="true" id="ctl00_ctl00_contentPane_MainPanel_MainContent_gvCourseMarks_DXCBtn57">
+                                  <img title="X" class="dxGridView_gvHideAdaptiveDetailButton dx-vam" src="/DXR.axd?r=1_87-Yk9Cr" alt="X">
+                                </a>
+                              </td>
+                            </tr>
+                            <tr id="ctl00_ctl00_contentPane_MainPanel_MainContent_gvCourseMarks_DXDataRow29" class="dxgvDataRow">
+                              <td class="dx-nowrap dxgv dx-ar">
+                              </td>
+                              <td class="dx-nowrap dxgv">PE2101</td>
+                              <td class="dx-nowrap dxgv">B&#243;ng chuyền 1</td>
+                              <td class="dx-nowrap dxgv dx-ar">0</td>
+                              <td class="dx-nowrap dxgv dx-ar">750232</td>
+                              <td class="dx-nowrap dxgv dx-ar">&nbsp;</td>
+                              <td class="dx-nowrap dxgv dx-ar">8</td>
+                              <td class="dx-nowrap dxgv dxgRRB">B+</td>
+                              <td class="dxgvAIC dxgv" style="width:0px;border-left-width:0px;">
+                                <a class="dxbButton dxgvADSB dxbButtonSys" data-args="[[&#39;ShowAdaptiveDetail&#39;,29],0]" data-isImage="true" id="ctl00_ctl00_contentPane_MainPanel_MainContent_gvCourseMarks_DXCBtn58">
+                                  <img title="..." class="dxGridView_gvShowAdaptiveDetailButton dx-vam" src="/DXR.axd?r=1_87-Yk9Cr" alt="...">
+                                </a>
+                                <a class="dxbButton dxgvADHB dxbButtonSys" data-args="[[&#39;HideAdaptiveDetail&#39;,29],0]" data-isImage="true" id="ctl00_ctl00_contentPane_MainPanel_MainContent_gvCourseMarks_DXCBtn59">
+                                  <img title="X" class="dxGridView_gvHideAdaptiveDetailButton dx-vam" src="/DXR.axd?r=1_87-Yk9Cr" alt="X">
+                                </a>
+                              </td>
+                            </tr>
+                            <tr id="ctl00_ctl00_contentPane_MainPanel_MainContent_gvCourseMarks_DXDataRow30" class="dxgvDataRow">
+                              <td class="dx-nowrap dxgv dx-ar">
+                              </td>
+                              <td class="dx-nowrap dxgv">PE2261</td>
+                              <td class="dx-nowrap dxgv">Karatedo</td>
+                              <td class="dx-nowrap dxgv dx-ar">0</td>
+                              <td class="dx-nowrap dxgv dx-ar">750376</td>
+                              <td class="dx-nowrap dxgv dx-ar">&nbsp;</td>
+                              <td class="dx-nowrap dxgv dx-ar">7</td>
+                              <td class="dx-nowrap dxgv dxgRRB">B</td>
+                              <td class="dxgvAIC dxgv" style="width:0px;border-left-width:0px;">
+                                <a class="dxbButton dxgvADSB dxbButtonSys" data-args="[[&#39;ShowAdaptiveDetail&#39;,30],0]" data-isImage="true" id="ctl00_ctl00_contentPane_MainPanel_MainContent_gvCourseMarks_DXCBtn60">
+                                  <img title="..." class="dxGridView_gvShowAdaptiveDetailButton dx-vam" src="/DXR.axd?r=1_87-Yk9Cr" alt="...">
+                                </a>
+                                <a class="dxbButton dxgvADHB dxbButtonSys" data-args="[[&#39;HideAdaptiveDetail&#39;,30],0]" data-isImage="true" id="ctl00_ctl00_contentPane_MainPanel_MainContent_gvCourseMarks_DXCBtn61">
+                                  <img title="X" class="dxGridView_gvHideAdaptiveDetailButton dx-vam" src="/DXR.axd?r=1_87-Yk9Cr" alt="X">
+                                </a>
+                              </td>
+                            </tr>
+                            <tr id="ctl00_ctl00_contentPane_MainPanel_MainContent_gvCourseMarks_DXDataRow31" class="dxgvDataRow">
+                              <td class="dx-nowrap dxgv dx-ar">
+                              </td>
+                              <td class="dx-nowrap dxgv">PH1110</td>
+                              <td class="dx-nowrap dxgv">Vật l&#253; đại cương I</td>
+                              <td class="dx-nowrap dxgv dx-ar">3</td>
+                              <td class="dx-nowrap dxgv dx-ar">160229</td>
+                              <td class="dx-nowrap dxgv dx-ar">4.5</td>
+                              <td class="dx-nowrap dxgv dx-ar">2.5</td>
+                              <td class="dx-nowrap dxgv dxgRRB">F</td>
+                              <td class="dxgvAIC dxgv" style="width:0px;border-left-width:0px;">
+                                <a class="dxbButton dxgvADSB dxbButtonSys" data-args="[[&#39;ShowAdaptiveDetail&#39;,31],0]" data-isImage="true" id="ctl00_ctl00_contentPane_MainPanel_MainContent_gvCourseMarks_DXCBtn62">
+                                  <img title="..." class="dxGridView_gvShowAdaptiveDetailButton dx-vam" src="/DXR.axd?r=1_87-Yk9Cr" alt="...">
+                                </a>
+                                <a class="dxbButton dxgvADHB dxbButtonSys" data-args="[[&#39;HideAdaptiveDetail&#39;,31],0]" data-isImage="true" id="ctl00_ctl00_contentPane_MainPanel_MainContent_gvCourseMarks_DXCBtn63">
+                                  <img title="X" class="dxGridView_gvHideAdaptiveDetailButton dx-vam" src="/DXR.axd?r=1_87-Yk9Cr" alt="X">
+                                </a>
+                              </td>
+                            </tr>
+                            <tr id="ctl00_ctl00_contentPane_MainPanel_MainContent_gvCourseMarks_DXDataRow32" class="dxgvDataRow">
+                              <td class="dx-nowrap dxgv dx-ar">
+                              </td>
+                              <td class="dx-nowrap dxgv">SSH1111</td>
+                              <td class="dx-nowrap dxgv">Triết học M&#225;c - L&#234;nin</td>
+                              <td class="dx-nowrap dxgv dx-ar">3</td>
+                              <td class="dx-nowrap dxgv dx-ar">158873</td>
+                              <td class="dx-nowrap dxgv dx-ar">9.5</td>
+                              <td class="dx-nowrap dxgv dx-ar">6</td>
+                              <td class="dx-nowrap dxgv dxgRRB">B</td>
+                              <td class="dxgvAIC dxgv" style="width:0px;border-left-width:0px;">
+                                <a class="dxbButton dxgvADSB dxbButtonSys" data-args="[[&#39;ShowAdaptiveDetail&#39;,32],0]" data-isImage="true" id="ctl00_ctl00_contentPane_MainPanel_MainContent_gvCourseMarks_DXCBtn64">
+                                  <img title="..." class="dxGridView_gvShowAdaptiveDetailButton dx-vam" src="/DXR.axd?r=1_87-Yk9Cr" alt="...">
+                                </a>
+                                <a class="dxbButton dxgvADHB dxbButtonSys" data-args="[[&#39;HideAdaptiveDetail&#39;,32],0]" data-isImage="true" id="ctl00_ctl00_contentPane_MainPanel_MainContent_gvCourseMarks_DXCBtn65">
+                                  <img title="X" class="dxGridView_gvHideAdaptiveDetailButton dx-vam" src="/DXR.axd?r=1_87-Yk9Cr" alt="X">
+                                </a>
+                              </td>
+                            </tr>
+                            <tr id="ctl00_ctl00_contentPane_MainPanel_MainContent_gvCourseMarks_DXDataRow33" class="dxgvDataRow">
+                              <td class="dx-nowrap dxgv dx-ar">
+                              </td>
+                              <td class="dx-nowrap dxgv">MI1141</td>
+                              <td class="dx-nowrap dxgv">Đại số</td>
+                              <td class="dx-nowrap dxgv dx-ar">4</td>
+                              <td class="dx-nowrap dxgv dx-ar">160956</td>
+                              <td class="dx-nowrap dxgv dx-ar">4</td>
+                              <td class="dx-nowrap dxgv dx-ar">4.5</td>
+                              <td class="dx-nowrap dxgv dxgRRB">D</td>
+                              <td class="dxgvAIC dxgv" style="width:0px;border-left-width:0px;">
+                                <a class="dxbButton dxgvADSB dxbButtonSys" data-args="[[&#39;ShowAdaptiveDetail&#39;,33],0]" data-isImage="true" id="ctl00_ctl00_contentPane_MainPanel_MainContent_gvCourseMarks_DXCBtn66">
+                                  <img title="..." class="dxGridView_gvShowAdaptiveDetailButton dx-vam" src="/DXR.axd?r=1_87-Yk9Cr" alt="...">
+                                </a>
+                                <a class="dxbButton dxgvADHB dxbButtonSys" data-args="[[&#39;HideAdaptiveDetail&#39;,33],0]" data-isImage="true" id="ctl00_ctl00_contentPane_MainPanel_MainContent_gvCourseMarks_DXCBtn67">
+                                  <img title="X" class="dxGridView_gvHideAdaptiveDetailButton dx-vam" src="/DXR.axd?r=1_87-Yk9Cr" alt="X">
+                                </a>
+                              </td>
+                            </tr>
+                            <tr id="ctl00_ctl00_contentPane_MainPanel_MainContent_gvCourseMarks_DXDataRow34" class="dxgvDataRow">
+                              <td class="dx-nowrap dxgv dx-ar">
+                              </td>
+                              <td class="dx-nowrap dxgv">PE1024</td>
+                              <td class="dx-nowrap dxgv">Bơi lội</td>
+                              <td class="dx-nowrap dxgv dx-ar">0</td>
+                              <td class="dx-nowrap dxgv dx-ar">754920</td>
+                              <td class="dx-nowrap dxgv dx-ar">&nbsp;</td>
+                              <td class="dx-nowrap dxgv dx-ar">8</td>
+                              <td class="dx-nowrap dxgv dxgRRB">B+</td>
+                              <td class="dxgvAIC dxgv" style="width:0px;border-left-width:0px;">
+                                <a class="dxbButton dxgvADSB dxbButtonSys" data-args="[[&#39;ShowAdaptiveDetail&#39;,34],0]" data-isImage="true" id="ctl00_ctl00_contentPane_MainPanel_MainContent_gvCourseMarks_DXCBtn68">
+                                  <img title="..." class="dxGridView_gvShowAdaptiveDetailButton dx-vam" src="/DXR.axd?r=1_87-Yk9Cr" alt="...">
+                                </a>
+                                <a class="dxbButton dxgvADHB dxbButtonSys" data-args="[[&#39;HideAdaptiveDetail&#39;,34],0]" data-isImage="true" id="ctl00_ctl00_contentPane_MainPanel_MainContent_gvCourseMarks_DXCBtn69">
+                                  <img title="X" class="dxGridView_gvHideAdaptiveDetailButton dx-vam" src="/DXR.axd?r=1_87-Yk9Cr" alt="X">
+                                </a>
+                              </td>
+                            </tr>
+                            <tr id="ctl00_ctl00_contentPane_MainPanel_MainContent_gvCourseMarks_DXDataRow35" class="dxgvDataRow">
+                              <td class="dx-nowrap dxgv dx-ar">
+                              </td>
+                              <td class="dx-nowrap dxgv">PE2301</td>
+                              <td class="dx-nowrap dxgv">B&#243;ng rổ 1</td>
+                              <td class="dx-nowrap dxgv dx-ar">0</td>
+                              <td class="dx-nowrap dxgv dx-ar">754965</td>
+                              <td class="dx-nowrap dxgv dx-ar">&nbsp;</td>
+                              <td class="dx-nowrap dxgv dx-ar">5</td>
+                              <td class="dx-nowrap dxgv dxgRRB">D+</td>
+                              <td class="dxgvAIC dxgv" style="width:0px;border-left-width:0px;">
+                                <a class="dxbButton dxgvADSB dxbButtonSys" data-args="[[&#39;ShowAdaptiveDetail&#39;,35],0]" data-isImage="true" id="ctl00_ctl00_contentPane_MainPanel_MainContent_gvCourseMarks_DXCBtn70">
+                                  <img title="..." class="dxGridView_gvShowAdaptiveDetailButton dx-vam" src="/DXR.axd?r=1_87-Yk9Cr" alt="...">
+                                </a>
+                                <a class="dxbButton dxgvADHB dxbButtonSys" data-args="[[&#39;HideAdaptiveDetail&#39;,35],0]" data-isImage="true" id="ctl00_ctl00_contentPane_MainPanel_MainContent_gvCourseMarks_DXCBtn71">
+                                  <img title="X" class="dxGridView_gvHideAdaptiveDetailButton dx-vam" src="/DXR.axd?r=1_87-Yk9Cr" alt="X">
+                                </a>
+                              </td>
+                            </tr>
+                            <tr id="ctl00_ctl00_contentPane_MainPanel_MainContent_gvCourseMarks_DXDataRow36" class="dxgvDataRow">
+                              <td class="dx-nowrap dxgv dx-ar">
+                              </td>
+                              <td class="dx-nowrap dxgv">IT2030</td>
+                              <td class="dx-nowrap dxgv">Technical Writing and Presentation</td>
+                              <td class="dx-nowrap dxgv dx-ar">3</td>
+                              <td class="dx-nowrap dxgv dx-ar">162286</td>
+                              <td class="dx-nowrap dxgv dx-ar">10</td>
+                              <td class="dx-nowrap dxgv dx-ar">7.5</td>
+                              <td class="dx-nowrap dxgv dxgRRB">A</td>
+                              <td class="dxgvAIC dxgv" style="width:0px;border-left-width:0px;">
+                                <a class="dxbButton dxgvADSB dxbButtonSys" data-args="[[&#39;ShowAdaptiveDetail&#39;,36],0]" data-isImage="true" id="ctl00_ctl00_contentPane_MainPanel_MainContent_gvCourseMarks_DXCBtn72">
+                                  <img title="..." class="dxGridView_gvShowAdaptiveDetailButton dx-vam" src="/DXR.axd?r=1_87-Yk9Cr" alt="...">
+                                </a>
+                                <a class="dxbButton dxgvADHB dxbButtonSys" data-args="[[&#39;HideAdaptiveDetail&#39;,36],0]" data-isImage="true" id="ctl00_ctl00_contentPane_MainPanel_MainContent_gvCourseMarks_DXCBtn73">
+                                  <img title="X" class="dxGridView_gvHideAdaptiveDetailButton dx-vam" src="/DXR.axd?r=1_87-Yk9Cr" alt="X">
+                                </a>
+                              </td>
+                            </tr>
+                            <tr id="ctl00_ctl00_contentPane_MainPanel_MainContent_gvCourseMarks_DXDataRow37" class="dxgvDataRow">
+                              <td class="dx-nowrap dxgv dx-ar">
+                              </td>
+                              <td class="dx-nowrap dxgv">IT3170</td>
+                              <td class="dx-nowrap dxgv">Thuật to&#225;n ứng dụng</td>
+                              <td class="dx-nowrap dxgv dx-ar">2</td>
+                              <td class="dx-nowrap dxgv dx-ar">162276</td>
+                              <td class="dx-nowrap dxgv dx-ar">7</td>
+                              <td class="dx-nowrap dxgv dx-ar">6</td>
+                              <td class="dx-nowrap dxgv dxgRRB">C</td>
+                              <td class="dxgvAIC dxgv" style="width:0px;border-left-width:0px;">
+                                <a class="dxbButton dxgvADSB dxbButtonSys" data-args="[[&#39;ShowAdaptiveDetail&#39;,37],0]" data-isImage="true" id="ctl00_ctl00_contentPane_MainPanel_MainContent_gvCourseMarks_DXCBtn74">
+                                  <img title="..." class="dxGridView_gvShowAdaptiveDetailButton dx-vam" src="/DXR.axd?r=1_87-Yk9Cr" alt="...">
+                                </a>
+                                <a class="dxbButton dxgvADHB dxbButtonSys" data-args="[[&#39;HideAdaptiveDetail&#39;,37],0]" data-isImage="true" id="ctl00_ctl00_contentPane_MainPanel_MainContent_gvCourseMarks_DXCBtn75">
+                                  <img title="X" class="dxGridView_gvHideAdaptiveDetailButton dx-vam" src="/DXR.axd?r=1_87-Yk9Cr" alt="X">
+                                </a>
+                              </td>
+                            </tr>
+                            <tr id="ctl00_ctl00_contentPane_MainPanel_MainContent_gvCourseMarks_DXDataRow38" class="dxgvDataRow">
+                              <td class="dx-nowrap dxgv dx-ar">
+                              </td>
+                              <td class="dx-nowrap dxgv">IT3190</td>
+                              <td class="dx-nowrap dxgv">Nhập m&#244;n Học m&#225;y v&#224; khai ph&#225; dữ liệu</td>
+                              <td class="dx-nowrap dxgv dx-ar">3</td>
+                              <td class="dx-nowrap dxgv dx-ar">162268</td>
+                              <td class="dx-nowrap dxgv dx-ar">8.5</td>
+                              <td class="dx-nowrap dxgv dx-ar">6.5</td>
+                              <td class="dx-nowrap dxgv dxgRRB">B</td>
+                              <td class="dxgvAIC dxgv" style="width:0px;border-left-width:0px;">
+                                <a class="dxbButton dxgvADSB dxbButtonSys" data-args="[[&#39;ShowAdaptiveDetail&#39;,38],0]" data-isImage="true" id="ctl00_ctl00_contentPane_MainPanel_MainContent_gvCourseMarks_DXCBtn76">
+                                  <img title="..." class="dxGridView_gvShowAdaptiveDetailButton dx-vam" src="/DXR.axd?r=1_87-Yk9Cr" alt="...">
+                                </a>
+                                <a class="dxbButton dxgvADHB dxbButtonSys" data-args="[[&#39;HideAdaptiveDetail&#39;,38],0]" data-isImage="true" id="ctl00_ctl00_contentPane_MainPanel_MainContent_gvCourseMarks_DXCBtn77">
+                                  <img title="X" class="dxGridView_gvHideAdaptiveDetailButton dx-vam" src="/DXR.axd?r=1_87-Yk9Cr" alt="X">
+                                </a>
+                              </td>
+                            </tr>
+                            <tr id="ctl00_ctl00_contentPane_MainPanel_MainContent_gvCourseMarks_DXDataRow39" class="dxgvDataRow">
+                              <td class="dx-nowrap dxgv dx-ar">
+                              </td>
+                              <td class="dx-nowrap dxgv">IT4409</td>
+                              <td class="dx-nowrap dxgv">C&#244;ng nghệ Web v&#224; dịch vụ trực tuyến</td>
+                              <td class="dx-nowrap dxgv dx-ar">3</td>
+                              <td class="dx-nowrap dxgv dx-ar">162308</td>
+                              <td class="dx-nowrap dxgv dx-ar">9.5</td>
+                              <td class="dx-nowrap dxgv dx-ar">6.5</td>
+                              <td class="dx-nowrap dxgv dxgRRB">B</td>
+                              <td class="dxgvAIC dxgv" style="width:0px;border-left-width:0px;">
+                                <a class="dxbButton dxgvADSB dxbButtonSys" data-args="[[&#39;ShowAdaptiveDetail&#39;,39],0]" data-isImage="true" id="ctl00_ctl00_contentPane_MainPanel_MainContent_gvCourseMarks_DXCBtn78">
+                                  <img title="..." class="dxGridView_gvShowAdaptiveDetailButton dx-vam" src="/DXR.axd?r=1_87-Yk9Cr" alt="...">
+                                </a>
+                                <a class="dxbButton dxgvADHB dxbButtonSys" data-args="[[&#39;HideAdaptiveDetail&#39;,39],0]" data-isImage="true" id="ctl00_ctl00_contentPane_MainPanel_MainContent_gvCourseMarks_DXCBtn79">
+                                  <img title="X" class="dxGridView_gvHideAdaptiveDetailButton dx-vam" src="/DXR.axd?r=1_87-Yk9Cr" alt="X">
+                                </a>
+                              </td>
+                            </tr>
+                            <tr id="ctl00_ctl00_contentPane_MainPanel_MainContent_gvCourseMarks_DXDataRow40" class="dxgvDataRow">
+                              <td class="dx-nowrap dxgv dx-ar">
+                              </td>
+                              <td class="dx-nowrap dxgv">IT4441</td>
+                              <td class="dx-nowrap dxgv">Giao diện v&#224; trải nghiệm người d&#249;ng</td>
+                              <td class="dx-nowrap dxgv dx-ar">3</td>
+                              <td class="dx-nowrap dxgv dx-ar">162291</td>
+                              <td class="dx-nowrap dxgv dx-ar">8</td>
+                              <td class="dx-nowrap dxgv dx-ar">6.5</td>
+                              <td class="dx-nowrap dxgv dxgRRB">B</td>
+                              <td class="dxgvAIC dxgv" style="width:0px;border-left-width:0px;">
+                                <a class="dxbButton dxgvADSB dxbButtonSys" data-args="[[&#39;ShowAdaptiveDetail&#39;,40],0]" data-isImage="true" id="ctl00_ctl00_contentPane_MainPanel_MainContent_gvCourseMarks_DXCBtn80">
+                                  <img title="..." class="dxGridView_gvShowAdaptiveDetailButton dx-vam" src="/DXR.axd?r=1_87-Yk9Cr" alt="...">
+                                </a>
+                                <a class="dxbButton dxgvADHB dxbButtonSys" data-args="[[&#39;HideAdaptiveDetail&#39;,40],0]" data-isImage="true" id="ctl00_ctl00_contentPane_MainPanel_MainContent_gvCourseMarks_DXCBtn81">
+                                  <img title="X" class="dxGridView_gvHideAdaptiveDetailButton dx-vam" src="/DXR.axd?r=1_87-Yk9Cr" alt="X">
+                                </a>
+                              </td>
+                            </tr>
+                            <tr id="ctl00_ctl00_contentPane_MainPanel_MainContent_gvCourseMarks_DXDataRow41" class="dxgvDataRow">
+                              <td class="dx-nowrap dxgv dx-ar" style="border-bottom-width:0px;">
+                              </td>
+                              <td class="dx-nowrap dxgv" style="border-bottom-width:0px;">SSH1151</td>
+                              <td class="dx-nowrap dxgv" style="border-bottom-width:0px;">Tư tưởng Hồ Ch&#237; Minh</td>
+                              <td class="dx-nowrap dxgv dx-ar" style="border-bottom-width:0px;">2</td>
+                              <td class="dx-nowrap dxgv dx-ar" style="border-bottom-width:0px;">164728</td>
+                              <td class="dx-nowrap dxgv dx-ar" style="border-bottom-width:0px;">9</td>
+                              <td class="dx-nowrap dxgv dx-ar" style="border-bottom-width:0px;">5</td>
+                              <td class="dx-nowrap dxgv dxgRRB" style="border-bottom-width:0px;">B</td>
+                              <td class="dxgvAIC dxgv" style="width:0px;border-left-width:0px;border-bottom-width:0px;">
+                                <a class="dxbButton dxgvADSB dxbButtonSys" data-args="[[&#39;ShowAdaptiveDetail&#39;,41],0]" data-isImage="true" id="ctl00_ctl00_contentPane_MainPanel_MainContent_gvCourseMarks_DXCBtn82">
+                                  <img title="..." class="dxGridView_gvShowAdaptiveDetailButton dx-vam" src="/DXR.axd?r=1_87-Yk9Cr" alt="...">
+                                </a>
+                                <a class="dxbButton dxgvADHB dxbButtonSys" data-args="[[&#39;HideAdaptiveDetail&#39;,41],0]" data-isImage="true" id="ctl00_ctl00_contentPane_MainPanel_MainContent_gvCourseMarks_DXCBtn83">
+                                  <img title="X" class="dxGridView_gvHideAdaptiveDetailButton dx-vam" src="/DXR.axd?r=1_87-Yk9Cr" alt="X">
+                                </a>
+                              </td>
+                            </tr>
+                          </table>
+                          <div class="dxmLite dxm-ltr">
+                            <div id="ctl00_ctl00_contentPane_MainPanel_MainContent_gvCourseMarks_DXFilterRowMenu" style="z-index:20000;display:none;">
+                              <div class="dxm-popupMain dxm-shadow dxm-popup">
+                                <ul class="dx dxm-gutter">
+                                  <li class="dxm-item">
+                                    <div class="dxm-content dxm-hasText">
+                                      <img class="dxWeb_mSubMenuItem dxm-image dx-vam" src="/DXR.axd?r=1_87-Yk9Cr" alt="">
+                                      <span class="dx-vam dxm-contentText">
+                                      </span>
+                                    </div>
+                                    <b class="dx-clear">
+                                    </b>
+                                  </li>
+                                  <li class="dxm-spacing">
+                                  </li>
+                                  <li class="dxm-item">
+                                    <div class="dxm-content dxm-hasText">
+                                      <img class="dxWeb_mSubMenuItem dxm-image dx-vam" src="/DXR.axd?r=1_87-Yk9Cr" alt="">
+                                      <span class="dx-vam dxm-contentText">
+                                      </span>
+                                    </div>
+                                    <b class="dx-clear">
+                                    </b>
+                                  </li>
+                                  <li class="dxm-spacing">
+                                  </li>
+                                  <li class="dxm-item">
+                                    <div class="dxm-content dxm-hasText">
+                                      <img class="dxWeb_mSubMenuItem dxm-image dx-vam" src="/DXR.axd?r=1_87-Yk9Cr" alt="">
+                                      <span class="dx-vam dxm-contentText">
+                                      </span>
+                                    </div>
+                                    <b class="dx-clear">
+                                    </b>
+                                  </li>
+                                  <li class="dxm-spacing">
+                                  </li>
+                                  <li class="dxm-item">
+                                    <div class="dxm-content dxm-hasText">
+                                      <img class="dxWeb_mSubMenuItem dxm-image dx-vam" src="/DXR.axd?r=1_87-Yk9Cr" alt="">
+                                      <span class="dx-vam dxm-contentText">
+                                      </span>
+                                    </div>
+                                    <b class="dx-clear">
+                                    </b>
+                                  </li>
+                                  <li class="dxm-spacing">
+                                  </li>
+                                  <li class="dxm-item">
+                                    <div class="dxm-content dxm-hasText">
+                                      <img class="dxWeb_mSubMenuItem dxm-image dx-vam" src="/DXR.axd?r=1_87-Yk9Cr" alt="">
+                                      <span class="dx-vam dxm-contentText">
+                                      </span>
+                                    </div>
+                                    <b class="dx-clear">
+                                    </b>
+                                  </li>
+                                  <li class="dxm-spacing">
+                                  </li>
+                                  <li class="dxm-item">
+                                    <div class="dxm-content dxm-hasText">
+                                      <img class="dxWeb_mSubMenuItem dxm-image dx-vam" src="/DXR.axd?r=1_87-Yk9Cr" alt="">
+                                      <span class="dx-vam dxm-contentText">
+                                      </span>
+                                    </div>
+                                    <b class="dx-clear">
+                                    </b>
+                                  </li>
+                                  <li class="dxm-spacing">
+                                  </li>
+                                  <li class="dxm-item">
+                                    <div class="dxm-content dxm-hasText">
+                                      <img class="dxWeb_mSubMenuItem dxm-image dx-vam" src="/DXR.axd?r=1_87-Yk9Cr" alt="">
+                                      <span class="dx-vam dxm-contentText">
+                                      </span>
+                                    </div>
+                                    <b class="dx-clear">
+                                    </b>
+                                  </li>
+                                  <li class="dxm-spacing">
+                                  </li>
+                                  <li class="dxm-item">
+                                    <div class="dxm-content dxm-hasText">
+                                      <img class="dxWeb_mSubMenuItem dxm-image dx-vam" src="/DXR.axd?r=1_87-Yk9Cr" alt="">
+                                      <span class="dx-vam dxm-contentText">
+                                      </span>
+                                    </div>
+                                    <b class="dx-clear">
+                                    </b>
+                                  </li>
+                                  <li class="dxm-spacing">
+                                  </li>
+                                  <li class="dxm-item">
+                                    <div class="dxm-content dxm-hasText">
+                                      <img class="dxWeb_mSubMenuItem dxm-image dx-vam" src="/DXR.axd?r=1_87-Yk9Cr" alt="">
+                                      <span class="dx-vam dxm-contentText">
+                                      </span>
+                                    </div>
+                                    <b class="dx-clear">
+                                    </b>
+                                  </li>
+                                  <li class="dxm-spacing">
+                                  </li>
+                                  <li class="dxm-item">
+                                    <div class="dxm-content dxm-hasText">
+                                      <img class="dxWeb_mSubMenuItem dxm-image dx-vam" src="/DXR.axd?r=1_87-Yk9Cr" alt="">
+                                      <span class="dx-vam dxm-contentText">
+                                      </span>
+                                    </div>
+                                    <b class="dx-clear">
+                                    </b>
+                                  </li>
+                                  <li class="dxm-spacing">
+                                  </li>
+                                  <li title="Two wildcard symbols are supported: &#39;%&#39; substitutes zero or more characters; &#39;_&#39; substitutes a single character." class="dxm-item">
+                                    <div class="dxm-content dxm-hasText">
+                                      <img title="Two wildcard symbols are supported: &#39;%&#39; substitutes zero or more characters; &#39;_&#39; substitutes a single character." class="dxWeb_mSubMenuItem dxm-image dx-vam" src="/DXR.axd?r=1_87-Yk9Cr" alt="">
+                                      <span title="Two wildcard symbols are supported: &#39;%&#39; substitutes zero or more characters; &#39;_&#39; substitutes a single character." class="dx-vam dxm-contentText">
+                                      </span>
+                                    </div>
+                                    <b class="dx-clear">
+                                    </b>
+                                  </li>
+                                </ul>
+                              </div>
+                            </div>
+                          </div>
+                          <table id="ctl00_ctl00_contentPane_MainPanel_MainContent_gvCourseMarks_LP" class="dxgvLoadingPanel" style="left:0px;top:0px;z-index:30000;display:none;">
+                            <tr>
+                              <td class="dx" style="padding-right:0px;">
+                                <img class="dxlp-loadingImage dxlp-imgPosLeft" src="/DXR.axd?r=1_87-Yk9Cr" alt="" style="vertical-align:middle;">
+                              </td>
+                              <td class="dx" style="padding-left:0px;">
+                                <span id="ctl00_ctl00_contentPane_MainPanel_MainContent_gvCourseMarks_TL">Loading&hellip;</span>
+                              </td>
+                            </tr>
+                          </table>
+                          <div id="ctl00_ctl00_contentPane_MainPanel_MainContent_gvCourseMarks_LD" class="dxgvLoadingDiv" style="display:none;z-index:29999;position:absolute;">
+                          </div>
+                          <img id="ctl00_ctl00_contentPane_MainPanel_MainContent_gvCourseMarks_IADD" class="dxGridView_gvDragAndDropArrowDown" src="/DXR.axd?r=1_87-Yk9Cr" alt="Down Arrow" style="position:absolute;visibility:hidden;top:-100px;">
+                          <img id="ctl00_ctl00_contentPane_MainPanel_MainContent_gvCourseMarks_IADU" class="dxGridView_gvDragAndDropArrowUp" src="/DXR.axd?r=1_87-Yk9Cr" alt="Up Arrow" style="position:absolute;visibility:hidden;top:-100px;">
+                          <img id="ctl00_ctl00_contentPane_MainPanel_MainContent_gvCourseMarks_IADL" class="dxGridView_gvDragAndDropArrowLeft" src="/DXR.axd?r=1_87-Yk9Cr" alt="Left Arrow" style="position:absolute;visibility:hidden;top:-100px;">
+                          <img id="ctl00_ctl00_contentPane_MainPanel_MainContent_gvCourseMarks_IADR" class="dxGridView_gvDragAndDropArrowRight" src="/DXR.axd?r=1_87-Yk9Cr" alt="Right Arrow" style="position:absolute;visibility:hidden;top:-100px;">
+                          <img id="ctl00_ctl00_contentPane_MainPanel_MainContent_gvCourseMarks_IDHF" class="dxGridView_gvDragAndDropHideColumn" src="/DXR.axd?r=1_87-Yk9Cr" alt="Hide" style="position:absolute;visibility:hidden;top:-100px;">
+                        </td>
+                      </tr>
+                    </table>
+                    <table class="dxgvControl dxgv" id="ctl00_ctl00_contentPane_MainPanel_MainContent_gvResults" style="width:100%;border-collapse:separate;">
+                      <tr>
+                        <td>
+                          <table id="ctl00_ctl00_contentPane_MainPanel_MainContent_gvResults_DXTitle" style="width:100%;">
+                            <tr>
+                              <td class="dxgvTitlePanel">
+                              </td>
+                            </tr>
+                          </table>
+                          <div id="ctl00_ctl00_contentPane_MainPanel_MainContent_gvResults_DXAHeaderPanel" class="dxgvAdaptiveHeaderPanel" oncontextmenu="return ASPx.GVContextMenu(&#39;ctl00_ctl00_contentPane_MainPanel_MainContent_gvResults&#39;,event);" style="display:none;">
+                            <div id="ctl00_ctl00_contentPane_MainPanel_MainContent_gvResults_DXADHeader" class="dxgvADH" style="display:none;">
+                              <table>
+                                <tr class="dxgvADHTR">
+                                  <td>
+                                  </td>
+                                </tr>
+                              </table>
+                            </div>
+                          </div>
+                          <table id="ctl00_ctl00_contentPane_MainPanel_MainContent_gvResults_DXMainTable" class="dxgvTable" oncontextmenu="return ASPx.GVContextMenu(&#39;ctl00_ctl00_contentPane_MainPanel_MainContent_gvResults&#39;,event);" style="width:100%;empty-cells:show;">
+                            <tr id="ctl00_ctl00_contentPane_MainPanel_MainContent_gvResults_DXHeadersRow0">
+                              <td id="ctl00_ctl00_contentPane_MainPanel_MainContent_gvResults_col0" class="dxgvHeader bg-CTT" style="border-top-width:0px;border-left-width:0px;">
+                                <table style="width:100%;">
+                                  <tr>
+                                    <td>
+                                    </td>
+                                    <td style="width:1px;text-align:right;">
+                                      <span class="dx-vam">&nbsp;</span>
+                                      <img class="dxGridView_gvHeaderSortDown dx-vam" src="/DXR.axd?r=1_87-Yk9Cr" alt="Descending" style="margin-left:5px;">
+                                    </td>
+                                  </tr>
+                                </table>
+                              </td>
+                              <td id="ctl00_ctl00_contentPane_MainPanel_MainContent_gvResults_col1" class="dxgvHeader bg-CTT" style="border-top-width:0px;border-left-width:0px;">
+                                <table style="width:100%;">
+                                  <tr>
+                                    <td>
+                                    </td>
+                                    <td style="width:1px;text-align:right;">
+                                      <span class="dx-vam">&nbsp;</span>
+                                    </td>
+                                  </tr>
+                                </table>
+                              </td>
+                              <td id="ctl00_ctl00_contentPane_MainPanel_MainContent_gvResults_col2" class="dxgvHeader bg-CTT" style="border-top-width:0px;border-left-width:0px;">
+                                <table style="width:100%;">
+                                  <tr>
+                                    <td>
+                                    </td>
+                                    <td style="width:1px;text-align:right;">
+                                      <span class="dx-vam">&nbsp;</span>
+                                    </td>
+                                  </tr>
+                                </table>
+                              </td>
+                              <td id="ctl00_ctl00_contentPane_MainPanel_MainContent_gvResults_col3" class="dxgvHeader bg-CTT" style="border-top-width:0px;border-left-width:0px;">
+                                <table style="width:100%;">
+                                  <tr>
+                                    <td>
+                                    </td>
+                                    <td style="width:1px;text-align:right;">
+                                      <span class="dx-vam">&nbsp;</span>
+                                    </td>
+                                  </tr>
+                                </table>
+                              </td>
+                              <td id="ctl00_ctl00_contentPane_MainPanel_MainContent_gvResults_col4" class="dxgvHeader bg-CTT" style="border-top-width:0px;border-left-width:0px;">
+                                <table style="width:100%;">
+                                  <tr>
+                                    <td>
+                                    </td>
+                                    <td style="width:1px;text-align:right;">
+                                      <span class="dx-vam">&nbsp;</span>
+                                    </td>
+                                  </tr>
+                                </table>
+                              </td>
+                              <td id="ctl00_ctl00_contentPane_MainPanel_MainContent_gvResults_col5" class="dxgvHeader bg-CTT" style="border-top-width:0px;border-left-width:0px;">
+                                <table style="width:100%;">
+                                  <tr>
+                                    <td>
+                                    </td>
+                                    <td style="width:1px;text-align:right;">
+                                      <span class="dx-vam">&nbsp;</span>
+                                    </td>
+                                  </tr>
+                                </table>
+                              </td>
+                              <td id="ctl00_ctl00_contentPane_MainPanel_MainContent_gvResults_col6" class="dxgvHeader bg-CTT" style="border-top-width:0px;border-left-width:0px;">
+                                <table style="width:100%;">
+                                  <tr>
+                                    <td>
+                                    </td>
+                                    <td style="width:1px;text-align:right;">
+                                      <span class="dx-vam">&nbsp;</span>
+                                    </td>
+                                  </tr>
+                                </table>
+                              </td>
+                              <td id="ctl00_ctl00_contentPane_MainPanel_MainContent_gvResults_col7" class="dxgvHeader bg-CTT" style="border-top-width:0px;border-left-width:0px;">
+                                <table style="width:100%;">
+                                  <tr>
+                                    <td>
+                                    </td>
+                                    <td style="width:1px;text-align:right;">
+                                      <span class="dx-vam">&nbsp;</span>
+                                    </td>
+                                  </tr>
+                                </table>
+                              </td>
+                              <td id="ctl00_ctl00_contentPane_MainPanel_MainContent_gvResults_col8" class="dxgvHeader bg-CTT" style="border-top-width:0px;border-left-width:0px;">
+                                <table style="width:100%;">
+                                  <tr>
+                                    <td>
+                                    </td>
+                                    <td style="width:1px;text-align:right;">
+                                      <span class="dx-vam">&nbsp;</span>
+                                    </td>
+                                  </tr>
+                                </table>
+                              </td>
+                              <td id="ctl00_ctl00_contentPane_MainPanel_MainContent_gvResults_col9" class="dxgvHeader bg-CTT" style="border-top-width:0px;border-left-width:0px;">
+                                <table style="width:100%;">
+                                  <tr>
+                                    <td>
+                                    </td>
+                                    <td style="width:1px;text-align:right;">
+                                      <span class="dx-vam">&nbsp;</span>
+                                    </td>
+                                  </tr>
+                                </table>
+                              </td>
+                              <td id="ctl00_ctl00_contentPane_MainPanel_MainContent_gvResults_col10" class="dxgvHeader bg-CTT" style="border-top-width:0px;border-left-width:0px;">
+                                <table style="width:100%;">
+                                  <tr>
+                                    <td>
+                                    </td>
+                                    <td style="width:1px;text-align:right;">
+                                      <span class="dx-vam">&nbsp;</span>
+                                    </td>
+                                  </tr>
+                                </table>
+                              </td>
+                              <td id="ctl00_ctl00_contentPane_MainPanel_MainContent_gvResults_col11" class="dxgvHeader bg-CTT" style="border-top-width:0px;border-left-width:0px;">
+                                <table style="width:100%;">
+                                  <tr>
+                                    <td>
+                                    </td>
+                                    <td style="width:1px;text-align:right;">
+                                      <span class="dx-vam">&nbsp;</span>
+                                    </td>
+                                  </tr>
+                                </table>
+                              </td>
+                              <td id="ctl00_ctl00_contentPane_MainPanel_MainContent_gvResults_col12" class="dxgvHeader bg-CTT" style="border-top-width:0px;border-left-width:0px;">
+                                <table style="width:100%;">
+                                  <tr>
+                                    <td>
+                                    </td>
+                                    <td style="width:1px;text-align:right;">
+                                      <span class="dx-vam">&nbsp;</span>
+                                    </td>
+                                  </tr>
+                                </table>
+                              </td>
+                              <td id="ctl00_ctl00_contentPane_MainPanel_MainContent_gvResults_col13" class="dxgvHeader bg-CTT" style="border-top-width:0px;border-left-width:0px;border-right-width:0px;">
+                                <table style="width:100%;">
+                                  <tr>
+                                    <td>
+                                    </td>
+                                    <td style="width:1px;text-align:right;">
+                                      <span class="dx-vam">&nbsp;</span>
+                                    </td>
+                                  </tr>
+                                </table>
+                              </td>
+                            </tr>
+                            <tr id="ctl00_ctl00_contentPane_MainPanel_MainContent_gvResults_DXADRow" class="dxgvAdaptiveDetailRow dxgvADR" style="display:none;">
+                              <td class="dxgv dxgvAdaptiveDetailCell" colspan="14">
+                              </td>
+                            </tr>
+                            <tr id="ctl00_ctl00_contentPane_MainPanel_MainContent_gvResults_DXDataRow0" class="dxgvDataRow">
+                              <td class="dx-nowrap dxgv dx-ar">
+                              </td>
+                              <td class="dx-nowrap dxgv dx-ar">1.94</td>
+                              <td class="dx-nowrap dxgv dx-ar">2.01</td>
+                              <td class="dx-nowrap dxgv dx-ar">18</td>
+                              <td class="dx-nowrap dxgv dx-ar">64</td>
+                              <td class="dx-nowrap dxgv dx-ar">10</td>
+                              <td class="dx-nowrap dxgv dx-ar">74</td>
+                              <td class="dx-nowrap dxgv">Năm thứ ba</td>
+                              <td class="dx-nowrap dxgv">Mức 0</td>
+                              <td class="dx-nowrap dxgv">&nbsp;</td>
+                              <td class="dx-nowrap dxgv">&nbsp;</td>
+                              <td class="dx-nowrap dxgv">KHMT 2023</td>
+                              <td class="dx-nowrap dxgv">&nbsp;</td>
+                              <td class="dx-nowrap dxgv" style="border-right-width:0px;">&nbsp;</td>
+                            </tr>
+                            <tr id="ctl00_ctl00_contentPane_MainPanel_MainContent_gvResults_DXDataRow1" class="dxgvDataRow">
+                              <td class="dx-nowrap dxgv dx-ar">
+                              </td>
+                              <td class="dx-nowrap dxgv dx-ar">2.13</td>
+                              <td class="dx-nowrap dxgv dx-ar">1.93</td>
+                              <td class="dx-nowrap dxgv dx-ar">23</td>
+                              <td class="dx-nowrap dxgv dx-ar">46</td>
+                              <td class="dx-nowrap dxgv dx-ar">7</td>
+                              <td class="dx-nowrap dxgv dx-ar">53</td>
+                              <td class="dx-nowrap dxgv">Năm thứ hai</td>
+                              <td class="dx-nowrap dxgv">Mức 0</td>
+                              <td class="dx-nowrap dxgv">&nbsp;</td>
+                              <td class="dx-nowrap dxgv">&nbsp;</td>
+                              <td class="dx-nowrap dxgv">KHMT 2023</td>
+                              <td class="dx-nowrap dxgv">&nbsp;</td>
+                              <td class="dx-nowrap dxgv" style="border-right-width:0px;">&nbsp;</td>
+                            </tr>
+                            <tr id="ctl00_ctl00_contentPane_MainPanel_MainContent_gvResults_DXDataRow2" class="dxgvDataRow">
+                              <td class="dx-nowrap dxgv dx-ar">
+                              </td>
+                              <td class="dx-nowrap dxgv dx-ar">1.23</td>
+                              <td class="dx-nowrap dxgv dx-ar">1.16</td>
+                              <td class="dx-nowrap dxgv dx-ar">10</td>
+                              <td class="dx-nowrap dxgv dx-ar">17</td>
+                              <td class="dx-nowrap dxgv dx-ar">11</td>
+                              <td class="dx-nowrap dxgv dx-ar">28</td>
+                              <td class="dx-nowrap dxgv">Năm thứ nhất</td>
+                              <td class="dx-nowrap dxgv">Mức 0</td>
+                              <td class="dx-nowrap dxgv">&nbsp;</td>
+                              <td class="dx-nowrap dxgv">&nbsp;</td>
+                              <td class="dx-nowrap dxgv">KHMT 2023</td>
+                              <td class="dx-nowrap dxgv">&nbsp;</td>
+                              <td class="dx-nowrap dxgv" style="border-right-width:0px;">&nbsp;</td>
+                            </tr>
+                            <tr id="ctl00_ctl00_contentPane_MainPanel_MainContent_gvResults_DXDataRow3" class="dxgvDataRow">
+                              <td class="dx-nowrap dxgv dx-ar" style="border-bottom-width:0px;">
+                              </td>
+                              <td class="dx-nowrap dxgv dx-ar" style="border-bottom-width:0px;">1.1</td>
+                              <td class="dx-nowrap dxgv dx-ar" style="border-bottom-width:0px;">1.1</td>
+                              <td class="dx-nowrap dxgv dx-ar" style="border-bottom-width:0px;">7</td>
+                              <td class="dx-nowrap dxgv dx-ar" style="border-bottom-width:0px;">7</td>
+                              <td class="dx-nowrap dxgv dx-ar" style="border-bottom-width:0px;">8</td>
+                              <td class="dx-nowrap dxgv dx-ar" style="border-bottom-width:0px;">15</td>
+                              <td class="dx-nowrap dxgv" style="border-bottom-width:0px;">Năm thứ nhất</td>
+                              <td class="dx-nowrap dxgv" style="border-bottom-width:0px;">Mức 0</td>
+                              <td class="dx-nowrap dxgv" style="border-bottom-width:0px;">&nbsp;</td>
+                              <td class="dx-nowrap dxgv" style="border-bottom-width:0px;">&nbsp;</td>
+                              <td class="dx-nowrap dxgv" style="border-bottom-width:0px;">KHMT 2023</td>
+                              <td class="dx-nowrap dxgv" style="border-bottom-width:0px;">&nbsp;</td>
+                              <td class="dx-nowrap dxgv" style="border-right-width:0px;border-bottom-width:0px;">&nbsp;</td>
+                            </tr>
+                          </table>
+                          <table id="ctl00_ctl00_contentPane_MainPanel_MainContent_gvResults_LP" class="dxgvLoadingPanel" style="left:0px;top:0px;z-index:30000;display:none;">
+                            <tr>
+                              <td class="dx" style="padding-right:0px;">
+                                <img class="dxlp-loadingImage dxlp-imgPosLeft" src="/DXR.axd?r=1_87-Yk9Cr" alt="" style="vertical-align:middle;">
+                              </td>
+                              <td class="dx" style="padding-left:0px;">
+                                <span id="ctl00_ctl00_contentPane_MainPanel_MainContent_gvResults_TL">Loading&hellip;</span>
+                              </td>
+                            </tr>
+                          </table>
+                          <div id="ctl00_ctl00_contentPane_MainPanel_MainContent_gvResults_LD" class="dxgvLoadingDiv" style="display:none;z-index:29999;position:absolute;">
+                          </div>
+                          <img id="ctl00_ctl00_contentPane_MainPanel_MainContent_gvResults_IADD" class="dxGridView_gvDragAndDropArrowDown" src="/DXR.axd?r=1_87-Yk9Cr" alt="Down Arrow" style="position:absolute;visibility:hidden;top:-100px;">
+                          <img id="ctl00_ctl00_contentPane_MainPanel_MainContent_gvResults_IADU" class="dxGridView_gvDragAndDropArrowUp" src="/DXR.axd?r=1_87-Yk9Cr" alt="Up Arrow" style="position:absolute;visibility:hidden;top:-100px;">
+                          <img id="ctl00_ctl00_contentPane_MainPanel_MainContent_gvResults_IADL" class="dxGridView_gvDragAndDropArrowLeft" src="/DXR.axd?r=1_87-Yk9Cr" alt="Left Arrow" style="position:absolute;visibility:hidden;top:-100px;">
+                          <img id="ctl00_ctl00_contentPane_MainPanel_MainContent_gvResults_IADR" class="dxGridView_gvDragAndDropArrowRight" src="/DXR.axd?r=1_87-Yk9Cr" alt="Right Arrow" style="position:absolute;visibility:hidden;top:-100px;">
+                          <img id="ctl00_ctl00_contentPane_MainPanel_MainContent_gvResults_IDHF" class="dxGridView_gvDragAndDropHideColumn" src="/DXR.axd?r=1_87-Yk9Cr" alt="Hide" style="position:absolute;visibility:hidden;top:-100px;">
+                        </td>
+                      </tr>
+                    </table>
+                  </div>
+                </td>
+              </tr>
+            </table>
+            <div id="btnBackToTop" class="btnBackToTop hidden">
+              <i class="glyphicon glyphicon-circle-arrow-up">
+              </i>
+            </div>
+          </td>
+        </tr>
+      </table>
+      <footer class="footer">
+        <div class="footerContent">
+          <div class="footerMain">
+            <div class="footerLeft">
+            </div>
+            <div class="footerRight">
+              <hr>
+              <b>
+              </b>
+              <br>
+              <br>
+              <p>
+              </p>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </form>
+  </body>
+</html>
+                        -Currently node is div
+Parent node is td

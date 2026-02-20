@@ -1,0 +1,9 @@
+	<div class="dxpnl-bar-tmpl dxpnl-np">
+		
+        <div style="height:50px">
+            <a href="http://ctt-daotao.hust.edu.vn/">
+                <img class="dxeImage_Mulberry" id="ctl00_ctl00_HeaderPane_EBT_imgLogo" src="../Content/Images/logo-cttdt.png" alt="" style="height:100%;" />
+            </a>
+        </div>
+        
+	</div>

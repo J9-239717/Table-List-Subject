@@ -8,3 +8,4 @@ create chuong trinh dao tao/file/tablejerry.txt
 create chuong trinh dao tao/*.o
 create chuong trinh dao tao/libtablemodule.a
 create chuong trinh dao tao/*.exe
+src/module/loadDataPlayerwithWebSrc/bin/

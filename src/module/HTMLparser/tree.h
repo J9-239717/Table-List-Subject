@@ -22,4 +22,8 @@ typedef struct TreeNode {
     struct TreeNode* parent;
 } TreeNode;
 
+void free_tree(TreeNode* node);
+void print_tree(TreeNode* node, int depth);
+TreeNode* parse_to_tree(const char* file_path);
+
 #endif

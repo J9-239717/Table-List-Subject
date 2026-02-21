@@ -33,7 +33,7 @@ static void add_child(TreeNode* parent, TreeNode* child) {
 }
 
 
-static void free_tree(TreeNode* node) {
+void free_tree(TreeNode* node) {
     if (node == NULL) return;
     free_tree(node->first_child);
     free_tree(node->next_sibling);
@@ -150,7 +150,7 @@ static int is_self_closing_tag(const char* tag_name) {
     return 0;
 }
 
-static void print_tree(TreeNode* node, int depth) {
+void print_tree(TreeNode* node, int depth) {
     if (node == NULL) return;
     for (int i = 0; i < depth; i++) printf("  ");
     printf("<%s", node->tag_name);
@@ -219,7 +219,11 @@ static Attribute* parse_attribute(const char* src) {
   size_t i = 0;
   size_t j = 0;
   if(src[0] == '/') return NULL;
-  while(src[i] != '=') name[j++] = src[i++];
+  while(src[i] != '\0' && src[i] != '=') name[j++] = src[i++];
+  if(src[i] == '\0')  {
+    printf("parse attribute: not correcly syntax can't find = in src = %s \n", src);
+    exit(EXIT_FAILURE);
+  }
   i += 2; // skip '=' and '/"'
   name[j] = '\0';
 
@@ -334,6 +338,7 @@ static TreeNode* parse_html(const char* str) {
           }
         }
         free(inside);
+        buffer_index = 0;
       }else {
         // Get text
         buffer[buffer_index++] = *str++;
@@ -384,13 +389,13 @@ static TreeNode* find_tag(TreeNode* curr,const char* tag_name,const Attribute* a
   return NULL;
 }
 
-static char* read_all_input(size_t *ret_length) {
+static char* read_all_input(size_t *ret_length,FILE* stream) {
     size_t capacity = 1024;
     char* buffer = (char*)malloc(capacity);
     size_t length = 0;
 
     int ch;
-    while ((ch = getchar()) != EOF) {
+    while ((ch = getc(stream)) != EOF) {
         if (length + 1 >= capacity) {
             capacity *= 2;
             buffer = (char*)realloc(buffer, capacity);
@@ -402,26 +407,39 @@ static char* read_all_input(size_t *ret_length) {
     return buffer;
 }
 
-int main() {
-    size_t lenght = 0;
-    char* html_content = read_all_input(&lenght);
-    printf("lenght input: %ld\n", lenght);
-    TreeNode* root = parse_html(html_content);
 
-    if (root) {
-      print_tree(root, 0);
-      printf("%25c", '-');
-      Attribute t = (Attribute){.name="class",.value="MainContent"};
-      TreeNode* find = find_tag(root,NULL, &t);
-      if(find) {
-        printf("Currently node is %s\nParent node is %s\n", find->tag_name, find->parent->tag_name);
-      } else {
-        printf("find tag not found\n");
-      }
-    } else {
-      printf("Failed to parse HTML.\n");
-    }
-    free_tree(root);
-    free(html_content);
-    return EXIT_SUCCESS;
+TreeNode* parse_to_tree(const char* file_path) {
+  FILE* st = fopen(file_path,"r");
+  if(!st) {
+    printf("parse_to_tree: not found file on this path %s\n", file_path);
+    return NULL;
+  }
+  char* html_content = read_all_input(NULL, st);
+  TreeNode* root = parse_html(html_content);
+  free(html_content);
+  return root;
 }
+
+// int main() {
+//     size_t lenght = 0;
+//     char* html_content = read_all_input(&lenght);
+//     printf("lenght input: %ld\n", lenght);
+//     TreeNode* root = parse_html(html_content);
+
+//     if (root) {
+//       print_tree(root, 0);
+//       printf("%25c", '-');
+//       Attribute t = (Attribute){.name="class",.value="MainContent"};
+//       TreeNode* find = find_tag(root,NULL, &t);
+//       if(find) {
+//         printf("Currently node is %s\nParent node is %s\n", find->tag_name, find->parent->tag_name);
+//       } else {
+//         printf("find tag not found\n");
+//       }
+//     } else {
+//       printf("Failed to parse HTML.\n");
+//     }
+//     free_tree(root);
+//     free(html_content);
+//     return EXIT_SUCCESS;
+// }

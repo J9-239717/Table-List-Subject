@@ -1,0 +1,137 @@
+<root>
+  <stable>
+    <sl id="1" name="major subject">
+      <sr subject_id="IT2000" recommend_term="1" credit="3" request="1" >  Introduction to IT and Communications </sr>
+      <sr subject_id="IT3011" recommend_term="2" credit="2" request="1" >  Data Structures and Algorithms </sr>
+      <sr subject_id="IT3030" recommend_term="3" credit="3" request="1" >  Computer Architecture </sr>
+      <sr subject_id="IT3040" recommend_term="4" credit="2" request="1" >  Programming Techniques </sr>
+      <sr subject_id="IT3070" recommend_term="4" credit="3" request="1" >  Principles of Operating Systems </sr>
+      <sr subject_id="IT3080" recommend_term="4" credit="3" request="1" >  Computer Networks </sr>
+      <sr subject_id="IT3090" recommend_term="5" credit="3" request="1" >  Database Systems </sr>
+      <sr subject_id="IT3100" recommend_term="3" credit="2" request="1" >  Object-Oriented Programming </sr>
+      <sr subject_id="IT3120" recommend_term="6" credit="2" request="1" >  System Analysis and Design </sr>
+      <sr subject_id="IT3150" recommend_term="5" credit="2" request="1" >  Project I </sr>
+      <sr subject_id="IT3160" recommend_term="4" credit="3" request="1" >  Introduction to Artificial Intelligence </sr>
+      <sr subject_id="IT3170" recommend_term="5" credit="2" request="1" >  Applied Algorithms </sr>
+      <sr subject_id="IT3180" recommend_term="5" credit="3" request="1" >  Introduction to Software Engineering </sr>
+      <sr subject_id="IT3190" recommend_term="5" credit="3" request="1" >  Introduction to Machine Learning and Data Mining </sr>
+      <sr subject_id="IT3930" recommend_term="6" credit="2" request="1" >  Project II </sr>
+      <sr subject_id="IT3940" recommend_term="7" credit="3" request="1" >  Project III </sr>
+      <sr subject_id="IT4015" recommend_term="6" credit="3" request="1" >  Introduction to Information Security </sr>
+      <sr subject_id="IT4244" recommend_term="8" credit="2" request="1" >  IT Project Management </sr>
+      <sr subject_id="IT4653" recommend_term="6" credit="2" request="1" >  Deep Learning and Its Applications </sr>
+    </sl>
+    <sl id="2" name="general subject">
+      <sr subject_id="IT1108" recommend_term="1" credit="4" request="1" >  Introduction to Programming </sr>
+      <sr subject_id="IT3020" recommend_term="2" credit="3" request="1" >  Discrete Mathematics </sr>
+      <sr subject_id="MI1111" recommend_term="1" credit="4" request="1" >  Calculus I </sr>
+      <sr subject_id="MI1121" recommend_term="2" credit="3" request="1" >  Calculus II </sr>
+      <sr subject_id="MI1131" recommend_term="3" credit="3" request="1" >  Calculus III </sr>
+      <sr subject_id="MI1141" recommend_term="1" credit="4" request="1" >  Algebra </sr>
+      <sr subject_id="MI2020" recommend_term="3" credit="3" request="1" >  Probability and Statistics </sr>
+      <sr subject_id="MI3052" recommend_term="3" credit="2" request="1" >  Introduction to Optimization Methods </sr>
+      <sr subject_id="PH1110" recommend_term="3" credit="3" request="1" >  General Physics I </sr>
+      <sr subject_id="PH1120" recommend_term="3" credit="3" request="1" >  General Physics II </sr>
+    </sl>
+    <sl id="3" name="sport" subject_request="5">
+      <sr subject_id="PE1014" recommend_term="1" credit="0" request="1" >  Theoretical Physical Education and Sports </sr>
+      <sr subject_id="PE1015" recommend_term="0" credit="0" request="0" >  Freehand Gymnastics </sr>
+      <sr subject_id="PE1024" recommend_term="0" credit="0" request="0" >  Swimming </sr>
+      <sr subject_id="PE2101" recommend_term="0" credit="0" request="0" >  Volleyball 1 </sr>
+      <sr subject_id="PE2102" recommend_term="0" credit="0" request="0" >  Volleyball 2 </sr>
+      <sr subject_id="PE2103" recommend_term="0" credit="0" request="0" >  Volleyball 3 </sr>
+      <sr subject_id="PE2151" recommend_term="0" credit="0" request="0" >  Aerobics </sr>
+      <sr subject_id="PE2201" recommend_term="0" credit="0" request="0" >  Football 1 </sr>
+      <sr subject_id="PE2202" recommend_term="0" credit="0" request="0" >  Football 2 </sr>
+      <sr subject_id="PE2203" recommend_term="0" credit="0" request="0" >  Football 3 </sr>
+      <sr subject_id="PE2251" recommend_term="0" credit="0" request="0" >  Taekwondo 1 </sr>
+      <sr subject_id="PE2252" recommend_term="0" credit="0" request="0" >  Taekwondo 2 </sr>
+      <sr subject_id="PE2253" recommend_term="0" credit="0" request="0" >  Taekwondo 3 </sr>
+      <sr subject_id="PE2261" recommend_term="0" credit="0" request="0" >  Karate </sr>
+      <sr subject_id="PE2301" recommend_term="0" credit="0" request="0" >  Basketball 1 </sr>
+      <sr subject_id="PE2302" recommend_term="0" credit="0" request="0" >  Basketball 2 </sr>
+      <sr subject_id="PE2303" recommend_term="0" credit="0" request="0" >  Basketball 3 </sr>
+      <sr subject_id="PE2401" recommend_term="0" credit="0" request="0" >  Table Tennis 1 </sr>
+      <sr subject_id="PE2402" recommend_term="0" credit="0" request="0" >  Table Tennis 2 </sr>
+      <sr subject_id="PE2403" recommend_term="0" credit="0" request="0" >  Table Tennis 3 </sr>
+      <sr subject_id="PE2501" recommend_term="0" credit="0" request="0" >  Badminton 1 </sr>
+      <sr subject_id="PE2502" recommend_term="0" credit="0" request="0" >  Badminton 2 </sr>
+      <sr subject_id="PE2503" recommend_term="0" credit="0" request="0" >  Badminton 3 </sr>
+      <sr subject_id="PE2601" recommend_term="0" credit="0" request="0" >  Running </sr>
+      <sr subject_id="PE2701" recommend_term="0" credit="0" request="0" >  High Jump </sr>
+      <sr subject_id="PE2801" recommend_term="0" credit="0" request="0" >  Long Jump </sr>
+      <sr subject_id="PE2901" recommend_term="0" credit="0" request="0" >  Parallel Bars, Uneven Bars </sr>
+      <sr subject_id="PE3101" recommend_term="0" credit="0" request="0" >  Advanced Volleyball 1 </sr>
+      <sr subject_id="PE3102" recommend_term="0" credit="0" request="0" >  Advanced Volleyball 2 </sr>
+      <sr subject_id="PE3103" recommend_term="0" credit="0" request="0" >  Advanced Volleyball 3 </sr>
+      <sr subject_id="PE3104" recommend_term="0" credit="0" request="0" >  Advanced Volleyball 4 </sr>
+      <sr subject_id="PE3105" recommend_term="0" credit="0" request="0" >  Advanced Volleyball 5 </sr>
+      <sr subject_id="PE3201" recommend_term="0" credit="0" request="0" >  Advanced Football 1 </sr>
+      <sr subject_id="PE3202" recommend_term="0" credit="0" request="0" >  Advanced Football 2 </sr>
+      <sr subject_id="PE3203" recommend_term="0" credit="0" request="0" >  Advanced Football 3 </sr>
+      <sr subject_id="PE3204" recommend_term="0" credit="0" request="0" >  Advanced Football 4 </sr>
+      <sr subject_id="PE3205" recommend_term="0" credit="0" request="0" >  Advanced Football 5 </sr>
+      <sr subject_id="PE3301" recommend_term="0" credit="0" request="0" >  Advanced Basketball 1 </sr>
+      <sr subject_id="PE3302" recommend_term="0" credit="0" request="0" >  Advanced Basketball 2 </sr>
+      <sr subject_id="PE3303" recommend_term="0" credit="0" request="0" >  Advanced Basketball 3 </sr>
+      <sr subject_id="PE3304" recommend_term="0" credit="0" request="0" >  Advanced Basketball 4 </sr>
+      <sr subject_id="PE3305" recommend_term="0" credit="0" request="0" >  Advanced Basketball 5 </sr>
+    </sl>
+    <sl id="4" name="Political Theory + General Law">
+      <sr subject_id="EM1170 " recommend_term="2" credit="2" request="1" > General Law </sr>
+      <sr subject_id="SSH1111" recommend_term="3" credit="3" request="1" > Marxist-Leninist Philosophy </sr>
+      <sr subject_id="SSH1121" recommend_term="4" credit="2" request="1" > Marxist-Leninist Political Economy </sr>
+      <sr subject_id="SSH1131" recommend_term="5" credit="2" request="1" > Scientific Socialism </sr>
+      <sr subject_id="SSH1141" recommend_term="6" credit="2" request="1" > History of the Communist Party of Vietnam </sr>
+      <sr subject_id="SSH1151" recommend_term="7" credit="2" request="1" > Ho Chi Minh's Ideology </sr>
+    </sl>
+    <sl id="5" name="Supplementary knowledge block" credit_request="9">
+      <sr subject_id="CH2021" recommend_term="0" credit="2" request="0" > Innovation and Entrepreneurship </sr>
+      <sr subject_id="ED3220" recommend_term="0" credit="2" request="0" > Soft Skills </sr>
+      <sr subject_id="ED3280" recommend_term="0" credit="2" request="0" > Applied Psychology </sr>
+      <sr subject_id="EM1010" recommend_term="0" credit="2" request="0" > General Management </sr>
+      <sr subject_id="EM1180" recommend_term="0" credit="2" request="0" > Business Culture and Entrepreneurial Spirit </sr>
+      <sr subject_id="ET3262" recommend_term="0" credit="2" request="1" > Technological Thinking and Engineering Design </sr>
+      <sr subject_id="IT2030" recommend_term="4" credit="3" request="0" > Technical Writing and Presentation </sr>
+      <sr subject_id="ME3123" recommend_term="0" credit="2" request="0" > Industrial Art Design </sr>
+      <sr subject_id="ME3124" recommend_term="0" credit="2" request="0" > Product Promotion Design </sr>
+      <sr subject_id="TEX3123" recommend_term="0" credit="2" request="0" > Industrial Art Design </sr>
+    </sl>
+    <sl id="6" name="MODUN 1">
+      <sr subject_id="IT4441" recommend_term="7" credit="3" request="0" > User Interface and User Experience </sr>
+      <sr subject_id="IT4490" recommend_term="7" credit="3" request="0" > Software Design and Construction </sr>
+      <sr subject_id="IT4501" recommend_term="7" credit="2" request="0" > Software Quality Assurance </sr>
+      <sr subject_id="IT4785" recommend_term="7" credit="2" request="0" > Mobile Application Development </sr>
+    </sl>
+    <sl id="7" name="MODUN 2">
+      <sr subject_id="IT4341" recommend_term="7" credit="2" request="0" > Decision Support Systems </sr>
+      <sr subject_id="IT4350" recommend_term="7" credit="3" request="0" > Information Systems Architecture and Applications </sr>
+      <sr subject_id="IT4611" recommend_term="7" credit="2" request="0" > Distributed Systems and Applications </sr>
+      <sr subject_id="IT4863" recommend_term="7" credit="3" request="0" > Information Retrieval </sr>
+    </sl>
+    <sl id="8" name="MODUN 3">
+      <sr subject_id="IT4653" recommend_term="7" credit="2" request="0" > Data management and visualization </sr>
+      <sr subject_id="IT4906" recommend_term="7" credit="3" request="0" > Evolutionary Computing </sr>
+      <sr subject_id="IT4930" recommend_term="7" credit="2" request="0" > Introduction to Data Science </sr>
+      <sr subject_id="IT4931" recommend_term="7" credit="3" request="0" > Big Data Storage and Processing </sr>
+    </sl>
+    <sl id="9" name="MODUN 4">
+      <sr subject_id="IT4409" recommend_term="6" credit="3" request="0" > Web Technology and Online Services </sr>
+      <sr subject_id="IT4788" recommend_term="7" credit="3" request="0" > Cross-Platform Application Development </sr>
+    </sl>
+    <sl id="10" name="MODUN 5">
+      <sr subject_id="IT4613" recommend_term="6" credit="3" request="0" > Recommender Systems </sr>
+      <sr subject_id="IT4663" recommend_term="7" credit="3" request="0" > Optimization and Planning </sr>
+    </sl>
+    <sl id="98" name="InternShip">
+      <sr subject_id="IT4991" recommend_term="6" credit="2" request="1" > Technical Internship </sr>
+    </sl>
+    <sl id="99" name="Project Grauate">
+      <sr subject_id="IT4995" recommend_term="8" credit="6" request="1" > Bachelor's Graduation Project </sr>
+    </sl>
+  </stable>
+  <condition>
+    <group list_subject_id="6 7 8" />
+    <group list_subject_id="9 10" />
+  </condition>
+</root>

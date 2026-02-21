@@ -1,0 +1,17 @@
+<sl>:
+ - credit_request default by sum of all credit subject have req=1
+ - subject_request default by sum of all subject have req=1
+ - request subject id is 1, 2, 3, 4, 5
+ - recomment:
+   + id 1 is major subject
+   + id 2 is general subject
+   + id 3 is sport
+   + id 4 is political theory + general law
+   + id 5 is supplementary knowledge block
+<codition>:
+ - have default calculate isolation by <sl>
+ - with <group> is mean calculate max() of list_subject_id parse by space and throw error if don't have correctly subject id
+<sr>:
+ - request attribute subject_id, recommend_term, credit, request
+ - with request if value different with 0 and 1 is will default to 1
+ - using inside text for name of subject

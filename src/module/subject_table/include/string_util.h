@@ -1,5 +1,12 @@
+#ifndef F_Helper_STR_H
+#define F_Helper_STR_H
+
 #include <string.h>
-#include "functionhleperstr.h"
+
+char* change_underscore(char* src);
+void change_underscore_v(const char* src,char* return_s);
+void change_space_v(const char* src,char* return_s);
+char* change_space(char* src);
 
 // change underscore to space
 char* change_underscore(char* src){
@@ -49,3 +56,4 @@ char* change_space(char* src){
     return src;
 }
 
+#endif

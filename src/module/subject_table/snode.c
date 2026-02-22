@@ -1,8 +1,4 @@
-#include <stdio.h>
-#include <string.h>
-#include <stdlib.h>
-#include "Struct_Table.h"
-#include "Node_LOGIC.h"
+#include "snode.h"
 
 // Create a new Subject_Node
 Subject_Node* createSubjectNode(const char* name, const char* ID, char score_letter, float score_number_mid, float score_number_final, int status_pass, int status_ever_been_study, int credit, int term_recomment_to_studie) {

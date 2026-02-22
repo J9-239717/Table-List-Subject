@@ -1,26 +1,3 @@
-#include<stdio.h>
-#include<string.h>
-#include<stdlib.h>
-#include "Struct_Table.h"
-#include "Score_LOGIC.h"
-#include "Node_LOGIC.h"
-
-const int limit_for_grauate[sizeSubjectType]= {48,32,4,13,9,2,10,10,10,6,6,6};
-
-int max(int a,int b,int c){
-    int result = a;
-
-    if(result < b){
-        result = b;
-    }
-
-    if(result < c){
-        result = c;
-    }
-
-    return result;
-}
-
 int check_status_alert(int credit_np){
     if(credit_np < 8){
         return 0;
@@ -61,91 +38,6 @@ int limit_subject(float limit_mid,float limit_final,float score_mid,float score_
     return (result >= 4) ? 1 : 0;
 }
 
-int set_score_mid_and_final(Player* p, float mid, float final, float limit_m, float limit_f,int i, char ID[MAXSIZEID]) {
-    if(i < 0 || i > sizeSubjectType-1){
-        printf("Invalid index of subject\n");
-        return 0;
-    }
-    char s_letter;
-    int pass = limit_subject(limit_m, limit_f, mid, final, &s_letter);
-
-    Subject_Node* curr = p->numofSubjectType[i].head;
-    while (curr) {
-        if (strcmp(curr->ID, ID) == 0) {
-            break;
-        }
-        curr = curr->next;
-    }
-    
-    if (curr == NULL) {
-        // Return 0 if the subject is not found (consider adding a debug message here)
-        fprintf(stdout, "Cant find ID --- Please Enter Correct ID\n");
-        return 0;
-    }
-
-    // Check and update credits based on the new pass/fail status
-    if (curr->status_ever_been_study == 1) {
-      // update only when subject not pass and currently pass
-      if(pass && !curr->status_pass) {
-        p->ToTal_credit_pass += curr->credit;
-        p->ToTal_credit_npass -= curr->credit;
-      }
-    } else {
-        if (pass) {
-            p->ToTal_credit_pass += curr->credit;
-        } else {
-            p->ToTal_credit_npass += curr->credit;
-        }
-    }
-
-    // update only when subject not pass and currently pass
-    if (pass && !curr->status_pass) {
-        p->numofSubjectType[i].count_passSubject++;
-        p->numofSubjectType[i].count_passCredit += curr->credit;
-    }
-
-    // only update when subject not pass or currenly pass
-    if(!curr->status_pass || pass) {
-      curr->status_ever_been_study = 1;
-      curr->score_letter = s_letter;
-      curr->score_number_mid = mid;
-      curr->score_number_final = final;
-    }
-    curr->status_pass = (curr->status_pass || pass); // only false when status_pass = 0 and pass = 0
-
-    // Update the status alert based on non-passed credits
-    p->status_alert = check_status_alert(p->ToTal_credit_npass);
-
-    return 1;
-}
-
-void check_what_should_studie_node(Subject_Type node,int term){
-    Subject_Node* curr = node.head;
-
-    while (curr)
-    {
-        if(curr->term_recomment_to_studie != 0 && curr->term_recomment_to_studie  <= term + 1 && !curr->status_pass){
-            printSubjectNode(curr);
-        }
-        curr = curr->next;
-    }
-    
-}
-
-void check_what_should_studie(Player p,int term){
-    if(term < 1 || term > 12){
-        fprintf(stderr, "Invalid number of term\n");
-        return;
-    }
-
-    for (int i = 0; i < sizeSubjectType; i++)
-    {
-        printf("    ***%s***\n", p.numofSubjectType[i].nameoftype);
-        check_what_should_studie_node(p.numofSubjectType[i],term);
-    }
-    return;    
-}
-
 float get_score_letter_to_score_number(char x){
     float result = 0.0;
     switch (x)
@@ -164,24 +56,6 @@ float get_score_letter_to_score_number(char x){
     return result;
 }
 
-void count_cpa_pass(Player *p){
-    float cpa = 0;
-    float total = 0;
-    for (int i = 0; i < sizeSubjectType; i++)
-    {
-        Subject_Node* curr = p->numofSubjectType[i].head;
-        while (curr)
-        {   
-            if(curr->status_pass){
-                total += get_score_letter_to_score_number(curr->score_letter) * curr->credit;
-            }
-            curr = curr->next;
-        }
-    }
-    cpa = total / p->ToTal_credit_pass;
-    printf("CPA PASS : %.4f\n", cpa);
-    return;
-}
 
 void count_cpa_all(Player *p){
     float cpa = 0;

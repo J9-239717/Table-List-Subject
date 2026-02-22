@@ -1,8 +1,8 @@
 #ifndef STRUCT_TABLE_H
 #define STRUCT_TABLE_H
 
-#define MAXSIZENAME 256
-#define MAXSIZEID 26
+#define MAXSIZENAME 1 << 12
+#define MAXSIZEID 1 << 6
 #define MAX_COLUMNS 10
 #define MAX_COLUMN_WIDTH 56
 
@@ -22,7 +22,7 @@ typedef struct Subject_Node {
 typedef struct _Subject_Type {
     int Total_Subject;
     unsigned int count_passSubject;
-    unsigned int count_passCredit; // ADD NEW
+    unsigned int count_passCredit;
     int Total_Credit;
     char nameoftype[MAXSIZENAME];
     Subject_Node* head;
@@ -47,7 +47,7 @@ typedef enum {
 
 typedef struct Player {
     char name_player[MAXSIZENAME];
-    int ToTal_credit_pass; // ADD NEW
+    int ToTal_credit_pass;
     int ToTal_credit_npass;
     Subject_Type numofSubjectType[sizeSubjectType];
     unsigned int status_can_grauate : 1;
